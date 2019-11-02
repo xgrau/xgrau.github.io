@@ -3,8 +3,6 @@ layout: misc
 title: Data and code
 ---
 
-# Data and code
-
 ### How to cite
 
 You can cite the relevant papers (linked below, for each piece of data). Please & thank you.

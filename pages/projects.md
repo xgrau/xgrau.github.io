@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: misc
+title: Projects
 ---
-
-# Projects
 
 I am currently working on the evolution of insecticide resistance adaptations in *Anopheles* mosquitoes responsible for malaria transmission as part of the [*Anopheles gambiae* 1000 genomes](https://www.malariagen.net/projects/ag1000g).
 

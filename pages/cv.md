@@ -1,10 +1,9 @@
 ---
 layout: misc
+title: CV
 ---
 
-# Curriculum vitae
-
-### Research & education
+## Research & education
 
 * 2018-present – Postdoctoral Research Associate, [Liverpool School of Tropical Medicine](https://www.lstmed.ac.uk/research/departments/vector-biology){:target="_blank"}, with David Weetman and Martin Donnelly (Department of Vector Biology).
 
@@ -16,7 +15,7 @@ layout: misc
 
 * 2007-2011 – Bachelor in Biotechnology, Universitat Rovira i Virgili (Tarragona).
 
-### Publications
+## Publications
 
 A complete list of publications can be found in the following links:
 

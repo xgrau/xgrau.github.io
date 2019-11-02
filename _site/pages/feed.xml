@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Xavier Grau-Bové</title>
+		<description>Bioinformatician &amp; evolutionary genomicist</description>
+		<link></link>
+		<atom:link href="/pages/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Indesinenter — incessantment — ceaselessly</title>
+				
+				
+					<description>&lt;p&gt;Nosaltres sabíem 
+d’un únic senyor
+i vèiem com
+esdevenia
+gos.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Fri, 16 Aug 2019 00:00:00 +0100</pubDate>
+				<link>http://localhost:4000/poema/primer.html</link>
+				<guid isPermaLink="true">http://localhost:4000/poema/primer.html</guid>
+			</item>
+		
+			<item>
+				<title>The evolution of alternative splicing in eukaryotes – gene architectural change foreshadows regulatory evolution</title>
+				
+				
+					<description>&lt;p&gt;After a few years of work with &lt;a href=&quot;http://multicellgenome.com/&quot; target=&quot;_blank&quot;&gt;Iñaki Ruiz-Trillo&lt;/a&gt; (IBE and ICREA) and &lt;a href=&quot;https://www.crg.eu/en/group-members/manuel-irimia&quot; target=&quot;_blank&quot;&gt;Manuel Irimia&lt;/a&gt; (CRG), the last paper from my PhD thesis has just been published in Genome Biology — you can read it here (open access, of course).&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Tue, 18 Sep 2018 00:00:00 +0100</pubDate>
+				<link>http://localhost:4000/science/the-evolution-of-alternative-splicing-in-eukaryotes-and-the-animal-revolution.html</link>
+				<guid isPermaLink="true">http://localhost:4000/science/the-evolution-of-alternative-splicing-in-eukaryotes-and-the-animal-revolution.html</guid>
+			</item>
+		
+			<item>
+				<title>Welcome to Millennial!</title>
+				
+					<dc:creator>Paul Le</dc:creator>
+				
+				
+					<description>&lt;p&gt;Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/documentation/welcome-to-millennial.html</link>
+				<guid isPermaLink="true">http://localhost:4000/documentation/welcome-to-millennial.html</guid>
+			</item>
+		
+			<item>
+				<title>Getting Started</title>
+				
+					<dc:creator>Paul Le</dc:creator>
+				
+				
+					<description>&lt;h1 id=&quot;millennial&quot;&gt;Millennial&lt;/h1&gt;
+
+</description>
+				
+				<pubDate>Mon, 10 Oct 2016 00:00:00 +0100</pubDate>
+				<link>http://localhost:4000/documentation/getting-started.html</link>
+				<guid isPermaLink="true">http://localhost:4000/documentation/getting-started.html</guid>
+			</item>
+		
+			<item>
+				<title>Text Formatting</title>
+				
+					<dc:creator>Paul Le</dc:creator>
+				
+				
+					<description>&lt;h1 id=&quot;markdown-support&quot;&gt;Markdown Support&lt;/h1&gt;
+
+</description>
+				
+				<pubDate>Fri, 09 Sep 2016 00:00:00 +0100</pubDate>
+				<link>http://localhost:4000/sample/text-formatting.html</link>
+				<guid isPermaLink="true">http://localhost:4000/sample/text-formatting.html</guid>
+			</item>
+		
+			<item>
+				<title>Learning Resources</title>
+				
+					<dc:creator>Paul Le</dc:creator>
+				
+				
+					<description>&lt;p&gt;The beauty of computer programming is that you do not need to formally go to school to learn how to program. You can learn almost everything that you would need to know online, and for free. The following resources are some that I have used personally, that I highly recommend, for anyone looking to learn more about computer programming.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Thu, 05 May 2016 00:00:00 +0100</pubDate>
+				<link>http://localhost:4000/facts/learning-resources.html</link>
+				<guid isPermaLink="true">http://localhost:4000/facts/learning-resources.html</guid>
+			</item>
+		
+			<item>
+				<title>About the Author</title>
+				
+					<dc:creator>Paul Le</dc:creator>
+				
+				
+					<description>&lt;p&gt;Hi there! I’m Paul. I’m a physics major turned programmer. Ever since I first learned how to program while taking a scientific computing for physics course, I have pursued programming as a passion, and as a career. Check out &lt;a href=&quot;https://www.lenpaul.com/&quot;&gt;my personal website&lt;/a&gt; for more information on my other projects (including more Jekyll themes!), as well as some of my writing.&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 04 Apr 2016 00:00:00 +0100</pubDate>
+				<link>http://localhost:4000/facts/about-the-author.html</link>
+				<guid isPermaLink="true">http://localhost:4000/facts/about-the-author.html</guid>
+			</item>
+		
+	</channel>
+</rss>

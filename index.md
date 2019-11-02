@@ -3,8 +3,6 @@ layout: misc
 title: Home
 ---
 
-# Intro
-
 ## About me
 
 I am a Post Doctoral Research Associate at the Vector Biology department of the [Liverpool School of Tropical Medicine](https://www.lstmed.ac.uk/about/people/dr-xavier-grau-bov%C3%A9){:target="_blank"}, with [David Weetman](https://www.lstmed.ac.uk/about/people/dr-david-weetman){:target="_blank"} and [Martin Donnelly](https://www.lstmed.ac.uk/about/people/professor-martin-james-donnelly){:target="_blank"}.

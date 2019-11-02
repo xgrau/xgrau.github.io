@@ -1,7 +1,7 @@
 .site-header {
   min-height: 56px;
   width: $container-width;
-  position: fixed;
+  // position: fixed;
   background-color: white;
   box-shadow: 0 5px 6px -6px #bbb;
   z-index: 100;
@@ -21,8 +21,9 @@
 }
 .site-title {
   font-size: 26px;
-  font-weight: 400;
+  font-weight: bolder;
   line-height: 56px;
+  font-family: monospace;
   margin-bottom: 0;
   margin-top: 0;
   padding-left: 10px;
@@ -57,7 +58,7 @@
   }
   .dropbtn {
       background-color: white;
-      color: black;
+      color: $brand-color;
       padding: 16px;
       margin-top: 4px;
       font-size: 16px;

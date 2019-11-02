@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility; }
 
 h1 {
+  margin-top: 2em;
   font-size: 2rem; }
 
 h2 {
@@ -40,7 +41,7 @@ h4, h5, h6 {
 /* Body */
 body {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.1rem; }
+  font-size: 16px; }
 
 body img {
   align: middle;
@@ -54,7 +55,7 @@ p {
   margin-bottom: 1em;
   margin-left: 0;
   margin-right: 0;
-  line-height: 1.65;
+  line-height: 1.4;
   font-family: "Montserrat", sans-serif; }
 
 /* Lists */
@@ -84,6 +85,8 @@ dd {
 a {
   color: #0052bd;
   text-decoration: none; }
+  a:hover {
+    color: #2483ff; }
 
 /*
   Blockquote
@@ -110,6 +113,9 @@ th, td {
 
 tr:nth-child(even) {
   background-color: #f2f5f7; }
+
+tr:hover {
+  background-color: #f8fafb; }
 
 th {
   color: #414547;
@@ -311,7 +317,6 @@ th {
 .site-header {
   min-height: 56px;
   width: 1100px;
-  position: fixed;
   background-color: white;
   box-shadow: 0 5px 6px -6px #bbb;
   z-index: 100; }
@@ -329,8 +334,9 @@ th {
 
 .site-title {
   font-size: 26px;
-  font-weight: 400;
+  font-weight: bolder;
   line-height: 56px;
+  font-family: monospace;
   margin-bottom: 0;
   margin-top: 0;
   padding-left: 10px;
@@ -361,7 +367,7 @@ th {
 
   .dropbtn {
     background-color: white;
-    color: black;
+    color: #0052bd;
     padding: 16px;
     margin-top: 4px;
     font-size: 16px;

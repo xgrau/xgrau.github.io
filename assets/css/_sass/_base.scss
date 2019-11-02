@@ -22,6 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+  margin-top: 2em;
   font-size: 2rem;
 }
 h2 {
@@ -40,7 +41,7 @@ h4, h5, h6 {
 /* Body */
 body {
   font-family: $base-font-family;
-  font-size: 1.1rem;
+  font-size: 16px;
 }
 body img {
     align: middle;
@@ -55,7 +56,7 @@ p {
   margin-bottom: 1em;
   margin-left: 0;
   margin-right: 0;
-  line-height: 1.65;
+  line-height: 1.4;
   font-family: $body-font-family;
 }
 
@@ -91,6 +92,9 @@ dd {
 a {
   color: $brand-color;
   text-decoration: none;
+  &:hover {
+    color: lighten($brand-color, 20);
+  }
 }
 
 /*
@@ -139,6 +143,11 @@ tr:nth-child(even) {
   background-color: rgb(242, 245, 247); 
 } 
 
+tr {
+  &:hover {
+    background-color: lighten( rgb(242, 245, 247), 2) 
+  }
+}
 
 th {
   color: rgb(65, 69, 71);
