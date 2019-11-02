@@ -30,16 +30,17 @@ h2 {
 }
 h3 {
   margin-top: 1.5rem;
-  font-size: 1.25rem;
+  font-size: 1.3rem;
 }
 h4, h5, h6 {
-  margin-top: 1rem;
-  font-size: 1rem;
+  margin-top: 1.2rem;
+  font-size: 1.2rem;
 }
 
 /* Body */
 body {
   font-family: $base-font-family;
+  font-size: 1.2rem;
 }
 body img {
     align: middle;
@@ -107,16 +108,40 @@ blockquote {
 /**
  * Tables
  */
- table {
-     border-collapse: collapse;
-     margin-bottom: 30px;
-     width: 100%;
- }
+//  table {
+//      border-collapse: collapse;
+//      margin-bottom: 30px;
+//      width: 100%;
+//  }
 
- table, th, td {
-     border: 1px solid black;
- }
- th, td {
-     padding: 15px;
-     text-align: left;
- }
+//  table, th, td {
+//      border: 2px solid rgb(227, 231, 233);
+//  }
+//  th, td {
+//      padding: 5px;
+//      text-align: left;
+//  }
+
+
+table {
+  width:90%;
+  border-collapse:collapse;
+  margin-bottom: 30px;
+}
+
+th, td {
+  text-align:left;
+  padding:5px 10px;
+  border-bottom:1.5px solid #e5e5e5;
+}
+
+tr:nth-child(even) { 
+  background-color: rgb(242, 245, 247); 
+} 
+
+
+th {
+  color: rgb(65, 69, 71);
+  font-weight: bold;
+  background-color: rgb(227, 231, 233);
+}
