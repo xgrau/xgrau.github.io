@@ -4,7 +4,7 @@ title: The evolution of alternative splicing in eukaryotes – gene architectura
 description: The evolution of alternative splicing in eukaryotes – gene architectural change foreshadows regulatory evolution
 categories: science
 tags: [sample]
-image: cuba-4.jpg
+image: nature-2.jpg
 ---
 
 After a few years of work with [Iñaki Ruiz-Trillo](http://multicellgenome.com/){:target="_blank"} (IBE and ICREA) and [Manuel Irimia](https://www.crg.eu/en/group-members/manuel-irimia){:target="_blank"} (CRG), the last paper from my PhD thesis has just been published in Genome Biology — you can read it here (open access, of course).

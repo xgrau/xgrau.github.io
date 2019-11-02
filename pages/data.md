@@ -1,12 +1,11 @@
 ---
 layout: misc
-title: Data and code
+title: Data & code
 ---
 
 ## How to cite
 
 You can cite the relevant papers (linked below, for each piece of data). Please & thank you.
-
 
 ## *Paraphelidium* transcriptome paper, 2018
 
