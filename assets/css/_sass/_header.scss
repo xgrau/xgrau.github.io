@@ -10,7 +10,7 @@
   .site-header {
       min-height: 56px;
       width: 95vw;
-      position: fixed;
+      // position: fixed;
       background-color: white;
       box-shadow: 0 5px 6px -6px #bbb;
       z-index: 100;
@@ -55,6 +55,7 @@
   }
   .site-title {
     padding-right: 0.25rem;
+    float: right;
   }
   .dropbtn {
       background-color: white;
