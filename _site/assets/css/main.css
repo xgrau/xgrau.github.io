@@ -2,7 +2,7 @@
   Site variables
 */
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
-@import url("https://fonts.googleapis.com/css?family=Fira Code");
+@import url("https://fonts.googleapis.com/css?family=Fira+Code");
 /*
   Reset some basic elements
 */
@@ -129,7 +129,7 @@ th {
   Site container
 */
 .container {
-  width: 1100px;
+  width: 1000px;
   margin-left: auto;
   margin-right: auto; }
 
@@ -140,12 +140,12 @@ th {
   padding-top: 66px;
   margin: auto;
   display: block;
-  width: 1080px; }
+  width: 980px; }
 
 .posts-wrapper h1 {
   margin: 20px 0px 5px; }
 
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
   .container {
     width: 95vw;
     margin-left: auto;
@@ -242,7 +242,7 @@ th {
   display: block;
   max-width: 600px; }
 
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
   .page-content {
     width: 60vw;
     display: block;
@@ -311,7 +311,7 @@ th {
   padding-bottom: .5rem;
   font-family: "Montserrat", sans-serif; }
 
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
   .related-thumbnail {
     width: 60vw; } }
 @media (max-width: 600px) {
@@ -319,12 +319,12 @@ th {
     width: 95vw; } }
 .site-header {
   min-height: 56px;
-  width: 1100px;
+  width: 1000px;
   background-color: white;
   box-shadow: 0 5px 6px -6px #bbb;
   z-index: 100; }
 
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
   .site-header {
     min-height: 56px;
     width: 95vw;
@@ -342,6 +342,7 @@ th {
   margin-bottom: 0;
   margin-top: 0;
   padding-left: 10px;
+  padding-right: 10px;
   float: left; }
 
 .menu-list {
@@ -354,18 +355,18 @@ th {
 /*
   Responsiveness with a dropdown menu
 */
-@media (min-width: 1100px) {
+@media (min-width: 1000px) {
   .dropbtn {
     display: none; }
 
   .dropdown-content {
     display: none; } }
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
   .menu-list {
     display: none; }
 
   .site-title {
-    padding-right: 0.25rem;
+    padding-right: 1rem;
     float: right; }
 
   .dropbtn {
@@ -391,7 +392,7 @@ th {
 
   .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 8px 12px;
     text-decoration: none;
     display: block; }
 
@@ -409,14 +410,14 @@ th {
   text-align: center;
   min-height: 56px;
   line-height: 45px;
-  width: 1100px; }
+  width: 1000px; }
 
 .footer a {
   color: #0052bd;
   padding: 0px 10px 0px;
   text-decoration: none; }
 
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
   .footer {
     background: white;
     color: #0052bd;
