@@ -1,68 +1,23 @@
-# Site Settings
-title: Bulma Clean Theme
-tagline: Bulma Clean Theme
-email: your-email@domain.com
-description: >
-  The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
-baseurl: "/bulma-clean-theme"
-url: "https://www.csrhymes.com"
-permalink: pretty
-#favicon: /path/to/favicon.png
+# Site Build Settings
 
-paginate: 5
-paginate_path: "/blog/page:num"
+# jekyll-paginate configuration
+paginate:            5
 
-plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-feed
-  - jekyll-seo-tag
-  - kramdown
-  - rouge
-
-exclude: 
-  - Gemfile
-  - clean-theme.gemspec
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-livereload: true
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           none
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 sass:
-  style: compressed
-  source_dir: _sass
+  sass_dir: assets/css
+  style: :nested
 
-#google_analytics: UA-code-here
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+title:		           "Millennial"
+description:	       "a Jekyll theme for running a blog or publication"
+author:              "Paul Le"
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      show_sidebar: true
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      author: "C.S. Rhymes"
-      layout: post
-      image: https://via.placeholder.com/1200x800
-      show_sidebar: true
-
-markdown: kramdown
-highlighter: rouge
-
-footer_menu: example_footer_menu
-
-collections:
-  products: 
-    output: true
-    layout: product
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#  path: rss-feed.xml

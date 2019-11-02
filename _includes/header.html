@@ -1,36 +1,26 @@
+<header class="site-header">
+  <h3 class="site-title">
+    <a href="{{ site.github.url }}/">{{ site.title }}</a>
+  </h3>
+  <nav class="menu-list">
+    {% for item in site.data.settings.menu %}
+      <a href="{{ site.github.url }}/{{ item.folder }}/{{ item.file }}" class="menu-link">{{ item.name }}</a>
+    {% endfor %}
 
-<nav class="navbar is-primary" >
-    <div class="container">
-        <div class="navbar-brand">
-            <a href="{{ site.baseurl }}/" class="navbar-item">
-                {{ site.title }}
-            </a>
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
-        </div>
-        <div class="navbar-menu" id="navMenu">
-            <div class="navbar-start">
-                <a href="{{ site.baseurl }}/" class="navbar-item {% if page.url == "/" %}is-active{% endif %}">Home</a>
-                {% if site.data.navigation %}
-                {% for item in site.data.navigation %}
-                    {% if item.dropdown %}
-                    <div class="navbar-item has-dropdown is-hoverable">
-                        <a href="{{ item.link | prepend: site.baseurl }}" class="navbar-link {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
-                        <div class="navbar-dropdown">
-                            {% for subitem in item.dropdown %}
-                            <a href="{{ subitem.link | prepend: site.baseurl }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a>
-                            {% endfor %}
-                        </div>
-                    </div>
-                    {% else %}
-                    <a href="{{ item.link | prepend: site.baseurl }}" class="navbar-item {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
-                    {% endif %}
-                {% endfor %}
-                {% endif %}
-            </div>
-        </div>
+    {% for item in site.data.settings.social %}
+      <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
+    {% endfor %}
+  </nav>
+  <div class="dropdown">
+    <button class="dropbtn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+    <div class="dropdown-content">
+      {% for item in site.data.settings.menu %}
+        <a href="{{ site.github.url }}/pages/{{ item.file }}" class="menu-link">{{ item.name }}</a>
+      {% endfor %}
+
+      {% for item in site.data.settings.social %}
+        <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
+      {% endfor %}
     </div>
-</nav>
+  </div>
+</header>
