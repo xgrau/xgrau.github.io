@@ -1,15 +1,15 @@
 ---
 layout: misc
+title: "Blog posts"
 ---
 
-# Blog
+{% for post in site.categories.science %}
+## [{{ post.title }}]({{ post.url }})
 
-[Indesinenter](../_posts/2019-08-16-primer.md)
+*by **{{ post.author | default: "xgrau" }}**, {{ post.date | date: "%-d %B %Y" }}*
 
-[CV](../docs/cv.md)
+{{ post.excerpt }}
 
-A summary of [my CV can be found here](../docs/cv.md).
+****
 
-Second entry
-
-Lala.
+{% endfor %}

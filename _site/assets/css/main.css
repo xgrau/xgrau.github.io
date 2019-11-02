@@ -23,19 +23,19 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility; }
 
 h1 {
-  margin-top: 2em;
+  margin-top: 2.5em;
   font-size: 2rem; }
 
 h2 {
-  margin-top: 1rem;
+  margin-top: 2.5rem;
   font-size: 1.5rem; }
 
 h3 {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   font-size: 1.3rem; }
 
 h4, h5, h6 {
-  margin-top: 1.2rem;
+  margin-top: 1.5rem;
   font-size: 1.2rem; }
 
 /* Body */
@@ -170,7 +170,7 @@ th {
 .featured-posts h2 span {
   display: inline-block;
   color: white;
-  font: bold 24px/45px Helvetica, Sans-Serif;
+  font: bold 24px/45px Sans-Serif;
   letter-spacing: -1px;
   background: black;
   /* fallback color */
@@ -336,7 +336,7 @@ th {
   font-size: 26px;
   font-weight: bolder;
   line-height: 56px;
-  font-family: monospace;
+  font-family: "Fira Code", monospace;
   margin-bottom: 0;
   margin-top: 0;
   padding-left: 10px;
@@ -480,111 +480,121 @@ pre code {
   border-radius: 0; }
 
 .fa-envelope {
-  padding: 5px;
-  -webkit-transition: 1s;
-  -o-transition: 1s;
-  -ms-transition: 1s;
-  -moz-transition: 1s;
-  transition: 1s; }
+  padding: 2px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s; }
   .fa-envelope:hover {
     color: #f39c12; }
 
 .fa-twitter {
-  padding: 5px;
-  -webkit-transition: 1s;
-  -o-transition: 1s;
-  -ms-transition: 1s;
-  -moz-transition: 1s;
-  transition: 1s; }
+  padding: 2px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s; }
   .fa-twitter:hover {
     color: #00aced; }
 
 .fa-instagram {
-  padding: 5px;
-  -webkit-transition: 1s;
-  -o-transition: 1s;
-  -ms-transition: 1s;
-  -moz-transition: 1s;
-  transition: 1s; }
+  padding: 2px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s; }
   .fa-instagram:hover {
     color: #375989; }
 
 .fa-github {
-  padding: 5px;
-  -webkit-transition: 1s;
-  -o-transition: 1s;
-  -ms-transition: 1s;
-  -moz-transition: 1s;
-  transition: 1s; }
+  padding: 2px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s; }
   .fa-github:hover {
     color: #343434; }
 
 .fa-linkedin {
-  padding: 5px;
-  -webkit-transition: 1s;
-  -o-transition: 1s;
-  -ms-transition: 1s;
-  -moz-transition: 1s;
-  transition: 1s; }
+  padding: 2px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s; }
   .fa-linkedin:hover {
     color: #0073a4; }
 
+.fa-info-circle {
+  padding: 2px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s; }
+  .fa-info-circle:hover {
+    color: #6cc519; }
+
 .fa-facebook {
-  padding: 5px;
-  -webkit-transition: 1s;
-  -o-transition: 1s;
-  -ms-transition: 1s;
-  -moz-transition: 1s;
-  transition: 1s; }
+  padding: 2px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s; }
   .fa-facebook:hover {
     color: #3d5b99; }
 
-.fa-google-plus {
-  padding: 5px;
-  -webkit-transition: 1s;
-  -o-transition: 1s;
-  -ms-transition: 1s;
-  -moz-transition: 1s;
-  transition: 1s; }
-  .fa-google-plus:hover {
+.fa-google {
+  padding: 2px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s; }
+  .fa-google:hover {
     color: #e64a41; }
 
 .fa-pinterest {
-  padding: 5px;
-  -webkit-transition: 1s;
-  -o-transition: 1s;
-  -ms-transition: 1s;
-  -moz-transition: 1s;
-  transition: 1s; }
+  padding: 2px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s; }
   .fa-pinterest:hover {
     color: #bd081c; }
 
 .fa-medium {
-  padding: 5px;
-  -webkit-transition: 1s;
-  -o-transition: 1s;
-  -ms-transition: 1s;
-  -moz-transition: 1s;
-  transition: 1s; }
+  padding: 2px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s; }
   .fa-medium:hover {
-    color: #00AB6C; }
+    color: #ab0033; }
 
 .fa-codepen {
-  padding: 5px;
-  -webkit-transition: 1s;
-  -o-transition: 1s;
-  -ms-transition: 1s;
-  -moz-transition: 1s;
-  transition: 1s; }
+  padding: 2px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s; }
   .fa-codepen:hover {
     color: black; }
 
 .fa-rss-square {
-  padding: 5px;
-  -webkit-transition: 1s;
-  -o-transition: 1s;
-  -ms-transition: 1s;
-  -moz-transition: 1s;
-  transition: 1s; }
+  padding: 2px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s; }
   .fa-rss-square:hover {
     color: #ff6600; }

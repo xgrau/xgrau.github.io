@@ -3,12 +3,12 @@ layout: misc
 title: Data and code
 ---
 
-### How to cite
+## How to cite
 
 You can cite the relevant papers (linked below, for each piece of data). Please & thank you.
 
 
-### *Paraphelidium* transcriptome paper, 2018
+## *Paraphelidium* transcriptome paper, 2018
 
 Data from [Global transcriptome analysis of the aphelid *Paraphelidium tribonemae* supports the phagotrophic origin of fungi](https://www.nature.com/articles/s42003-018-0235-z){:target="_blank"} (Torruella *et al.*, Communications Biology 2018).
 
@@ -18,8 +18,7 @@ Data from [Global transcriptome analysis of the aphelid *Paraphelidium tribonema
 
 
 
-
-### Evolution of alternative splicing in eukaryotes, 2018
+## Evolution of alternative splicing in eukaryotes, 2018
 
 Data from [Origin of exon skipping-rich transcriptomes in animals driven by evolution of gene architecture](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1499-9){:target="_blank"} (Grau-Bové *et al.*, Genome Biology 2018).
 
@@ -30,7 +29,7 @@ Data from [Origin of exon skipping-rich transcriptomes in animals driven by evol
 
 
 
-### Dynamics of genomic innovation in the unicellular ancestry of animals, 2017
+## Dynamics of genomic innovation in the unicellular ancestry of animals, 2017
 
 Data from [Dynamics of genomic innovation in the unicellular ancestry of animals](https://elifesciences.org/articles/26036){:target="_blank"} (Grau-Bové *et al.*, eLife 2017).
 
