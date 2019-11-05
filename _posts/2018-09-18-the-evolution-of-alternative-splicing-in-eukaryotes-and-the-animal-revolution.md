@@ -17,8 +17,8 @@ In any case, AS bears the potential to increase the biological complexity of euk
 
 We took a great effort in covering as much eukaryotic diversity as possible, in order to make evolutionary inferences all the more robust. To the best of our knowledge, this is the first comparative of alternative splicing that includes at least one genome from each of the main eukaryotic groups, and covers all available early-branching animals.
 
-| ![fig1](../assets/img/as_fig1_introduction2.png) |
 |:--:|
+| ![fig1](../assets/img/as_fig1_introduction2.png) |
 | Our taxon sampling.| 
 
 For the most part, we focus on a particular form of AS known as exon skipping (ES): the alternative inclusion of a given exon in the final transcript. Exon skipping has long been considered a fixture of animal transcriptomes (and maybe even one of the reasons behind animal multicellular complexity). Of course, we wanted to dig deeper into this idea.
