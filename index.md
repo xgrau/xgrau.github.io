@@ -5,7 +5,7 @@ title: Intro
 
 ## About me
 
-{% for post in site.posts %}
+{% for post in site.categories.science %}
 
 ## [{{ post.title }}]({{ post.url }})
 
