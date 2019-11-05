@@ -5,6 +5,14 @@ title: Intro
 
 ## About me
 
+{% for post in site.posts %}
+
+## [{{ post.title }}]({{ post.url }})
+
+*by **{{ post.author | default: "xgrau" }}**, {{ post.date | date: "%-d %B %Y" }}*
+
+{{ post.excerpt }}
+
 <img align="left" width="143" height="143" src="/assets/img/perfil_original.png">
 
 I am a Post Doctoral Research Associate at the Vector Biology department of the [Liverpool School of Tropical Medicine](https://www.lstmed.ac.uk/about/people/dr-xavier-grau-bov%C3%A9){:target="_blank"}, with [David Weetman](https://www.lstmed.ac.uk/about/people/dr-david-weetman){:target="_blank"} and [Martin Donnelly](https://www.lstmed.ac.uk/about/people/professor-martin-james-donnelly){:target="_blank"}.
