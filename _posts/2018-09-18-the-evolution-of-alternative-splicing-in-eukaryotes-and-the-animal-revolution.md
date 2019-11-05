@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The evolution of alternative splicing in eukaryotes – gene architectural change foreshadows regulatory evolution
+title: Evolution of alternative splicing in eukaryotes
 description: The evolution of alternative splicing in eukaryotes – gene architectural change foreshadows regulatory evolution
 categories: science
 tags: [sample]
