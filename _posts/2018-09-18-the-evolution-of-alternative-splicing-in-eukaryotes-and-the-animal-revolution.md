@@ -11,11 +11,13 @@ After a few years of work with [Iñaki Ruiz-Trillo](http://multicellgenome.com/)
 
 > [Origin of exon skipping-rich transcriptomes in animals driven by evolution of gene architecture](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1499-9){:target="_blank"} (Grau-Bové et al., Genome Biology 2018)
 
-In this article, we survey the role of alternative splicing in the transcriptomes of 65 different eukaryotes. Alternative splicing is a mechanism of transcriptomic regulation by which multiple transcripts (isoforms) can be produced from a single gene. Some of these ‘additional’ possible transcripts can end up becoming new evolutionarily significant protein variants, but AS also affects gene expression levels, and has been linked to a fairly substantial amount of biological noise.
+In this article, we survey the role of alternative splicing in the transcriptomes of 65 different eukaryotes. **Alternative splicing is a mechanism of transcriptomic regulation by which multiple transcripts (isoforms) can be produced from a single gene**. Some of these ‘additional’ possible transcripts can end up becoming new evolutionarily significant protein variants, but AS also affects gene expression levels, and has been linked to a fairly substantial amount of biological noise.
 
 In any case, AS bears the potential to increase the biological complexity of eukaryotes by tuning the usage and function of the genes encoded in their genomes (provided they have introns, as many eukaryotic genes do).
 
 We took a great effort in covering as much eukaryotic diversity as possible, in order to make evolutionary inferences all the more robust. To the best of our knowledge, this is the first comparative of alternative splicing that includes at least one genome from each of the main eukaryotic groups, and covers all available early-branching animals.
+
+![fig1](assets/img/as_fig1_introduction2.png)
 
 For the most part, we focus on a particular form of AS known as exon skipping (ES): the alternative inclusion of a given exon in the final transcript. Exon skipping has long been considered a fixture of animal transcriptomes (and maybe even one of the reasons behind animal multicellular complexity). Of course, we wanted to dig deeper into this idea.
 
@@ -53,4 +55,4 @@ And if you have any input or doubts, let me know!
 
 PS: It’s also been argued that AS is not a central contributor to ‘regulated proteome diversity’ after all. Instead, it’d be a consequence of a substantial amount of ‘noisy splicing’, and most genes would actually be producing just one main isoform. I personally think this idea has merit at the micro-evolutionary level, although our macro-evolutionary analysis is forcefully recovering more signal from long-standing adaptive effects. This is a very interesting read in that respect:
 
-> Alternative Splicing May Not Be the Key to Proteome Complexity (Tress et al., Trends in Biochemical Sciences 2016).
+> [Alternative Splicing May Not Be the Key to Proteome Complexity](https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/27712956/) (Tress et al., Trends in Biochemical Sciences 2016).
