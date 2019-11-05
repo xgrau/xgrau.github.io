@@ -15,13 +15,11 @@ In the past, I have worked with [Iñaki Ruiz-Trillo](http://multicellgenome.com/
 
 * [Dynamics of genomic innovation in the unicellular ancestry of animals](https://elifesciences.org/articles/26036){:target="_blank"} (Grau-Bové *et al.* eLife 2017)
 
-![fig1](./assets/img/microsynteny-climcowc.png)
-<img width="200" height="200" src="/assets/img/microsynteny-climcowc.png">
+<img width="200" src="/assets/img/microsynteny-climcowc.png">
 
 
 * [Origin of exon skipping-rich transcriptomes in animals driven by evolution of gene architecture](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1499-9){:target="_blank"} (Grau-Bové *et al.* Genome Biology 2018), which I talked about in [this post](_posts/2018-09-18-the-evolution-of-alternative-splicing-in-eukaryotes-and-the-animal-revolution.md).
 
-![fig2](./assets/img/asfig.png)
-<img align="centre" width="200" height="183" src="/assets/img/asfig.png">
+<img align="centre" width="200" src="/assets/img/asfig.png">
 
 Starting in 2020, I will join the [lab of Arnau Sebé-Pedrós](https://www.crg.eu/en/programmes-groups/sebe-pedros-lab){:target="_blank"} in the [Centre de Regulació Genòmica](https://www.crg.cat/){:target="_blank"}, in Barcelona.
