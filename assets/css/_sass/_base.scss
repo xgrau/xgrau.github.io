@@ -140,13 +140,13 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1.5px solid #e5e5e5;
+  // border-bottom:1.5px solid #e5e5e5;
   color: rgb(65, 69, 71);
 }
 
-tr:nth-child(even) { 
-  background-color: rgb(242, 245, 247); 
-} 
+//tr:nth-child(even) { 
+//  background-color: rgb(242, 245, 247); 
+//} 
 
 tr {
   &:hover {
@@ -157,5 +157,6 @@ tr {
 th {
   color: rgb(65, 69, 71);
   font-weight: bold;
+  border-bottom:1.5px solid #e5e5e5;
   // background-color: rgb(227, 231, 233);
 }
