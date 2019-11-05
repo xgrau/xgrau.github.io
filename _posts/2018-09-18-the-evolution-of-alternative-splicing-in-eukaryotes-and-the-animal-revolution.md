@@ -17,7 +17,9 @@ In any case, AS bears the potential to increase the biological complexity of euk
 
 We took a great effort in covering as much eukaryotic diversity as possible, in order to make evolutionary inferences all the more robust. To the best of our knowledge, this is the first comparative of alternative splicing that includes at least one genome from each of the main eukaryotic groups, and covers all available early-branching animals.
 
-![fig1](assets/img/as_fig1_introduction2.png)
+![fig1](../assets/img/as_fig1_introduction2.png)
+
+> Our taxon sampling.
 
 For the most part, we focus on a particular form of AS known as exon skipping (ES): the alternative inclusion of a given exon in the final transcript. Exon skipping has long been considered a fixture of animal transcriptomes (and maybe even one of the reasons behind animal multicellular complexity). Of course, we wanted to dig deeper into this idea.
 
@@ -25,9 +27,16 @@ First things first: all eukaryotic groups show at least some level of exon skipp
 
 Second, we indeed found that animals had generally higher levels of exon skipping than other eukaryotes (in the figure below, we compare frequencies in animal groups, unicellular holozoans, and other opisthokonts like fungi). But this was not the case for all animals: early-branching non-bilaterians, like sponges or the placozoan Trichoplax adhaerens had low, ‘protist-like’ ES levels.
 
+![fig2](../assets/img/as_fig2.png)
+
+> ES frequency in animals and some unicellular eukaryotic groups. Non-bilaterians include sponges, cnidarians, Mnemiopsis (ctenophore) and Trichoplax (placozoan).
+
 Does that mean that the great increase in exon skipping usage seen in animals was actually something specific to bilaterians alone? Quantitatively, it may seem so. Qualitatively, not quite so.
 
 Indeed, even if they had fairly low exon skipping, early-branching sponges and Trichoplax shared a unique feature with most other animals: skipped exons tended to have 3-divisible lengths, which means that their occasional exclusion has a lesser effect on the final transcript and protein (it does not break the ORF):
+
+![fig3](../assets/img/as_fig3_is3ndiv6.png)
+> In most bilaterians (red), higher ES implies an overabundance of ORF-preserving alternative splicing events.
 
 This means that exon skipping in early animals became enriched for frame-preserving events (with 3-divisible exon lengths) before the increase in exon skipping in bilaterian animals. We see this as a two-step evolutionary process.
 
