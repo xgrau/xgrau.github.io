@@ -18,9 +18,11 @@ In any case, AS bears the potential to increase the biological complexity of euk
 We took a great effort in covering as much eukaryotic diversity as possible, in order to make evolutionary inferences all the more robust. To the best of our knowledge, this is the first comparative of alternative splicing that includes at least one genome from each of the main eukaryotic groups, and covers all available early-branching animals.
 
 <figure>
-  <img align="centre" src="../assets/img/as_fig1_introduction2.png" alt="fig1"/>
-  <div align="center">
-    <figcaption>Our taxon sampling.</figcaption>
+  <div align="center"> 
+    <img src="../assets/img/as_fig1_introduction2.png" alt="fig1"/>
+    <font color="gray">
+      <figcaption>Our taxon sampling.</figcaption>
+    </font> 
   </div>
 </figure>
 
