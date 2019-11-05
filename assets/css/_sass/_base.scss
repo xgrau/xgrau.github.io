@@ -148,7 +148,7 @@ tr:nth-child(even) {
   background-color: rgb(242, 245, 247); 
 } 
 
-tr, th {
+tr {
   &:hover {
     background-color: lighten( rgb(242, 245, 247), 2) 
   }
