@@ -3,7 +3,7 @@ layout: misc
 title: "Blog posts"
 ---
 
-{% for post in site.posts %}
+{% for post in site.categories.science %}
 
 ## [{{ post.title }}]({{ post.url }})
 

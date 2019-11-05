@@ -1,0 +1,11 @@
+---
+layout: misc
+title: "Blog posts"
+---
+
+{% for post in site.categories.science %}
+	<h2> <a href="{{ post.url }}">{{ post.title }}</a> </h2>
+	<p><i>{{ post.author | default: "xgrau" }}</i>, {{ post.date | date: "%-d %B %Y" }}</p>
+	<p>{{ post.excerpt }}</p>
+	<p>****</p>
+{% endfor %}
