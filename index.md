@@ -26,7 +26,7 @@ Starting in 2020, I will join the [lab of Arnau Sebé-Pedrós](https://www.crg.e
 
 ****
 
-## Recent posts
+# Recent posts
 
 {% for post in site.categories.science %}
 #### [{{ post.title }}]({{ post.url }})
