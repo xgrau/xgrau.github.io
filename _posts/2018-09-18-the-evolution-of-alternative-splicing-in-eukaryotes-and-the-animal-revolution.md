@@ -31,9 +31,7 @@ Does that mean that the great increase in exon skipping usage seen in animals wa
 
 Indeed, even if they had fairly low exon skipping, early-branching sponges and *Trichoplax* shared a unique feature with most other animals: skipped exons tended to have 3-divisible lengths, which means that their occasional exclusion has a lesser effect on the final transcript and protein (it does not break the ORF):
 
-| ![fig3](../assets/img/as_fig3_is3ndiv6.png) |
-|:--:|
-| In most bilaterians (red), higher ES implies an overabundance of ORF-preserving alternative splicing events. |
+{% include image.html url="../assets/img/as_fig3_is3ndiv6.png" description="In most bilaterians (red), higher ES implies an overabundance of ORF-preserving alternative splicing events." %}
 
 This means that exon skipping in early animals became enriched for frame-preserving events (with 3-divisible exon lengths) before the increase in exon skipping in bilaterian animals. We see this as a two-step evolutionary process.
 
@@ -45,9 +43,7 @@ Well, as it turns out, yes.
 
 In this figure, we show that whenever a given trait of gene architecture is associated with exon skipping, this correlation tends to be conserved across multiple eukaryotes. For example, having longer introns facilitates skipping of the middle exon, and this can be seen in most species (blue boxes all along the horizontal axis). Same thing for negative relationships (in red): e.g. short exons are more frequently involved in skipping.
 
-| ![fig4](../assets/img/as_fig4_escorrarq4-e1537264531598.png) |
-|:--:|
-| Positive (blue) and negative (red) associations of various gene architectural features with higher ES levels, for some holozoans. All 65 species are shown in the paper. |
+{% include image.html url="../assets/img/as_fig4_escorrarq4-e1537264531598.png" description="Positive (blue) and negative (red) associations of various gene architectural features with higher ES levels, for some holozoans. All 65 species are shown in the paper." %}
 
 Thus, *Sphaeroforma*‘s increase in exon skipping is mirrored by changes in its genome organization that facilitate this form alternative splicing. These same changes occurred independently (and more deeply) in animals and plants.
 
@@ -55,9 +51,7 @@ In essence, we find that gene architecture is a pan-eukaryotic ‘soft code’ o
 
 And this is our final throw of perfume to the violet: we use data from gene architecture and AS in living eukaryotes to approximate the levels of AS in ancestral eukaryotes, for which transcriptomic data is obviously non-existing. We use this model to pinpoint shifts in AS usage in the animal ancestry.
 
-| ![fig5](../assets/img/as_fig7_rocpredes4.png) |
-|:--:|
-| Climbing mount AS using genome data as a GPS. A terrible metaphor, but I like the plot |
+{% include image.html url="../assets/img/as_fig7_rocpredes4.png" description="Climbing mount AS using genome data as a GPS. A terrible metaphor, but I like the plot." %}
 
 This ancestral reconstruction signals that **animal evolutionary innovations involving AS mostly appeared at the same time as multicellular animals** (quite unlike what happens for other genome innovations, like many quintessential ‘animal’ gene families that are actually older than one might expect — see here, and here, and here, and here…).
 
@@ -67,10 +61,7 @@ In the paper we cover other topics as well, such as intron retention, the effect
 
 And if you have any input or doubts, let me know!
 
-| ![fig6](../assets/img/as_fig8_image20-e1537266369667.png) |
-|:--:|
-| *Sphaeroforma arctica*, by Arnau Sebé-Pedrós. |
-
+{% include image.html url="../assets/img/as_fig8_image20-e1537266369667.png" description="Sphaeroforma arctica, by Arnau Sebé-Pedrós." %}
 
 PS: It’s also been argued that AS is not a central contributor to ‘regulated proteome diversity’ after all. Instead, it’d be a consequence of a substantial amount of ‘noisy splicing’, and most genes would actually be producing just one main isoform. I personally think this idea has merit at the micro-evolutionary level, although our macro-evolutionary analysis is forcefully recovering more signal from long-standing adaptive effects. This is a very interesting read in that respect:
 
