@@ -17,20 +17,16 @@ In any case, AS bears the potential to increase the biological complexity of euk
 
 We took a great effort in covering as much eukaryotic diversity as possible, in order to make evolutionary inferences all the more robust. To the best of our knowledge, this is the first comparative of alternative splicing that includes at least one genome from each of the main eukaryotic groups, and covers all available early-branching animals.
 
-<figure>
-  <div align="center"> 
-    <img src="../assets/img/as_fig1_introduction2.png" alt="fig1"/>
-    <font color="gray">
-      <figcaption>Our taxon sampling.</figcaption>
-    </font> 
-  </div>
-</figure>
+{% include image.html src="../assets/img/as_fig1_introduction2.png" description="Our taxon sampling." %}
 
 For the most part, we focus on a particular form of AS known as exon skipping (ES): the alternative inclusion of a given exon in the final transcript. Exon skipping has long been considered a fixture of animal transcriptomes (and maybe even one of the reasons behind animal multicellular complexity). Of course, we wanted to dig deeper into this idea.
 
 First things first: all eukaryotic groups show at least some level of exon skipping, which means that it appeared in the last eukaryotic common ancestor (at the same time introns did).
 
 Second, we indeed found that animals had generally higher levels of exon skipping than other eukaryotes (in the figure below, we compare frequencies in animal groups, unicellular holozoans, and other opisthokonts like fungi). But this was not the case for all animals: early-branching non-bilaterians, like sponges or the placozoan Trichoplax adhaerens had low, ‘protist-like’ ES levels.
+
+{% include image.html src="../assets/img/as_fig2.png" description="ES frequency in animals and some unicellular eukaryotic groups. Non-bilaterians include sponges, cnidarians, *Mnemiopsis* (ctenophore) and *Trichoplax* (placozoan)." %}
+
 
 |:--:|
 | ![fig2](../assets/img/as_fig2.png) |
