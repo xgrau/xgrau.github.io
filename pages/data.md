@@ -7,7 +7,7 @@ title: Data & code
 
 You can cite the relevant papers (linked below, for each piece of data). Please & thank you.
 
-## [Prova ancora](##prova-ancora)
+## [Prova ancora](#prova-ancora)
 
 TexT!
 
