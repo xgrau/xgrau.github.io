@@ -6,7 +6,7 @@ title: "Blog posts"
 {% for post in site.categories.science %}
 ## [{{ post.title }}]({{ post.url }})
 
-*by **{{ post.author | default: "xgrau" }}**, {{ post.date | date: "%-d %B %Y" }}*
+by {% if page.author %} {{ page.author }} {% else %} {{ site.author }} {% endif %}, {{ post.date | date: "%-d %B %Y" }} {% endfor %}
 
 {{ post.excerpt }}
 
