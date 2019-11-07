@@ -15,7 +15,3 @@ Com afegir àncores als títols:
 
 TexT!
 ```
-
-## [Títol amb àncora](#titol-amb-ancora)
-
-TexT!
