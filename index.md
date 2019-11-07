@@ -29,6 +29,9 @@ Starting in 2020, I will join the [lab of Arnau Sebé-Pedrós](https://www.crg.e
 From [my blog](/pages/blog.html):
 
 {% for post in site.categories.science limit:4 %}
-#### [{{ post.title }}]({{ post.url }})
+
+### [{{ post.title }}]({{ post.url }})
+
 by {% if page.author %} {{ page.author }} {% else %} {{ site.author }} {% endif %}, {{ post.date | date: "%-d %B %Y" }}
+
 {% endfor %}
