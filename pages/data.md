@@ -7,10 +7,6 @@ title: Data & code
 
 You can cite the relevant papers (linked below, for each piece of data). Please & thank you.
 
-## [Prova ancora](#prova-ancora)
-
-TexT!
-
 ## *Paraphelidium* transcriptome paper, 2018
 
 Data from [Global transcriptome analysis of the aphelid *Paraphelidium tribonemae* supports the phagotrophic origin of fungi](https://www.nature.com/articles/s42003-018-0235-z){:target="_blank"} (Torruella *et al.*, Communications Biology 2018).
