@@ -31,6 +31,6 @@ From [my blog](/pages/blog.html):
 
 ### [{{ post.title }}]({{ post.url }})
 
-by {% if page.author %} {{ page.author }} {% else %} {{ site.author }} {% endif %}, {{ post.date | date: "%-d %B %Y" }}
+by {% if page.author %} {{ page.author }} {% else %} {{ site.author }}{% endif %}, {{ post.date | date: "%-d %B %Y" }}
 
 {% endfor %}

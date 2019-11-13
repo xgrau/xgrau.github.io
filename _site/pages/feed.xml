@@ -15,8 +15,21 @@
 </description>
 				
 				<pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
-				<link>http://localhost:4000/science/tigre.html</link>
-				<guid isPermaLink="true">http://localhost:4000/science/tigre.html</guid>
+				<link>http://localhost:4000/poema/tigre.html</link>
+				<guid isPermaLink="true">http://localhost:4000/poema/tigre.html</guid>
+			</item>
+		
+			<item>
+				<title>«Do not go gentle into that good night»</title>
+				
+				
+					<description>&lt;p&gt;&lt;em&gt;Do not go gentle into that good night&lt;/em&gt; (Dylan Thomas, 1947)&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/poema/do-not-go-gentle-into-that-good-night.html</link>
+				<guid isPermaLink="true">http://localhost:4000/poema/do-not-go-gentle-into-that-good-night.html</guid>
 			</item>
 		
 			<item>
@@ -28,8 +41,34 @@
 </description>
 				
 				<pubDate>Fri, 16 Aug 2019 00:00:00 +0100</pubDate>
-				<link>http://localhost:4000/science/primer.html</link>
-				<guid isPermaLink="true">http://localhost:4000/science/primer.html</guid>
+				<link>http://localhost:4000/poema/indesinenter.html</link>
+				<guid isPermaLink="true">http://localhost:4000/poema/indesinenter.html</guid>
+			</item>
+		
+			<item>
+				<title>«The Disciple», modern</title>
+				
+				
+					<description>&lt;p&gt;When Narcissus died the pool of his pleasure changed from a cup of sweet waters into a cup of salt tears, and the Oreads came weeping through the woodland that they might sing to the pool and give it comfort.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 13 May 2019 00:00:00 +0100</pubDate>
+				<link>http://localhost:4000/poema/narcissus.html</link>
+				<guid isPermaLink="true">http://localhost:4000/poema/narcissus.html</guid>
+			</item>
+		
+			<item>
+				<title>Paraphelidium transcriptome: some code</title>
+				
+				
+					<description>&lt;p&gt;This is a quick post to highlight the publication of &lt;strong&gt;&lt;a href=&quot;https://www.nature.com/articles/s42003-018-0235-z&quot;&gt;Global transcriptome analysis of the aphelid &lt;em&gt;Paraphelidium tribonemae&lt;/em&gt; supports the phagotrophic origin of fungi&lt;/a&gt;&lt;/strong&gt; by Guifré Torruella, Purificación López-García (Université Paris-Sud) et al., in Communications Biology.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/science/paraphelidium-code.html</link>
+				<guid isPermaLink="true">http://localhost:4000/science/paraphelidium-code.html</guid>
 			</item>
 		
 			<item>
@@ -43,6 +82,32 @@
 				<pubDate>Tue, 18 Sep 2018 00:00:00 +0100</pubDate>
 				<link>http://localhost:4000/science/the-evolution-of-alternative-splicing-in-eukaryotes-and-the-animal-revolution.html</link>
 				<guid isPermaLink="true">http://localhost:4000/science/the-evolution-of-alternative-splicing-in-eukaryotes-and-the-animal-revolution.html</guid>
+			</item>
+		
+			<item>
+				<title>«Remember first to possess his books»</title>
+				
+				
+					<description>&lt;p&gt;&lt;em&gt;Act 3, Scene 2, 71-79&lt;/em&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Tue, 04 Sep 2018 00:00:00 +0100</pubDate>
+				<link>http://localhost:4000/poema/the-tempest.html</link>
+				<guid isPermaLink="true">http://localhost:4000/poema/the-tempest.html</guid>
+			</item>
+		
+			<item>
+				<title>«I tan mateix»</title>
+				
+				
+					<description>&lt;p&gt;&lt;em&gt;Aquesta remor que se sent&lt;/em&gt; (Miquel Martí i Pol, 1971)&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sat, 04 Aug 2018 00:00:00 +0100</pubDate>
+				<link>http://localhost:4000/poema/i-tanmateix.html</link>
+				<guid isPermaLink="true">http://localhost:4000/poema/i-tanmateix.html</guid>
 			</item>
 		
 	</channel>

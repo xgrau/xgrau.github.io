@@ -1,15 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/poema/i-tanmateix.html</loc>
+<lastmod>2018-08-04T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/poema/the-tempest.html</loc>
+<lastmod>2018-09-04T00:00:00+01:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/science/the-evolution-of-alternative-splicing-in-eukaryotes-and-the-animal-revolution.html</loc>
 <lastmod>2018-09-18T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/science/primer.html</loc>
+<loc>http://localhost:4000/science/paraphelidium-code.html</loc>
+<lastmod>2019-02-11T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/poema/narcissus.html</loc>
+<lastmod>2019-05-13T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/poema/indesinenter.html</loc>
 <lastmod>2019-08-16T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/science/tigre.html</loc>
+<loc>http://localhost:4000/poema/do-not-go-gentle-into-that-good-night.html</loc>
+<lastmod>2019-11-13T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/poema/tigre.html</loc>
 <lastmod>2019-11-13T00:00:00+00:00</lastmod>
 </url>
 <url>

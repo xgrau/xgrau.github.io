@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Indesinenter — incessantment — ceaselessly
-description: this
-categories: science
+description: Indesinenter — incessantment — ceaselessly
+categories: poema
 tags: poema
 ---
 
