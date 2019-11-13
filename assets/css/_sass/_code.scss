@@ -4,22 +4,23 @@ pre {
 }
 code {
   padding: .25em .5em;
-  font-size: .8rem;
-  background-color: #f5f5f5;
-  border-radius: 3px;
+  font-size: 1rem;
+  background-color: rgb(242, 245, 247);
+  border-radius: 4px;
 }
 pre {
   display: block;
-  margin-top: 0;
+  margin-top: 1rem;
   margin-bottom: 1rem;
-  padding: 1rem;
-  font-size: .8rem;
+  padding: 1.2rem;
+  font-size: 1rem;
   line-height: 1.4;
   white-space: pre;
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #f5f5f5;
+  color: rgb(65, 69, 71);
+  background-color: rgb(242, 245, 247);
 }
 pre code {
   padding: 0;
