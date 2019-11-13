@@ -15,3 +15,9 @@ Com afegir àncores als títols:
 
 TexT!
 ```
+
+Executar Jekyll en directe:
+
+```bash
+bundle exec jekyll serve
+```
