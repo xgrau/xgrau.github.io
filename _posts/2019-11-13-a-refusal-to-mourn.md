@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A Refusal To Mourn The Death, By Fire, Of A Child In London
-description: A Refusal To Mourn The Death, By Fire, Of A Child In London
+title: A refusal to mourn the death, by fire, of a child in London
+description: A refusal to mourn the death, by fire, of a child in London
 categories: poema
 tags: poema
 ---
