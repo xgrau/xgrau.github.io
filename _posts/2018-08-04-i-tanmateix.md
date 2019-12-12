@@ -31,3 +31,29 @@ i sobrevingui, inevitable, la catàstrofe.
 
 I, tan mateix, la remor persisteix.
 ```
+
+****
+
+```
+This quiet drone is not the rain.
+It has not rained for so long
+wells dry up, and dust piles up
+in the alleys and the abodes.
+
+This quiet drone is not the wind.
+The wind has been forbidden
+to prevent a storm of dust 
+from fouling the air — so they say.
+
+This quiet drone are not words.
+Words have been forbidden
+to avoid upsetting this peace,
+this fragile calmness in the air.
+
+This quiet drone are not ideas.
+They are forbidden too,
+to evade the need for words
+and the inevitable catastrophe.
+
+And yet the droning remains.
+```
