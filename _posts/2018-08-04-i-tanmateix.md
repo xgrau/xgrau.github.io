@@ -37,21 +37,21 @@ I, tan mateix, la remor persisteix.
 ```
 This quiet drone is not the rain.
 It has not rained for so long
-wells dry up, and dust piles up
-in the alleys and the abodes.
+wells dried up, and dust piles up
+in the alley and in the house.
 
 This quiet drone is not the wind.
 The wind has been forbidden
 to prevent a storm of dust 
 from fouling the air — so they say.
 
-This quiet drone are not words.
+This quiet drone comes not from words.
 Words have been forbidden
 to avoid upsetting this peace,
 this fragile calmness in the air.
 
-This quiet drone are not ideas.
-They are forbidden too,
+This quiet drone comes not from thoughts.
+They are now forbidden too,
 to evade the need for words
 and the inevitable catastrophe.
 
