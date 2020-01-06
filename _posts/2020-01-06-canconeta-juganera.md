@@ -1,7 +1,7 @@
 ---
 layout: post
-title: «Cançoneta Juganera 2»
-description: «Cançoneta Juganera 2»
+title: «Uns per por i altres per pena»
+description: Cançoneta Juganera 2 — «Uns per por i altres per pena»
 categories: poema
 tags: poema
 ---
