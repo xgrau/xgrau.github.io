@@ -35,7 +35,7 @@ aquella encarnació.
 Uns per por,
 altres per pena,
 farem del món
-una gangrena. 
+una gangrena.
 ```
 
 ****
