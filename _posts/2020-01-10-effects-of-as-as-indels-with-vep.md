@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Predicting the effects of alternative splicing with the Ensembl Variant Effect Predictor
+title: Predicting the effects of alternative splicing events with VEP
 description: How to predict the effects of alternative splicing events with the Ensembl Variant Effect Predictor (VEP), by encoding them as indels
 categories: science
 tags: science
@@ -8,13 +8,13 @@ tags: science
 
 *This post is a stub*.
 
-How to predict the effects of alternative splicing events with the [Ensembl Variant Effect Predictor (VEP)](https://www.ensembl.org/info/docs/tools/vep/index.html), by encoding them as indels? 
+How to predict the effects of alternative splicing (AS) events with the **[Ensembl Variant Effect Predictor](https://www.ensembl.org/info/docs/tools/vep/index.html)** (VEP), by encoding them as indels? 
 
 Here's how we did it in our recent paper:
 
 > [A unicellular relative of animals generates a layer of polarized cells by actomyosin-dependent cellularization](https://elifesciences.org/articles/49801){:target="_blank"} (Dudin et al., eLife 2019)
 
-First, load `ioe` file from SUPPA2:
+First, load an `ioe` file generated with [**SUPPA2**](https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-018-1417-1), that contains all AS events
 
 ```R
 ioe = read.table("input_file_from_suppa.ioe", header = T)
@@ -101,3 +101,5 @@ Use the `as_as_indels.csv` file as input for VEP.
 ```bash
 ...
 ```
+
+Bon profit!
