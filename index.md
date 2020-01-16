@@ -31,4 +31,6 @@ From [my blog](/pages/blog.html):
 
 * **[{{ post.title }}]({{ post.url }})**, {{ post.date | date: "%-d %B %Y" }}.
 
+> {{ post.excerpt }}
+
 {% endfor %}
