@@ -29,8 +29,6 @@ From [my blog](/pages/blog.html):
 
 {% for post in site.categories.science limit:4 %}
 
-### [{{ post.title }}]({{ post.url }})
-
-<small>by {% if page.author %} {{ page.author }} {% else %} {{ site.author }}{% endif %}, {{ post.date | date: "%-d %B %Y" }}</small>
+* **[{{ post.title }}]({{ post.url }})**, {{ post.date | date: "%-d %B %Y" }}.
 
 {% endfor %}
