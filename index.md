@@ -23,7 +23,7 @@ In the past, I have worked with [Iñaki Ruiz-Trillo](http://multicellgenome.com/
 
 Starting in 2020, I will join the [lab of Arnau Sebé-Pedrós](https://www.crg.eu/en/programmes-groups/sebe-pedros-lab){:target="_blank"} in the [Centre de Regulació Genòmica](https://www.crg.cat/){:target="_blank"}, in Barcelona.
 
-# Recent posts
+## Recent posts
 
 From [my blog](/pages/blog.html):
 
