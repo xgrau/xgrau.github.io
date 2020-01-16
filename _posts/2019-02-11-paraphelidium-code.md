@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Paraphelidium transcriptome: some code"
-description: "Paraphelidium transcriptome: some code"
+title: "*Paraphelidium* transcriptome: some code"
+description: "*Paraphelidium* transcriptome: some code"
 categories: science
 tags: science
 ---
 
-This is a quick post to highlight the publication of **[Global transcriptome analysis of the aphelid *Paraphelidium tribonemae* supports the phagotrophic origin of fungi](https://www.nature.com/articles/s42003-018-0235-z)** by Guifré Torruella, Purificación López-García (Université Paris-Sud) et al., in Communications Biology.
+This is a quick post to highlight the publication of [Global transcriptome analysis of the aphelid *Paraphelidium tribonemae* supports the phagotrophic origin of fungi](https://www.nature.com/articles/s42003-018-0235-z) by Guifré Torruella, Purificación López-García (Université Paris-Sud) et al., in Communications Biology.
 
 In parallel, we released the `R` code we used to analyse the functional profile of its gene content, which you can find it in this **[Github repository](https://github.com/xgrau/paraphelidium2018)**. We used the absence/presence profile of a set of genes linked to primary metabolism in the genomes (or transcriptomes) of unicellular eukaryotes to highlight similarities between the gene content of fungi and *Paraphelidium*.
 
