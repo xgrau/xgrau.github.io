@@ -29,7 +29,7 @@ From [my blog](/pages/blog.html):
 
 {% for post in site.categories.science limit:4 %}
 
-* **[{{ post.title }}]({{ post.url }})**, {{ post.date | date: "%-d %B %Y" }}.
+**[{{ post.title }}]({{ post.url }})**, {{ post.date | date: "%-d %B %Y" }}.
 
 > {{ post.excerpt }}
 
