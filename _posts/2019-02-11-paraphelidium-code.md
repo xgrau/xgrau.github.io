@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "*Paraphelidium* transcriptome: some code"
+title: "Paraphelidium transcriptome: some code"
 description: "*Paraphelidium* transcriptome: some code"
 categories: science
 tags: science
