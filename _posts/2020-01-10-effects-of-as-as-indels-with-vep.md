@@ -6,9 +6,7 @@ categories: science
 tags: science
 ---
 
-*This post is a stub*. How to predict the effects of alternative splicing (AS) events with the **[Ensembl Variant Effect Predictor](https://www.ensembl.org/info/docs/tools/vep/index.html)** (VEP), by encoding them as indels? 
-
-Here's how we did it in our recent paper:
+*This post is a stub*. How can we predict the effects of alternative splicing (AS) events with the [Ensembl Variant Effect Predictor](https://www.ensembl.org/info/docs/tools/vep/index.html) (VEP)?  In our recent paper in eLife, we did so by encoding them as if they were indels.
 
 > [A unicellular relative of animals generates a layer of polarized cells by actomyosin-dependent cellularization](https://elifesciences.org/articles/49801){:target="_blank"} (Dudin et al., eLife 2019)
 
