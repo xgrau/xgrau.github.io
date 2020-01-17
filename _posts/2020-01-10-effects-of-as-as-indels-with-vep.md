@@ -6,7 +6,7 @@ categories: science
 tags: science
 ---
 
-*This post is a stub*.
+This post *is a stub*.
 
 How to predict the effects of alternative splicing (AS) events with the **[Ensembl Variant Effect Predictor](https://www.ensembl.org/info/docs/tools/vep/index.html)** (VEP), by encoding them as indels? 
 
