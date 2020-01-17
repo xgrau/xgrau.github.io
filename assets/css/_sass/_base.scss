@@ -106,21 +106,13 @@ a {
 */
 
 blockquote {
-  margin: 10px 20px 10px;
-  padding: 0px 15px;
-  border-left: 0.25em solid #ccc;
-  color: #999;
+  margin: 10px auto;
+  padding: 0px 1em;
+  width:90%;
+  border-left: 0.25em solid rgb(65, 69, 71);
+  color: rgb(65, 69, 71);
   line-height: 1.5;
 }
-
-blockquote:before {
-  color: #ccc;
-  content: "\201C";
-  font-size: 4em;
-  left:10px;
-  top:-10px;
-}
-
 
 /**
  * Tables
