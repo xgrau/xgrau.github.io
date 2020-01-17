@@ -5,7 +5,7 @@ title: "Blog posts"
 
 {% for post in site.posts %}
 
-&NewLine;
+&nbsp;
 
 **[{{ post.title }}]({{ post.url }})**, {{ post.date | date: "%-d %B %Y" }} 
 
