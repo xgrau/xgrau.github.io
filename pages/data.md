@@ -7,6 +7,14 @@ title: Data & code
 
 You can cite the relevant papers (linked below, for each piece of data). Please & thank you.
 
+## Evolution of resistance to dieldrin in *Anopheles gambiae*, 2020
+
+Here's the code & instructions to reproduce the main analyses from our preprint [Evolution of the insecticide target *Rdl*in African *nopheles*is driven by interspecific and interkaryotypic introgression](https://www.biorxiv.org/content/10.1101/2019.12.17.879775v2){:target="_blank"} (Grau-Bové *et al.*, bioRxiv 2020).
+
+| Link | Description |
+| :--- | :--- |
+| **[Github](https://github.com/xgrau/rdl-Agam-evolution){:target="_blank"}** | code in Python 3.4 (ipython notebooks) |
+
 ## *Paraphelidium* transcriptome paper, 2018
 
 Data from [Global transcriptome analysis of the aphelid *Paraphelidium tribonemae* supports the phagotrophic origin of fungi](https://www.nature.com/articles/s42003-018-0235-z){:target="_blank"} (Torruella *et al.*, Communications Biology 2018).
