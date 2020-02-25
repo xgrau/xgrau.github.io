@@ -1,4 +1,129 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-13T23:01:21+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Xavier Grau-Bové</title><subtitle>Bioinformatician &amp; evolutionary genomicist</subtitle><author><name>Xavier Grau-Bové</name></author><entry><title type="html">A Refusal To Mourn The Death, By Fire, Of A Child In London</title><link href="http://localhost:4000/poema/a-refusal-to-mourn.html" rel="alternate" type="text/html" title="A Refusal To Mourn The Death, By Fire, Of A Child In London" /><published>2019-11-13T00:00:00+00:00</published><updated>2019-11-13T00:00:00+00:00</updated><id>http://localhost:4000/poema/a-refusal-to-mourn</id><content type="html" xml:base="http://localhost:4000/poema/a-refusal-to-mourn.html">&lt;p&gt;&lt;em&gt;A Refusal To Mourn The Death, By Fire, Of A Child In London&lt;/em&gt; (Dylan Thomas, 1945)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-25T21:21:16+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Xavier Grau-Bové</title><subtitle>Bioinformatician &amp; evolutionary genomicist</subtitle><author><name>Xavier Grau-Bové</name></author><entry><title type="html">Predicting the effects of alternative splicing events with VEP</title><link href="http://localhost:4000/science/effects-of-as-as-indels-with-vep.html" rel="alternate" type="text/html" title="Predicting the effects of alternative splicing events with VEP" /><published>2020-01-10T00:00:00+00:00</published><updated>2020-01-10T00:00:00+00:00</updated><id>http://localhost:4000/science/effects-of-as-as-indels-with-vep</id><content type="html" xml:base="http://localhost:4000/science/effects-of-as-as-indels-with-vep.html">&lt;p&gt;&lt;em&gt;This post is a stub&lt;/em&gt;. How can we predict the effects of alternative splicing (AS) events with the &lt;a href=&quot;https://www.ensembl.org/info/docs/tools/vep/index.html&quot;&gt;Ensembl Variant Effect Predictor&lt;/a&gt; (VEP)?  In our recent paper in eLife, we did so by encoding them as if they were indels.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://elifesciences.org/articles/49801&quot; target=&quot;_blank&quot;&gt;A unicellular relative of animals generates a layer of polarized cells by actomyosin-dependent cellularization&lt;/a&gt; (Dudin et al., eLife 2019)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;First, load an &lt;code class=&quot;highlighter-rouge&quot;&gt;ioe&lt;/code&gt; file generated with &lt;a href=&quot;https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-018-1417-1&quot;&gt;&lt;strong&gt;SUPPA2&lt;/strong&gt;&lt;/a&gt;, that contains all AS events&lt;/p&gt;
+
+&lt;div class=&quot;language-R highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;ioe&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read.table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;input_file_from_suppa.ioe&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iot&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ioe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ioe&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;seqname&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;seqname&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Encode AS events as indels and save as &lt;code class=&quot;highlighter-rouge&quot;&gt;csv&lt;/code&gt; for later use in VEP:&lt;/p&gt;
+
+&lt;div class=&quot;language-R highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;psi&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data.frame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;seqname&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;seqname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;in_start&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;NA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;in_end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;NA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;NA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;in_strand&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ev_strand&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;event_id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;event_id&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+
+&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# SE: codified as deletion (XXX/-) that starts and ends where the exon should be&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ev_type&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;SE&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;psi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;in_start&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ev_start&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;psi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;in_end&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ev_end&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;psi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;paste&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;as.vector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subseq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;psi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;seqname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+                   &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;psi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;in_start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+                   &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;psi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;in_end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)),&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/-&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sep&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;psi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;paste&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;psi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/-&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sep&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+
+&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# RI, A3, A5: codified as insertions (-/XXX) that start &lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# at ev_start-1, and end at ev_start (reversed format!)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ev_type&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;RI&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ev_type&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;A3&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ev_type&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;A5&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;psi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;in_start&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ev_start&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;+2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;psi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;in_end&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ev_start&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;+1&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;psi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;paste&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;-/&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;as.vector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subseq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;   &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;psi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;seqname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+                   &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ev_start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+                   &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ev_end&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;-1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)),&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sep&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+
+&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# MX, AF, AL: codified as complex events (YY/XXX) that start &lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# at ev_start-1, and end at ev_start (like insertions - reversed!)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ev_type&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;MX&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ev_type&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;AF&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ev_type&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;AL&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;psi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;in_start&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ev_start&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;+1&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;psi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;in_end&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ev_start&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;psi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;paste&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;-/&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;as.vector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subseq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;   &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;psi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;seqname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+                   &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ev_start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+                   &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ev_end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)),&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;as.vector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subseq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;   &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;psi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;seqname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+                   &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ev_startB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+                   &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acceptable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ev_endB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)),&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sep&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+
+&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# format VEP pseudoindel file&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;psi&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;na.omit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;psi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write.table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;psi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;as_as_indels.csv&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;row.names&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;F&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;col.names&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;F&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;quote&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;F&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sep&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;\t&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Use the &lt;code class=&quot;highlighter-rouge&quot;&gt;as_as_indels.csv&lt;/code&gt; file as input for VEP.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Bon profit!&lt;/p&gt;</content><author><name>Xavier Grau-Bové</name></author><category term="science" /><summary type="html">This post is a stub. How can we predict the effects of alternative splicing (AS) events with the Ensembl Variant Effect Predictor (VEP)? In our recent paper in eLife, we did so by encoding them as if they were indels.</summary></entry><entry><title type="html">«Uns per por i altres per pena»</title><link href="http://localhost:4000/poema/canconeta-juganera.html" rel="alternate" type="text/html" title="«Uns per por i altres per pena»" /><published>2020-01-06T00:00:00+00:00</published><updated>2020-01-06T00:00:00+00:00</updated><id>http://localhost:4000/poema/canconeta-juganera</id><content type="html" xml:base="http://localhost:4000/poema/canconeta-juganera.html">&lt;p&gt;&lt;em&gt;Cançoneta Juganera 2&lt;/em&gt; (Ovidi Montllor)&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;De genoll en avall
+carn estripada.
+Amb un pit grassonet
+i l'altre sec.
+
+Tres dents de dalt, del mig,
+li eren mancades.
+I reia amb boca gran.
+Un ull, plorava.
+
+Tot el ventre i baix ventre
+un gran forat.
+
+Una veu barrejada
+de granota i de corb
+sonava, quan sonava,
+i quan ho feia, fort.
+
+Molts milions de persones
+patien la visió
+i ni una sola matava
+aquella encarnació.
+
+Uns per por,
+altres per pena,
+farem del món
+una gangrena.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Xavier Grau-Bové</name></author><category term="poema" /><summary type="html">Cançoneta Juganera 2 (Ovidi Montllor)</summary></entry><entry><title type="html">A refusal to mourn the death, by fire, of a child in London</title><link href="http://localhost:4000/poema/a-refusal-to-mourn.html" rel="alternate" type="text/html" title="A refusal to mourn the death, by fire, of a child in London" /><published>2019-11-13T00:00:00+00:00</published><updated>2019-11-13T00:00:00+00:00</updated><id>http://localhost:4000/poema/a-refusal-to-mourn</id><content type="html" xml:base="http://localhost:4000/poema/a-refusal-to-mourn.html">&lt;p&gt;&lt;em&gt;A Refusal To Mourn The Death, By Fire, Of A Child In London&lt;/em&gt; (Dylan Thomas, 1945)&lt;/p&gt;
 
 &lt;p&gt;Original:&lt;/p&gt;
 
@@ -34,63 +159,7 @@ After the first death, there is no other.
 &lt;hr /&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Mai
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Xavier Grau-Bové</name></author><category term="poema" /><summary type="html">A Refusal To Mourn The Death, By Fire, Of A Child In London (Dylan Thomas, 1945)</summary></entry><entry><title type="html">«Do not go gentle into that good night»</title><link href="http://localhost:4000/poema/do-not-go-gentle-into-that-good-night.html" rel="alternate" type="text/html" title="«Do not go gentle into that good night»" /><published>2019-11-13T00:00:00+00:00</published><updated>2019-11-13T00:00:00+00:00</updated><id>http://localhost:4000/poema/do-not-go-gentle-into-that-good-night</id><content type="html" xml:base="http://localhost:4000/poema/do-not-go-gentle-into-that-good-night.html">&lt;p&gt;&lt;em&gt;Do not go gentle into that good night&lt;/em&gt; (Dylan Thomas, 1947)&lt;/p&gt;
-
-&lt;p&gt;Original:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Do not got gentle into that good night,
-old age should burn and rave at close of day;
-rage, rage against the dying of the light.
-
-Though wise men at their end know dark is right,
-Because their words had forked no lightning they
-do not go gentle into that good night.
-
-Good men, the last wave by, crying how bright
-their frail deeds might have danced in a gren bay
-rage, rage against the dying of the light.
-
-Wild men who caught and sang the sun in flight,
-and learn, too late, they grieved it on its way,
-do no go gentle into that good night.
-
-Grave men, near death, who see with blinding sight
-blind eyes could blaze like meteors and be gay,
-rage, rage against the dying of the light.
-
-And you, my father, there on the sad height,
-curse, bless, me now with your fierece tears, I pray.
-Do not go gentle into that good night.
-Rage, rage against the dying of the light.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;No us deixeu endur dòcilment per la foscor,
-la vellesa ha de brillar, dement, quan cau el sol.
-Rebel·leu-vos, rebel·leu-vos i que no mori la llum.
-
-Malgrat que els savis veuen la justícia de la seva fi,
-no poden partir cap llamp amb la paraula – i tot i així
-no es deixen endur dòcilment per la foscor.
-
-Els homes bons, quan veuen l’última ventada,
-ploren perquè seves febles fites ja no s’enlairaran,
-i es rebel·len, es rebel·len perquè no mori la llum.
-
-Els insensats que van atrapar el sol al vol
-i van viure prous anys com per penedir-se’n, ells
-no es deixen endur dòcilment per la foscor.
-
-Els malaurats que, quan s’apropa la fi, incendien
-el cel com meteors per darrer cop – ells són feliços
-i es rebel·len, es rebel·len perquè no mori la llum.
-
-I tu, quan em vegis des de la tristor de les altures,
-beneeïx-me, maleïx-me amb fúria – t’ho prego!
-No us deixeu endur dòcilment per la foscor,
-Rebel·leu-vos, rebel·leu-vos i que no mori la llum. 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Xavier Grau-Bové</name></author><category term="poema" /><summary type="html">Do not go gentle into that good night (Dylan Thomas, 1947)</summary></entry><entry><title type="html">Tyger, tyger — Tigre, tigre</title><link href="http://localhost:4000/poema/tigre.html" rel="alternate" type="text/html" title="Tyger, tyger — Tigre, tigre" /><published>2019-11-13T00:00:00+00:00</published><updated>2019-11-13T00:00:00+00:00</updated><id>http://localhost:4000/poema/tigre</id><content type="html" xml:base="http://localhost:4000/poema/tigre.html">&lt;p&gt;&lt;em&gt;The Tyger&lt;/em&gt; (William Blake, 1794)&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Xavier Grau-Bové</name></author><category term="poema" /><summary type="html">A Refusal To Mourn The Death, By Fire, Of A Child In London (Dylan Thomas, 1945)</summary></entry><entry><title type="html">Tyger, tyger — Tigre, tigre</title><link href="http://localhost:4000/poema/tigre.html" rel="alternate" type="text/html" title="Tyger, tyger — Tigre, tigre" /><published>2019-11-13T00:00:00+00:00</published><updated>2019-11-13T00:00:00+00:00</updated><id>http://localhost:4000/poema/tigre</id><content type="html" xml:base="http://localhost:4000/poema/tigre.html">&lt;p&gt;&lt;em&gt;The Tyger&lt;/em&gt; (William Blake, 1794)&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Tigre, tigre, llum que crema
 en el bosc de la tenebra,
@@ -279,7 +348,63 @@ Saved as a whole,
 freed from all bounds,
 no more a timid dog
 our own master at last.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Xavier Grau-Bové</name></author><category term="poema" /><summary type="html">Indesinenter (Salvador Espriu).</summary></entry><entry><title type="html">«The Disciple», modern</title><link href="http://localhost:4000/poema/narcissus.html" rel="alternate" type="text/html" title="«The Disciple», modern" /><published>2019-05-13T00:00:00+01:00</published><updated>2019-05-13T00:00:00+01:00</updated><id>http://localhost:4000/poema/narcissus</id><content type="html" xml:base="http://localhost:4000/poema/narcissus.html">&lt;p&gt;When Narcissus died the pool of his pleasure changed from a cup of sweet waters into a cup of salt tears, and the Oreads came weeping through the woodland that they might sing to the pool and give it comfort.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Xavier Grau-Bové</name></author><category term="poema" /><summary type="html">Indesinenter (Salvador Espriu).</summary></entry><entry><title type="html">«Do not go gentle into that good night»</title><link href="http://localhost:4000/poema/do-not-go-gentle-into-that-good-night.html" rel="alternate" type="text/html" title="«Do not go gentle into that good night»" /><published>2019-06-08T00:00:00+01:00</published><updated>2019-06-08T00:00:00+01:00</updated><id>http://localhost:4000/poema/do-not-go-gentle-into-that-good-night</id><content type="html" xml:base="http://localhost:4000/poema/do-not-go-gentle-into-that-good-night.html">&lt;p&gt;&lt;em&gt;Do not go gentle into that good night&lt;/em&gt; (Dylan Thomas, 1947)&lt;/p&gt;
+
+&lt;p&gt;Original:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Do not got gentle into that good night,
+old age should burn and rave at close of day;
+rage, rage against the dying of the light.
+
+Though wise men at their end know dark is right,
+Because their words had forked no lightning they
+do not go gentle into that good night.
+
+Good men, the last wave by, crying how bright
+their frail deeds might have danced in a gren bay
+rage, rage against the dying of the light.
+
+Wild men who caught and sang the sun in flight,
+and learn, too late, they grieved it on its way,
+do no go gentle into that good night.
+
+Grave men, near death, who see with blinding sight
+blind eyes could blaze like meteors and be gay,
+rage, rage against the dying of the light.
+
+And you, my father, there on the sad height,
+curse, bless, me now with your fierece tears, I pray.
+Do not go gentle into that good night.
+Rage, rage against the dying of the light.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;No us deixeu endur dòcilment per la foscor,
+la vellesa ha de brillar, dement, quan cau el sol.
+Rebel·leu-vos, rebel·leu-vos i que no mori la llum.
+
+Malgrat que els savis veuen la justícia de la seva fi,
+no poden partir cap llamp amb la paraula – i tot i així
+no es deixen endur dòcilment per la foscor.
+
+Els homes bons, quan veuen l’última ventada,
+ploren perquè seves febles fites ja no s’enlairaran,
+i es rebel·len, es rebel·len perquè no mori la llum.
+
+Els insensats que van atrapar el sol al vol
+i van viure prous anys com per penedir-se’n, ells
+no es deixen endur dòcilment per la foscor.
+
+Els malaurats que, quan s’apropa la fi, incendien
+el cel com meteors per darrer cop – ells són feliços
+i es rebel·len, es rebel·len perquè no mori la llum.
+
+I tu, quan em vegis des de la tristor de les altures,
+beneeïx-me, maleïx-me amb fúria – t’ho prego!
+No us deixeu endur dòcilment per la foscor,
+Rebel·leu-vos, rebel·leu-vos i que no mori la llum. 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Xavier Grau-Bové</name></author><category term="poema" /><summary type="html">Do not go gentle into that good night (Dylan Thomas, 1947)</summary></entry><entry><title type="html">«The Disciple», modern</title><link href="http://localhost:4000/poema/narcissus.html" rel="alternate" type="text/html" title="«The Disciple», modern" /><published>2019-05-13T00:00:00+01:00</published><updated>2019-05-13T00:00:00+01:00</updated><id>http://localhost:4000/poema/narcissus</id><content type="html" xml:base="http://localhost:4000/poema/narcissus.html">&lt;p&gt;When Narcissus died the pool of his pleasure changed from a cup of sweet waters into a cup of salt tears, and the Oreads came weeping through the woodland that they might sing to the pool and give it comfort.&lt;/p&gt;
 
 &lt;p&gt;And when they saw that the pool had changed from a cup of sweet waters into a cup of salt tears, they loosened the green tresses of their hair and cried to the pool and said, «We do not wonder that you should mourn in this manner for Narcissus, so beautiful was he».&lt;/p&gt;
 
@@ -300,7 +425,7 @@ our own master at last.
   &lt;/div&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;&lt;em&gt;The Disciple&lt;/em&gt; (Poems in Prose, 1924, Oscar Wilde), amb modificacions.&lt;/p&gt;</content><author><name>Xavier Grau-Bové</name></author><category term="poema" /><summary type="html">When Narcissus died the pool of his pleasure changed from a cup of sweet waters into a cup of salt tears, and the Oreads came weeping through the woodland that they might sing to the pool and give it comfort.</summary></entry><entry><title type="html">Paraphelidium transcriptome: some code</title><link href="http://localhost:4000/science/paraphelidium-code.html" rel="alternate" type="text/html" title="Paraphelidium transcriptome: some code" /><published>2019-02-11T00:00:00+00:00</published><updated>2019-02-11T00:00:00+00:00</updated><id>http://localhost:4000/science/paraphelidium-code</id><content type="html" xml:base="http://localhost:4000/science/paraphelidium-code.html">&lt;p&gt;This is a quick post to highlight the publication of &lt;strong&gt;&lt;a href=&quot;https://www.nature.com/articles/s42003-018-0235-z&quot;&gt;Global transcriptome analysis of the aphelid &lt;em&gt;Paraphelidium tribonemae&lt;/em&gt; supports the phagotrophic origin of fungi&lt;/a&gt;&lt;/strong&gt; by Guifré Torruella, Purificación López-García (Université Paris-Sud) et al., in Communications Biology.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The Disciple&lt;/em&gt; (Poems in Prose, 1924, Oscar Wilde), amb modificacions.&lt;/p&gt;</content><author><name>Xavier Grau-Bové</name></author><category term="poema" /><summary type="html">When Narcissus died the pool of his pleasure changed from a cup of sweet waters into a cup of salt tears, and the Oreads came weeping through the woodland that they might sing to the pool and give it comfort.</summary></entry><entry><title type="html">Paraphelidium transcriptome: some code</title><link href="http://localhost:4000/science/paraphelidium-code.html" rel="alternate" type="text/html" title="Paraphelidium transcriptome: some code" /><published>2019-02-11T00:00:00+00:00</published><updated>2019-02-11T00:00:00+00:00</updated><id>http://localhost:4000/science/paraphelidium-code</id><content type="html" xml:base="http://localhost:4000/science/paraphelidium-code.html">&lt;p&gt;This is a quick post to highlight the publication of &lt;a href=&quot;https://www.nature.com/articles/s42003-018-0235-z&quot;&gt;Global transcriptome analysis of the aphelid &lt;em&gt;Paraphelidium tribonemae&lt;/em&gt; supports the phagotrophic origin of fungi&lt;/a&gt; by Guifré Torruella, Purificación López-García (Université Paris-Sud) et al., in Communications Biology.&lt;/p&gt;
 
 &lt;p&gt;In parallel, we released the &lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt; code we used to analyse the functional profile of its gene content, which you can find it in this &lt;strong&gt;&lt;a href=&quot;https://github.com/xgrau/paraphelidium2018&quot;&gt;Github repository&lt;/a&gt;&lt;/strong&gt;. We used the absence/presence profile of a set of genes linked to primary metabolism in the genomes (or transcriptomes) of unicellular eukaryotes to highlight similarities between the gene content of fungi and &lt;em&gt;Paraphelidium&lt;/em&gt;.&lt;/p&gt;
 
@@ -317,7 +442,14 @@ our own master at last.
   &lt;/div&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;These results highlight the similarities between the rich primary metabolism of Paraphelidium and ‘canonical’ fungi. Thus, unlike other early-branching fungal allies such as &lt;em&gt;Rozella&lt;/em&gt;, &lt;em&gt;Paraphelidium&lt;/em&gt; does not have a simplified metabolism. This is consistent with what is actually the most interesting result of the paper (in my opinion): the phylogenomic analysis of &lt;em&gt;Paraphelidium&lt;/em&gt; consolidates its position as sister-group to fungi and breaks up its association with &lt;em&gt;Rozella&lt;/em&gt; and microsporidians. This has important implications regarding the lifestyle of the ancestral fungi, which was likely phagotrophic (instead of osmotrophic).&lt;/p&gt;
+&lt;p&gt;The script &lt;code class=&quot;highlighter-rouge&quot;&gt;dimreduction-heatmaps_Torruella_et_al_2018.R&lt;/code&gt; takes as input a tab-separated table where rows are genes/orthogroups and columns are various species. You can load any table you wish by editing these lines, right at the beginning of the script:&lt;/p&gt;
+
+&lt;div class=&quot;language-R highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;primary_transposed.txt&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# assumes a wide-style matrix with headers, rows=genes/OGs &amp;amp; cols=sps &lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-R highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;mi&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read.table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sep&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;\t&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Our results highlight the similarities between the rich primary metabolism of Paraphelidium and ‘canonical’ fungi. Thus, unlike other early-branching fungal allies such as &lt;em&gt;Rozella&lt;/em&gt;, &lt;em&gt;Paraphelidium&lt;/em&gt; does not have a simplified metabolism. This is consistent with what is actually the most interesting result of the paper (in my opinion): the phylogenomic analysis of &lt;em&gt;Paraphelidium&lt;/em&gt; consolidates its position as sister-group to fungi and breaks up its association with &lt;em&gt;Rozella&lt;/em&gt; and microsporidians. This has important implications regarding the lifestyle of the ancestral fungi, which was likely phagotrophic (instead of osmotrophic).&lt;/p&gt;
 
 &lt;p&gt;But you should definetely read the &lt;a href=&quot;https://www.nature.com/articles/s42003-018-0235-z&quot;&gt;paper&lt;/a&gt; to get the whole picture ;)&lt;/p&gt;</content><author><name>Xavier Grau-Bové</name></author><category term="science" /><summary type="html">This is a quick post to highlight the publication of Global transcriptome analysis of the aphelid Paraphelidium tribonemae supports the phagotrophic origin of fungi by Guifré Torruella, Purificación López-García (Université Paris-Sud) et al., in Communications Biology.</summary></entry><entry><title type="html">Evolution of alternative splicing in eukaryotes</title><link href="http://localhost:4000/science/the-evolution-of-alternative-splicing-in-eukaryotes-and-the-animal-revolution.html" rel="alternate" type="text/html" title="Evolution of alternative splicing in eukaryotes" /><published>2018-09-18T00:00:00+01:00</published><updated>2018-09-18T00:00:00+01:00</updated><id>http://localhost:4000/science/the-evolution-of-alternative-splicing-in-eukaryotes-and-the-animal-revolution</id><content type="html" xml:base="http://localhost:4000/science/the-evolution-of-alternative-splicing-in-eukaryotes-and-the-animal-revolution.html">&lt;p&gt;After a few years of work with &lt;a href=&quot;http://multicellgenome.com/&quot; target=&quot;_blank&quot;&gt;Iñaki Ruiz-Trillo&lt;/a&gt; (IBE and ICREA) and &lt;a href=&quot;https://www.crg.eu/en/group-members/manuel-irimia&quot; target=&quot;_blank&quot;&gt;Manuel Irimia&lt;/a&gt; (CRG), the last paper from my PhD thesis has just been published in Genome Biology — you can read it here (open access, of course).&lt;/p&gt;
 
@@ -488,27 +620,4 @@ I cried to dream again.&lt;/p&gt;
 
 &lt;p&gt;STEPHANO — This will prove a brave kingdom to me, where I shall have my music for nothing.&lt;/p&gt;
 
-&lt;p&gt;CALIBAN — When Prospero is destroyed.&lt;/p&gt;</content><author><name>Xavier Grau-Bové</name></author><category term="poema" /><summary type="html">Act 3, Scene 2, 71-79</summary></entry><entry><title type="html">«I tan mateix»</title><link href="http://localhost:4000/poema/i-tanmateix.html" rel="alternate" type="text/html" title="«I tan mateix»" /><published>2018-08-04T00:00:00+01:00</published><updated>2018-08-04T00:00:00+01:00</updated><id>http://localhost:4000/poema/i-tanmateix</id><content type="html" xml:base="http://localhost:4000/poema/i-tanmateix.html">&lt;p&gt;&lt;em&gt;Aquesta remor que se sent&lt;/em&gt; (Miquel Martí i Pol, 1971)&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Aquesta remor que se sent no és de pluja.
-Ja fa molt de temps que no plou.
-S’han eixugat les fonts i la pols s’acumula
-pels carrers i les cases.
-
-Aquesta remor que se sent no és de vent.
-Han prohibit el vent perquè no s’alci
-la pols que hi ha pertot
-i l’aire no esdevingui, diuen, irrespirable.
-
-Aquesta remor que se sent no és de paraules.
-Han prohibit les paraules perquè
-no posin en perill
-la fràgil immobilitat de l’aire.
-
-Aquesta remor que se sent no és de pensaments.
-Han estat prohibits perquè no engendrin
-la necessitat de parlar
-i sobrevingui, inevitable, la catàstrofe.
-
-I, tan mateix, la remor persisteix.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Xavier Grau-Bové</name></author><category term="poema" /><summary type="html">Aquesta remor que se sent (Miquel Martí i Pol, 1971)</summary></entry></feed>
+&lt;p&gt;CALIBAN — When Prospero is destroyed.&lt;/p&gt;</content><author><name>Xavier Grau-Bové</name></author><category term="poema" /><summary type="html">Act 3, Scene 2, 71-79</summary></entry></feed>

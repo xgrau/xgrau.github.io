@@ -54,7 +54,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-02-11T00:00:00+00:00" />
 <script type="application/ld+json">
-{"datePublished":"2019-02-11T00:00:00+00:00","@type":"BlogPosting","dateModified":"2019-02-11T00:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/science/paraphelidium-code.html"},"url":"http://localhost:4000/science/paraphelidium-code.html","author":{"@type":"Person","name":"Xavier Grau-Bové"},"description":"Paraphelidium transcriptome: some code","headline":"Paraphelidium transcriptome: some code","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","headline":"Paraphelidium transcriptome: some code","dateModified":"2019-02-11T00:00:00+00:00","datePublished":"2019-02-11T00:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/science/paraphelidium-code.html"},"url":"http://localhost:4000/science/paraphelidium-code.html","author":{"@type":"Person","name":"Xavier Grau-Bové"},"description":"Paraphelidium transcriptome: some code","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -124,9 +124,9 @@
 </header>
 
   <div class="page-content">
-  <h1>
+  <h2>
     Paraphelidium transcriptome: some code
-  </h1>
+  </h2>
 
   <span class="post-date">
     Written on
@@ -143,7 +143,7 @@
   
 
   <article>
-    <p>This is a quick post to highlight the publication of <strong><a href="https://www.nature.com/articles/s42003-018-0235-z">Global transcriptome analysis of the aphelid <em>Paraphelidium tribonemae</em> supports the phagotrophic origin of fungi</a></strong> by Guifré Torruella, Purificación López-García (Université Paris-Sud) et al., in Communications Biology.</p>
+    <p>This is a quick post to highlight the publication of <a href="https://www.nature.com/articles/s42003-018-0235-z">Global transcriptome analysis of the aphelid <em>Paraphelidium tribonemae</em> supports the phagotrophic origin of fungi</a> by Guifré Torruella, Purificación López-García (Université Paris-Sud) et al., in Communications Biology.</p>
 
 <p>In parallel, we released the <code class="highlighter-rouge">R</code> code we used to analyse the functional profile of its gene content, which you can find it in this <strong><a href="https://github.com/xgrau/paraphelidium2018">Github repository</a></strong>. We used the absence/presence profile of a set of genes linked to primary metabolism in the genomes (or transcriptomes) of unicellular eukaryotes to highlight similarities between the gene content of fungi and <em>Paraphelidium</em>.</p>
 
@@ -160,7 +160,14 @@
   </div>
 </figure>
 
-<p>These results highlight the similarities between the rich primary metabolism of Paraphelidium and ‘canonical’ fungi. Thus, unlike other early-branching fungal allies such as <em>Rozella</em>, <em>Paraphelidium</em> does not have a simplified metabolism. This is consistent with what is actually the most interesting result of the paper (in my opinion): the phylogenomic analysis of <em>Paraphelidium</em> consolidates its position as sister-group to fungi and breaks up its association with <em>Rozella</em> and microsporidians. This has important implications regarding the lifestyle of the ancestral fungi, which was likely phagotrophic (instead of osmotrophic).</p>
+<p>The script <code class="highlighter-rouge">dimreduction-heatmaps_Torruella_et_al_2018.R</code> takes as input a tab-separated table where rows are genes/orthogroups and columns are various species. You can load any table you wish by editing these lines, right at the beginning of the script:</p>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">input</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"primary_transposed.txt"</span><span class="w"> </span><span class="c1"># assumes a wide-style matrix with headers, rows=genes/OGs &amp; cols=sps </span><span class="w">
+</span></code></pre></div></div>
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">mi</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">read.table</span><span class="p">(</span><span class="n">input</span><span class="p">,</span><span class="n">header</span><span class="o">=</span><span class="nb">T</span><span class="p">,</span><span class="n">sep</span><span class="o">=</span><span class="s2">"\t"</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Our results highlight the similarities between the rich primary metabolism of Paraphelidium and ‘canonical’ fungi. Thus, unlike other early-branching fungal allies such as <em>Rozella</em>, <em>Paraphelidium</em> does not have a simplified metabolism. This is consistent with what is actually the most interesting result of the paper (in my opinion): the phylogenomic analysis of <em>Paraphelidium</em> consolidates its position as sister-group to fungi and breaks up its association with <em>Rozella</em> and microsporidians. This has important implications regarding the lifestyle of the ancestral fungi, which was likely phagotrophic (instead of osmotrophic).</p>
 
 <p>But you should definetely read the <a href="https://www.nature.com/articles/s42003-018-0235-z">paper</a> to get the whole picture ;)</p>
 
