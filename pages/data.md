@@ -7,31 +7,20 @@ title: Data & code
 
 You can cite the relevant papers (linked below, for each piece of data). Please & thank you.
 
-## Evolution of resistance to dieldrin in *Anopheles gambiae*, 2020
+## Github repositories
 
-Here's the code & instructions to reproduce the main analyses from our preprint [Evolution of the insecticide target *Rdl*in African *nopheles*is driven by interspecific and interkaryotypic introgression](https://www.biorxiv.org/content/10.1101/2019.12.17.879775v2){:target="_blank"} (Grau-Bové *et al.*, bioRxiv 2020).
-
-| Link | Description |
-| :--- | :--- |
-| **[Github](https://github.com/xgrau/rdl-Agam-evolution){:target="_blank"}** | code in Python 3.4 (ipython notebooks) |
-
-## *Paraphelidium* transcriptome paper, 2018
-
-Data from [Global transcriptome analysis of the aphelid *Paraphelidium tribonemae* supports the phagotrophic origin of fungi](https://www.nature.com/articles/s42003-018-0235-z){:target="_blank"} (Torruella *et al.*, Communications Biology 2018).
+Code and instructions for the following projects:
 
 | Link | Description |
 | :--- | :--- |
-| **[Github](https://github.com/xgrau/paraphelidium2018){:target="_blank"}** | R code for the *Paraphelidium* transcriptome paper |
+| **[Github](https://github.com/xgrau/ace1-anopheles-report){:target="_blank"}** | Main analyses from our preprint **Resistance to pirimiphos-methyl in West African *Anopheles* is spreading via duplication and introgression of the *Ace1* locus** (Grau-Bové *et al.*, bioRxiv 2020). Code in Python 3.4 & ipython notebooks. |
+| **[Github](https://github.com/xgrau/rdl-Agam-evolution){:target="_blank"}** | Main analyses from our preprint [**Evolution of the insecticide target *Rdl*in African *nopheles*is driven by interspecific and interkaryotypic introgression**](https://www.biorxiv.org/content/10.1101/2019.12.17.879775v2){:target="_blank"} (Grau-Bové *et al.*, bioRxiv 2020). Code in Python 3.4 & ipython notebooks. |
+| **[Github](https://github.com/xgrau/paraphelidium2018){:target="_blank"}** | R code, [**Global transcriptome analysis of the aphelid *Paraphelidium tribonemae* supports the phagotrophic origin of fungi**](https://www.nature.com/articles/s42003-018-0235-z){:target="_blank"} (Torruella *et al.*, Communications Biology 2018) |
+| **[Github](https://github.com/xgrau/alternativesplicing2018){:target="_blank"}** | Genome annotation data and list of species used in the paper [**Origin of exon skipping-rich transcriptomes in animals driven by evolution of gene architecture**](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1499-9){:target="_blank"} (Grau-Bové *et al.*, Genome Biology 2018) |
 
-## Evolution of alternative splicing in eukaryotes, 2018
+## Data
 
-Data from [Origin of exon skipping-rich transcriptomes in animals driven by evolution of gene architecture](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1499-9){:target="_blank"} (Grau-Bové *et al.*, Genome Biology 2018).
-
-| Link | Description |
-| :--- | :--- |
-| **[Github](https://github.com/xgrau/alternativesplicing2018){:target="_blank"}** | Genome annotation data and list of species used in the paper |
-
-## Dynamics of genomic innovation in the unicellular ancestry of animals, 2017
+### Dynamics of genomic innovation in the unicellular ancestry of animals, 2017
 
 Data from [Dynamics of genomic innovation in the unicellular ancestry of animals](https://elifesciences.org/articles/26036){:target="_blank"} (Grau-Bové *et al.*, eLife 2017).
 
