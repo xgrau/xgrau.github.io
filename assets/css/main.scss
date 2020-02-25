@@ -7,14 +7,22 @@
 */
 @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:400,400i,700,700i&display=swap&subset=latin-ext');
 // @import url('https://fonts.googleapis.com/css?family=Fira+Code:400,400i,700,700i');
-@import url('https://fonts.googleapis.com/css?family=Overpass+Mono:400,600,700&display=swap&subset=latin-ext');
+// @import url('https://fonts.googleapis.com/css?family=Overpass+Mono:400,600,700&display=swap&subset=latin-ext');
 // @import url('https://fonts.googleapis.com/css?family=Oxygen+Mono&display=swap&subset=latin-ext');
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/assets/fonts/JetBrainsMono/eot/JetBrainsMono-Regular.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/JetBrainsMono/eot/JetBrainsMono-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/JetBrainsMono/woff/JetBrainsMono-Regular.woff') format('woff'), /* Modern Browsers */
+       url('/assets/fonts/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
 
 $base-font-family: 'Be Vietnam', sans-serif;
 
 $body-font-family: 'Be Vietnam', sans-serif;
 
-$code-font-family: "Overpass Mono", monospace;
+$code-font-family: "JetBrains Mono", monospace;
 
 $brand-color: rgb(0, 82, 189); // blau
 // $brand-color: rgb(44, 44, 44); // gris molt fosc
