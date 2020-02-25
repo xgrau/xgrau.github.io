@@ -11,6 +11,19 @@ You can cite the relevant papers (linked below, for each piece of data). Please 
 
 Code and instructions for the following projects:
 
+<i class="fa fa-github" aria-hidden="true">
+  ::before
+</i>
+  
+<i class="fa fa-github">
+  ::before
+</i>
+
+<i class="fa fa-github"></i>
+
+<i class="fa fa-github" aria-hidden="true"></i>
+
+
 | Link | Description |
 | :--- | :--- |
 | **[Github](https://github.com/xgrau/ace1-anopheles-report){:target="_blank"}** | Preprint: [Resistance to pirimiphos-methyl in West African *Anopheles* is spreading via duplication and introgression of the *Ace1* locus](https://github.com/xgrau/ace1-anopheles-report) (Grau-Bové *et al.*, bioRxiv 2020). Python 3.4 & R |
