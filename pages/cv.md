@@ -5,11 +5,13 @@ title: Curriculum
 
 ## Research & education
 
-* 2018-present – Postdoctoral Research Associate, [Liverpool School of Tropical Medicine](https://www.lstmed.ac.uk/research/departments/vector-biology){:target="_blank"}, with David Weetman and Martin Donnelly (Department of Vector Biology).
+* From April 2020 – Postdoctoral Research Associate at the [Centre de Regulació Genòmica](www.crg.cat){:target="_blank"}, with [Arnau Sebé-Pedrós](https://www.crg.eu/en/programmes-groups/sebe-pedros-lab){:target="_blank"} (Systems Biology Department).
+
+* 2018-2020 – Postdoctoral Research Associate, [Liverpool School of Tropical Medicine](https://www.lstmed.ac.uk/research/departments/vector-biology){:target="_blank"}, with David Weetman and Martin Donnelly (Department of Vector Biology).
 
 * 2017-2018 – Postdoctoral Research Associate, Institut de Biologia Evolutiva (Universitat Pompeu Fabra-CSIC), with [Iñaki Ruiz-Trillo](http://multicellgenome.com/){:target="_blank"}.
 
-* 2012-2017 – PhD in Genetics, Universitat de Barcelona and Institut de Biologia Evolutiva (Barcelona), in the lab of [Iñaki Ruiz-Trillo](http://multicellgenome.com/){:target="_blank"} (Multicell Genome Lab). Completed cum laude and Extraordinary Prize award.
+* 2012-2017 – PhD in Genetics, Universitat de Barcelona and Institut de Biologia Evolutiva (Barcelona), in the lab of [Iñaki Ruiz-Trillo](http://multicellgenome.com/){:target="_blank"} (Multicell Genome Lab). Completed *cum laude* and Extraordinary Prize award.
 
 * 2011-2012 – MSc in Developmental Biology and Genetics, Universitat de Barcelona. Completed with Extraordinary Prize award.
 
