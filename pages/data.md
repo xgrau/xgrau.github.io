@@ -26,7 +26,7 @@ Code and instructions for the following projects:
 Data from [Dynamics of genomic innovation in the unicellular ancestry of animals](https://elifesciences.org/articles/26036){:target="_blank"} (Grau-Bové *et al.*, eLife 2017).
 
 | Link | Description |
-| :--- | :--- |
+| :--: | :---------- |
 | [&#x1f517;<i class="fa fa-github"></i>](https://github.com/xgrau/dynamicsinnovation2017){:target="_blank"} | Supplementary data and figures. Includes phylogenomic alignments. |
 | [&#x1f517;Figshare](https://figshare.com/articles/Genome_-_Corallochytrium_limacisporum/5426470){:target="_blank"} | Genome assembly and annotation of *Corallochytrium limacisporum* |
 | [&#x1f517;Figshare](https://figshare.com/articles/Genome_-_Chromosphaera_perkinsii/5426494){:target="_blank"} | Genome assembly and annotation of *Chromosphaera perkinsii* |
