@@ -6,7 +6,8 @@ layout: default
   <h2>
     {{ page.title }}
   </h2>
-
+  
+  <b>
   <span class="post-date">
     {{ site.data.settings.post_date_prefix }}
     {% assign d = page.date | date: "%-d"  %}
@@ -24,6 +25,7 @@ layout: default
       {{ site.author }}
     {% endif %}
   </span>
+  </b>
 
   {% if page.image %}
     <div class="featured-image">
