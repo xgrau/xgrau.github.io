@@ -1,6 +1,6 @@
 ---
 layout: misc
-title: "Blog posts"
+title: "Blog"
 ---
 
 {% for post in site.posts %}
