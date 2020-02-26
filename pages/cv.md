@@ -23,4 +23,3 @@ A complete list of publications can be found in the following links:
 
 * [ORCID 0000-0003-1978-5824](https://orcid.org/0000-0003-1978-5824){:target="_blank"}
 * [Google Scholar](https://scholar.google.com/citations?user=wV8yidYAAAAJ&hl=ca){:target="_blank"}
-* [Research Gate](https://www.researchgate.net/profile/Xavier_Grau-Bove){:target="_blank"}
