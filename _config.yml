@@ -16,7 +16,7 @@ sass:
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "Xavier Grau-Bové"
 description:	       "Bioinformatician & evolutionary genomicist"
-author:              "Xavier Grau-Bové"
+author:              "xgrau"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
