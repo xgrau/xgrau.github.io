@@ -5,7 +5,7 @@ title: Intro
 
 ## About me
 
-<img align="left" width="143" height="143" src="/assets/img/perfil_original.png">
+<img align="left" width="120" height="120" src="/assets/img/perfil_original.png">
 
 I am a Post Doctoral Research Associate at the [Centre de Regulació Genòmica](https://www.crg.cat/){:target="_blank"} in Barcelona, working with [Arnau Sebé-Pedrós](https://www.crg.eu/en/programmes-groups/sebe-pedros-lab){:target="_blank"}. We use comparative genomics and transcriptomics to investigate the evolutionary dynamics of genome regulation and cell type diversity across the eukaryotic tree of life — from animals to protists. 
 
