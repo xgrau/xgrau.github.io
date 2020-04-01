@@ -5,7 +5,7 @@ menu:
 - {name: 'CV', folder: 'pages', file: 'cv.html'}
 - {name: 'Data & code', folder: 'pages', file: 'data.html'}
 - {name: 'Blog', folder: 'pages', file: 'blog.html'}
-- {name: 'Projects', folder: 'pages', file: 'projects.html'}
+# - {name: 'Projects', folder: 'pages', file: 'projects.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
