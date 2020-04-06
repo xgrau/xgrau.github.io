@@ -21,7 +21,7 @@ I obtained my PhD from the University of Barcelona in 2017, under the supervisio
 
 * [Origin of exon skipping-rich transcriptomes in animals driven by evolution of gene architecture](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1499-9){:target="_blank"} (Grau-Bové *et al.* Genome Biology 2018), which I talked about in [this post](_posts/2018-09-18-the-evolution-of-alternative-splicing-in-eukaryotes-and-the-animal-revolution.md).
 
-<img align="centre" width="180" src="/assets/img/asfig.png">
+<img align="centre" width="200" src="/assets/img/asfig.png">
 
 ## Recent posts
 
