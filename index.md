@@ -5,7 +5,7 @@ title: Intro
 
 ## About me
 
-<img align="left" width="120" height="120" src="/assets/img/perfil_original.png">
+<img align="left" width="120" height="120" src="/assets/img/perfil_original.png" alt="<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="orcid.org/0000-0003-1978-5824" href="https://orcid.org/0000-0003-1978-5824" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0003-1978-5824</a></div>">
 
 I am a Post Doctoral Research Associate at the [Centre de Regulació Genòmica](https://www.crg.cat/){:target="_blank"} in Barcelona, working with [Arnau Sebé-Pedrós](https://www.crg.eu/en/programmes-groups/sebe-pedros-lab){:target="_blank"}. We use comparative genomics and transcriptomics to investigate the evolutionary dynamics of genome regulation and cell type diversity across the eukaryotic tree of life — from animals to protists. 
 
