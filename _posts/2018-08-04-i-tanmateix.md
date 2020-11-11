@@ -35,25 +35,25 @@ I, tan mateix, la remor persisteix.
 ****
 
 ```
-This quiet drone comes not from the rain.
+This quiet murmur comes not from the rain.
 It has not rained for so long
 wells dried up, and dust piles up
 across streets and houses.
 
-This quiet drone comes not from the wind.
+This quiet murmur comes not from the wind.
 Wind has been forbidden,
-to prevent the storms of dust 
+to prevent the storms of dust
 that foul the air — or so they say.
 
-This quiet drone comes not from words.
+This quiet murmur comes not from words.
 Words are now forbidden,
 to avoid upsetting this peace,
 this fragile calmness in the air.
 
-This quiet drone comes not from thoughts.
+This quiet murmur comes not from thoughts.
 They are now forbidden too,
 to evade the want for words
-and the inevitable catastrophe.
+and the unavoidable catastrophe.
 
-And yet the droning remains.
+And yet the murmur remains.
 ```
