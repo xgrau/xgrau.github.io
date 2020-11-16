@@ -12,7 +12,7 @@ tags: poema
 Si aquest poema que llegiu
 fos traduït a l’italià seria
 exactament aquest poema italià
-que llegiríeu```
+que llegiríeu
 ```
 
 *****
@@ -21,7 +21,8 @@ que llegiríeu```
 
 ```
 Were this poem you are reading
-to be translated into Italian, it would
-then be nothing but an Italian poem
+to be translated into Italian,
+it'd then be nothing but
+	an Italian poem
 that you'd be reading.
 ```
