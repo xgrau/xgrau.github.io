@@ -5,7 +5,7 @@ title: Curriculum
 
 ## Research & education
 
-* From April 2020 – Postdoctoral Research Associate at the [Centre de Regulació Genòmica](https://www.crg.cat){:target="_blank"}, with [Arnau Sebé-Pedrós](https://www.crg.eu/en/programmes-groups/sebe-pedros-lab){:target="_blank"} (Systems Biology Department).
+* From April 2020 – Postdoctoral Research Associate at the [Centre de Regulació Genòmica](https://www.crg.cat){:target="_blank"}, with [Arnau Sebé-Pedrós](https://www.sebepedroslab.org/){:target="_blank"} (Systems Biology Department).
 
 * 2018-2020 – Postdoctoral Research Associate, [Liverpool School of Tropical Medicine](https://www.lstmed.ac.uk/research/departments/vector-biology){:target="_blank"}, with David Weetman and Martin Donnelly (Department of Vector Biology).
 
