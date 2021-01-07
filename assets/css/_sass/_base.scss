@@ -55,9 +55,10 @@ h4, h5, h6 {
 
 /* Body */
 body {
-  font-family: $base-font-family;
-//   font-size: 1.05em;
-  font-size: 1.2em;
+	font-family: $base-font-family;
+	// font-size: 1.05em;
+	font-weight: lighter;
+	font-size: 1.2em;
 }
 
 body img {
