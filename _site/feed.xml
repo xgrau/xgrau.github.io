@@ -1,17 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-26T19:16:02+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Xavier Grau-Bové</title><subtitle>Bioinformatician &amp; evolutionary genomicist</subtitle><author><name>Xavier Grau-Bové</name></author><entry><title type="html">Predicting the effects of alternative splicing events with VEP</title><link href="http://localhost:4000/science/effects-of-as-as-indels-with-vep.html" rel="alternate" type="text/html" title="Predicting the effects of alternative splicing events with VEP" /><published>2020-01-10T00:00:00+00:00</published><updated>2020-01-10T00:00:00+00:00</updated><id>http://localhost:4000/science/effects-of-as-as-indels-with-vep</id><content type="html" xml:base="http://localhost:4000/science/effects-of-as-as-indels-with-vep.html">&lt;p&gt;&lt;em&gt;This post is a stub&lt;/em&gt;. How can we predict the effects of alternative splicing (AS) events with the &lt;a href=&quot;https://www.ensembl.org/info/docs/tools/vep/index.html&quot;&gt;Ensembl Variant Effect Predictor&lt;/a&gt; (VEP)?  In our recent paper in eLife, we did so by encoding them as if they were indels.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-07T17:47:57+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Xavier Grau-Bové</title><subtitle>Bioinformatician &amp; evolutionary genomicist</subtitle><author><name>xgrau</name></author><entry><title type="html">La font del mirall</title><link href="http://localhost:4000/poema/poema-italia-La-font-del-mirall.html" rel="alternate" type="text/html" title="La font del mirall" /><published>2020-11-16T00:00:00+01:00</published><updated>2020-11-16T00:00:00+01:00</updated><id>http://localhost:4000/poema/poema-italia-La-font-del-mirall</id><content type="html" xml:base="http://localhost:4000/poema/poema-italia-La-font-del-mirall.html">&lt;p&gt;&lt;em&gt;La font del mirall&lt;/em&gt;, Joan Brossa.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Si aquest poema que llegiu
+fos traduït a l’italià seria
+exactament aquest poema italià
+que llegiríeu
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;The source of the mirror&lt;/em&gt;, Joan Brossa.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Were this poem you are reading
+to be translated into Italian,
+it'd then be nothing but
+	an Italian poem
+that you'd be reading.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>xgrau</name></author><category term="poema" /><category term="poema" /><summary type="html">La font del mirall, Joan Brossa.</summary></entry><entry><title type="html">Dos micos, de Brueghel</title><link href="http://localhost:4000/poema/Dos-micos-de-Brueghel.html" rel="alternate" type="text/html" title="Dos micos, de Brueghel" /><published>2020-11-15T00:00:00+01:00</published><updated>2020-11-15T00:00:00+01:00</updated><id>http://localhost:4000/poema/Dos-micos-de-Brueghel</id><content type="html" xml:base="http://localhost:4000/poema/Dos-micos-de-Brueghel.html">&lt;p&gt;&lt;em&gt;Dwie małpy Bruegla&lt;/em&gt; (&lt;em&gt;Dos micos de Brueghel&lt;/em&gt;), Wisława Szymborska.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Això és el que veig en el meu somni sobre els exàmens finals:
+hi ha una finestra amb dos micos encadenats,
+més enllà de la finestra hi sura el cel
+i s’hi banya el mar.
+
+M’examino sobre la història de la humanitat:
+dubto i m’entrebanco.
+
+Un mico em mira de fit a fit i para l’orella desdenyós,
+l’altre sembla endormiscat — 
+però quan vacil·lo després de cada pregunta,
+ell em dóna entrada
+fent dringar suaument la cadena.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Original:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Tak wygląda mój wielki maturalny sen:
+siedzą w oknie dwie małpy przykute łańcuchem,
+za oknem fruwa niebo
+i kąpie się morze.
+
+Zdaję z historii ludzi.
+Jąkam się i brnę.
+
+Małpa, wpatrzona we mnie, ironicznie słucha,
+druga niby to drzemie –
+a kiedy po pytaniu nastaje milczenie,
+podpowiada mi
+cichym brzękaniem łańcucha.
+
+Dwie małpy Bruegla
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>xgrau</name></author><category term="poema" /><category term="poema" /><summary type="html">Dwie małpy Bruegla (Dos micos de Brueghel), Wisława Szymborska.</summary></entry><entry><title type="html">Predicting the effects of alternative splicing events with VEP</title><link href="http://localhost:4000/science/effects-of-as-as-indels-with-vep.html" rel="alternate" type="text/html" title="Predicting the effects of alternative splicing events with VEP" /><published>2020-01-10T00:00:00+01:00</published><updated>2020-01-10T00:00:00+01:00</updated><id>http://localhost:4000/science/effects-of-as-as-indels-with-vep</id><content type="html" xml:base="http://localhost:4000/science/effects-of-as-as-indels-with-vep.html">&lt;p&gt;&lt;em&gt;This post is a stub&lt;/em&gt;. How can we predict the effects of alternative splicing (AS) events with the &lt;a href=&quot;https://www.ensembl.org/info/docs/tools/vep/index.html&quot;&gt;Ensembl Variant Effect Predictor&lt;/a&gt; (VEP)?  In our recent paper in eLife, we did so by encoding them as if they were indels.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;a href=&quot;https://elifesciences.org/articles/49801&quot; target=&quot;_blank&quot;&gt;A unicellular relative of animals generates a layer of polarized cells by actomyosin-dependent cellularization&lt;/a&gt; (Dudin et al., eLife 2019)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;First, load an &lt;code class=&quot;highlighter-rouge&quot;&gt;ioe&lt;/code&gt; file generated with &lt;a href=&quot;https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-018-1417-1&quot;&gt;&lt;strong&gt;SUPPA2&lt;/strong&gt;&lt;/a&gt;, that contains all AS events&lt;/p&gt;
+&lt;p&gt;First, load an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ioe&lt;/code&gt; file generated with &lt;a href=&quot;https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-018-1417-1&quot;&gt;&lt;strong&gt;SUPPA2&lt;/strong&gt;&lt;/a&gt;, that contains all AS events&lt;/p&gt;
 
 &lt;div class=&quot;language-R highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;ioe&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read.table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;input_file_from_suppa.ioe&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iot&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ioe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ioe&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;seqname&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;seqname&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Encode AS events as indels and save as &lt;code class=&quot;highlighter-rouge&quot;&gt;csv&lt;/code&gt; for later use in VEP:&lt;/p&gt;
+&lt;p&gt;Encode AS events as indels and save as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;csv&lt;/code&gt; for later use in VEP:&lt;/p&gt;
 
 &lt;div class=&quot;language-R highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;psi&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data.frame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
   &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;seqname&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;seqname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
@@ -84,14 +137,14 @@
 
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Use the &lt;code class=&quot;highlighter-rouge&quot;&gt;as_as_indels.csv&lt;/code&gt; file as input for VEP.&lt;/p&gt;
+&lt;p&gt;Use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;as_as_indels.csv&lt;/code&gt; file as input for VEP.&lt;/p&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;...
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Bon profit!&lt;/p&gt;</content><author><name>Xavier Grau-Bové</name></author><category term="science" /><summary type="html">This post is a stub. How can we predict the effects of alternative splicing (AS) events with the Ensembl Variant Effect Predictor (VEP)? In our recent paper in eLife, we did so by encoding them as if they were indels.</summary></entry><entry><title type="html">«Uns per por i altres per pena»</title><link href="http://localhost:4000/poema/canconeta-juganera.html" rel="alternate" type="text/html" title="«Uns per por i altres per pena»" /><published>2020-01-06T00:00:00+00:00</published><updated>2020-01-06T00:00:00+00:00</updated><id>http://localhost:4000/poema/canconeta-juganera</id><content type="html" xml:base="http://localhost:4000/poema/canconeta-juganera.html">&lt;p&gt;&lt;em&gt;Cançoneta Juganera 2&lt;/em&gt; (Ovidi Montllor)&lt;/p&gt;
+&lt;p&gt;Bon profit!&lt;/p&gt;</content><author><name>xgrau</name></author><category term="science" /><category term="science" /><summary type="html">This post is a stub. How can we predict the effects of alternative splicing (AS) events with the Ensembl Variant Effect Predictor (VEP)? In our recent paper in eLife, we did so by encoding them as if they were indels.</summary></entry><entry><title type="html">«Uns per por i altres per pena»</title><link href="http://localhost:4000/poema/canconeta-juganera.html" rel="alternate" type="text/html" title="«Uns per por i altres per pena»" /><published>2020-01-06T00:00:00+01:00</published><updated>2020-01-06T00:00:00+01:00</updated><id>http://localhost:4000/poema/canconeta-juganera</id><content type="html" xml:base="http://localhost:4000/poema/canconeta-juganera.html">&lt;p&gt;&lt;em&gt;Cançoneta Juganera 2&lt;/em&gt; (Ovidi Montllor)&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;De genoll en avall
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;De genoll en avall
 carn estripada.
 Amb un pit grassonet
 i l'altre sec.
@@ -122,12 +175,12 @@ una gangrena.
 
 &lt;hr /&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;...
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Xavier Grau-Bové</name></author><category term="poema" /><summary type="html">Cançoneta Juganera 2 (Ovidi Montllor)</summary></entry><entry><title type="html">A refusal to mourn the death, by fire, of a child in London</title><link href="http://localhost:4000/poema/a-refusal-to-mourn.html" rel="alternate" type="text/html" title="A refusal to mourn the death, by fire, of a child in London" /><published>2019-11-13T00:00:00+00:00</published><updated>2019-11-13T00:00:00+00:00</updated><id>http://localhost:4000/poema/a-refusal-to-mourn</id><content type="html" xml:base="http://localhost:4000/poema/a-refusal-to-mourn.html">&lt;p&gt;&lt;em&gt;A Refusal To Mourn The Death, By Fire, Of A Child In London&lt;/em&gt; (Dylan Thomas, 1945)&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>xgrau</name></author><category term="poema" /><category term="poema" /><summary type="html">Cançoneta Juganera 2 (Ovidi Montllor)</summary></entry><entry><title type="html">A refusal to mourn the death, by fire, of a child in London</title><link href="http://localhost:4000/poema/a-refusal-to-mourn.html" rel="alternate" type="text/html" title="A refusal to mourn the death, by fire, of a child in London" /><published>2019-11-13T00:00:00+01:00</published><updated>2019-11-13T00:00:00+01:00</updated><id>http://localhost:4000/poema/a-refusal-to-mourn</id><content type="html" xml:base="http://localhost:4000/poema/a-refusal-to-mourn.html">&lt;p&gt;&lt;em&gt;A Refusal To Mourn The Death, By Fire, Of A Child In London&lt;/em&gt; (Dylan Thomas, 1945)&lt;/p&gt;
 
 &lt;p&gt;Original:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Never until the mankind making
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Never until the mankind making
 Bird beast and flower
 Fathering and all humbling darkness
 Tells with silence the last light breaking
@@ -158,10 +211,10 @@ After the first death, there is no other.
 
 &lt;hr /&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Mai
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Xavier Grau-Bové</name></author><category term="poema" /><summary type="html">A Refusal To Mourn The Death, By Fire, Of A Child In London (Dylan Thomas, 1945)</summary></entry><entry><title type="html">Tyger, tyger — Tigre, tigre</title><link href="http://localhost:4000/poema/tigre.html" rel="alternate" type="text/html" title="Tyger, tyger — Tigre, tigre" /><published>2019-11-13T00:00:00+00:00</published><updated>2019-11-13T00:00:00+00:00</updated><id>http://localhost:4000/poema/tigre</id><content type="html" xml:base="http://localhost:4000/poema/tigre.html">&lt;p&gt;&lt;em&gt;The Tyger&lt;/em&gt; (William Blake, 1794)&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Mai
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>xgrau</name></author><category term="poema" /><category term="poema" /><summary type="html">A Refusal To Mourn The Death, By Fire, Of A Child In London (Dylan Thomas, 1945)</summary></entry><entry><title type="html">Tyger, tyger — Tigre, tigre</title><link href="http://localhost:4000/poema/tigre.html" rel="alternate" type="text/html" title="Tyger, tyger — Tigre, tigre" /><published>2019-11-13T00:00:00+01:00</published><updated>2019-11-13T00:00:00+01:00</updated><id>http://localhost:4000/poema/tigre</id><content type="html" xml:base="http://localhost:4000/poema/tigre.html">&lt;p&gt;&lt;em&gt;The Tyger&lt;/em&gt; (William Blake, 1794)&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Tigre, tigre, llum que crema
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Tigre, tigre, llum que crema
 en el bosc de la tenebra,
 quina mà immortal guia
 la teva temible simetria?
@@ -196,7 +249,7 @@ la teva temible simetria?
 
 &lt;p&gt;Original:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Tiger, tiger, burning bright
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Tiger, tiger, burning bright
 In the forests of the night,
 What immortal hand or eye
 Could frame thy fearful symmetry?
@@ -225,11 +278,11 @@ Tiger, tiger, burning bright
 In the forests of the night,
 What immortal hand or eye
 Dare frame thy fearful symmetry?
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Xavier Grau-Bové</name></author><category term="poema" /><summary type="html">The Tyger (William Blake, 1794)</summary></entry><entry><title type="html">Indesinenter — incessantment — ceaselessly</title><link href="http://localhost:4000/poema/indesinenter.html" rel="alternate" type="text/html" title="Indesinenter — incessantment — ceaselessly" /><published>2019-08-16T00:00:00+01:00</published><updated>2019-08-16T00:00:00+01:00</updated><id>http://localhost:4000/poema/indesinenter</id><content type="html" xml:base="http://localhost:4000/poema/indesinenter.html">&lt;p&gt;&lt;em&gt;Indesinenter&lt;/em&gt; (Salvador Espriu).&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>xgrau</name></author><category term="poema" /><category term="poema" /><summary type="html">The Tyger (William Blake, 1794)</summary></entry><entry><title type="html">Indesinenter — incessantment — ceaselessly</title><link href="http://localhost:4000/poema/indesinenter.html" rel="alternate" type="text/html" title="Indesinenter — incessantment — ceaselessly" /><published>2019-08-16T00:00:00+02:00</published><updated>2019-08-16T00:00:00+02:00</updated><id>http://localhost:4000/poema/indesinenter</id><content type="html" xml:base="http://localhost:4000/poema/indesinenter.html">&lt;p&gt;&lt;em&gt;Indesinenter&lt;/em&gt; (Salvador Espriu).&lt;/p&gt;
 
 &lt;p&gt;Original:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Nosaltres sabíem 
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Nosaltres sabíem 
 d’un únic senyor
 i vèiem com
 esdevenia
@@ -290,7 +343,7 @@ sinó l’únic senyor.
 
 &lt;hr /&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;We used to know
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;We used to know
 one master alone,
 we then saw her
 grow into
@@ -348,11 +401,11 @@ Saved as a whole,
 freed from all bounds,
 no more a timid dog
 our own master at last.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Xavier Grau-Bové</name></author><category term="poema" /><summary type="html">Indesinenter (Salvador Espriu).</summary></entry><entry><title type="html">«Do not go gentle into that good night»</title><link href="http://localhost:4000/poema/do-not-go-gentle-into-that-good-night.html" rel="alternate" type="text/html" title="«Do not go gentle into that good night»" /><published>2019-06-08T00:00:00+01:00</published><updated>2019-06-08T00:00:00+01:00</updated><id>http://localhost:4000/poema/do-not-go-gentle-into-that-good-night</id><content type="html" xml:base="http://localhost:4000/poema/do-not-go-gentle-into-that-good-night.html">&lt;p&gt;&lt;em&gt;Do not go gentle into that good night&lt;/em&gt; (Dylan Thomas, 1947)&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>xgrau</name></author><category term="poema" /><category term="poema" /><summary type="html">Indesinenter (Salvador Espriu).</summary></entry><entry><title type="html">«Do not go gentle into that good night»</title><link href="http://localhost:4000/poema/do-not-go-gentle-into-that-good-night.html" rel="alternate" type="text/html" title="«Do not go gentle into that good night»" /><published>2019-06-08T00:00:00+02:00</published><updated>2019-06-08T00:00:00+02:00</updated><id>http://localhost:4000/poema/do-not-go-gentle-into-that-good-night</id><content type="html" xml:base="http://localhost:4000/poema/do-not-go-gentle-into-that-good-night.html">&lt;p&gt;&lt;em&gt;Do not go gentle into that good night&lt;/em&gt; (Dylan Thomas, 1947)&lt;/p&gt;
 
 &lt;p&gt;Original:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Do not got gentle into that good night,
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Do not got gentle into that good night,
 old age should burn and rave at close of day;
 rage, rage against the dying of the light.
 
@@ -380,7 +433,7 @@ Rage, rage against the dying of the light.
 
 &lt;hr /&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;No us deixeu endur dòcilment per la foscor,
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;No us deixeu endur dòcilment per la foscor,
 la vellesa ha de brillar, dement, quan cau el sol.
 Rebel·leu-vos, rebel·leu-vos i que no mori la llum.
 
@@ -404,7 +457,7 @@ I tu, quan em vegis des de la tristor de les altures,
 beneeïx-me, maleïx-me amb fúria – t’ho prego!
 No us deixeu endur dòcilment per la foscor,
 Rebel·leu-vos, rebel·leu-vos i que no mori la llum. 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Xavier Grau-Bové</name></author><category term="poema" /><summary type="html">Do not go gentle into that good night (Dylan Thomas, 1947)</summary></entry><entry><title type="html">«The Disciple», modern</title><link href="http://localhost:4000/poema/narcissus.html" rel="alternate" type="text/html" title="«The Disciple», modern" /><published>2019-05-13T00:00:00+01:00</published><updated>2019-05-13T00:00:00+01:00</updated><id>http://localhost:4000/poema/narcissus</id><content type="html" xml:base="http://localhost:4000/poema/narcissus.html">&lt;p&gt;When Narcissus died the pool of his pleasure changed from a cup of sweet waters into a cup of salt tears, and the Oreads came weeping through the woodland that they might sing to the pool and give it comfort.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>xgrau</name></author><category term="poema" /><category term="poema" /><summary type="html">Do not go gentle into that good night (Dylan Thomas, 1947)</summary></entry><entry><title type="html">«The Disciple», modern</title><link href="http://localhost:4000/poema/narcissus.html" rel="alternate" type="text/html" title="«The Disciple», modern" /><published>2019-05-13T00:00:00+02:00</published><updated>2019-05-13T00:00:00+02:00</updated><id>http://localhost:4000/poema/narcissus</id><content type="html" xml:base="http://localhost:4000/poema/narcissus.html">&lt;p&gt;When Narcissus died the pool of his pleasure changed from a cup of sweet waters into a cup of salt tears, and the Oreads came weeping through the woodland that they might sing to the pool and give it comfort.&lt;/p&gt;
 
 &lt;p&gt;And when they saw that the pool had changed from a cup of sweet waters into a cup of salt tears, they loosened the green tresses of their hair and cried to the pool and said, «We do not wonder that you should mourn in this manner for Narcissus, so beautiful was he».&lt;/p&gt;
 
@@ -425,9 +478,9 @@ Rebel·leu-vos, rebel·leu-vos i que no mori la llum.
   &lt;/div&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;&lt;em&gt;The Disciple&lt;/em&gt; (Poems in Prose, 1924, Oscar Wilde), amb modificacions.&lt;/p&gt;</content><author><name>Xavier Grau-Bové</name></author><category term="poema" /><summary type="html">When Narcissus died the pool of his pleasure changed from a cup of sweet waters into a cup of salt tears, and the Oreads came weeping through the woodland that they might sing to the pool and give it comfort.</summary></entry><entry><title type="html">*Paraphelidium* transcriptome: some code</title><link href="http://localhost:4000/science/paraphelidium-code.html" rel="alternate" type="text/html" title="*Paraphelidium* transcriptome: some code" /><published>2019-02-11T00:00:00+00:00</published><updated>2019-02-11T00:00:00+00:00</updated><id>http://localhost:4000/science/paraphelidium-code</id><content type="html" xml:base="http://localhost:4000/science/paraphelidium-code.html">&lt;p&gt;This is a quick post to highlight the publication of &lt;a href=&quot;https://www.nature.com/articles/s42003-018-0235-z&quot;&gt;Global transcriptome analysis of the aphelid &lt;em&gt;Paraphelidium tribonemae&lt;/em&gt; supports the phagotrophic origin of fungi&lt;/a&gt; by Guifré Torruella, Purificación López-García (Université Paris-Sud) et al., in Communications Biology.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The Disciple&lt;/em&gt; (Poems in Prose, 1924, Oscar Wilde), amb modificacions.&lt;/p&gt;</content><author><name>xgrau</name></author><category term="poema" /><category term="poema" /><summary type="html">When Narcissus died the pool of his pleasure changed from a cup of sweet waters into a cup of salt tears, and the Oreads came weeping through the woodland that they might sing to the pool and give it comfort.</summary></entry><entry><title type="html">*Paraphelidium* transcriptome: some code</title><link href="http://localhost:4000/science/paraphelidium-code.html" rel="alternate" type="text/html" title="*Paraphelidium* transcriptome: some code" /><published>2019-02-11T00:00:00+01:00</published><updated>2019-02-11T00:00:00+01:00</updated><id>http://localhost:4000/science/paraphelidium-code</id><content type="html" xml:base="http://localhost:4000/science/paraphelidium-code.html">&lt;p&gt;This is a quick post to highlight the publication of &lt;a href=&quot;https://www.nature.com/articles/s42003-018-0235-z&quot;&gt;Global transcriptome analysis of the aphelid &lt;em&gt;Paraphelidium tribonemae&lt;/em&gt; supports the phagotrophic origin of fungi&lt;/a&gt; by Guifré Torruella, Purificación López-García (Université Paris-Sud) et al., in Communications Biology.&lt;/p&gt;
 
-&lt;p&gt;In parallel, we released the &lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt; code we used to analyse the functional profile of its gene content, which you can find it in this &lt;strong&gt;&lt;a href=&quot;https://github.com/xgrau/paraphelidium2018&quot;&gt;Github repository&lt;/a&gt;&lt;/strong&gt;. We used the absence/presence profile of a set of genes linked to primary metabolism in the genomes (or transcriptomes) of unicellular eukaryotes to highlight similarities between the gene content of fungi and &lt;em&gt;Paraphelidium&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;In parallel, we released the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;R&lt;/code&gt; code we used to analyse the functional profile of its gene content, which you can find it in this &lt;strong&gt;&lt;a href=&quot;https://github.com/xgrau/paraphelidium2018&quot;&gt;Github repository&lt;/a&gt;&lt;/strong&gt;. We used the absence/presence profile of a set of genes linked to primary metabolism in the genomes (or transcriptomes) of unicellular eukaryotes to highlight similarities between the gene content of fungi and &lt;em&gt;Paraphelidium&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;Thus, it can assist in the production of plots such as the following (&lt;a href=&quot;https://www.nature.com/articles/s42003-018-0235-z/figures/3&quot;&gt;Figure 3 in the paper&lt;/a&gt;):&lt;/p&gt;
 
@@ -442,7 +495,7 @@ Rebel·leu-vos, rebel·leu-vos i que no mori la llum.
   &lt;/div&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;The script &lt;code class=&quot;highlighter-rouge&quot;&gt;dimreduction-heatmaps_Torruella_et_al_2018.R&lt;/code&gt; takes as input a tab-separated table where rows are genes/orthogroups and columns are various species. You can load any table you wish by editing these lines, right at the beginning of the script:&lt;/p&gt;
+&lt;p&gt;The script &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dimreduction-heatmaps_Torruella_et_al_2018.R&lt;/code&gt; takes as input a tab-separated table where rows are genes/orthogroups and columns are various species. You can load any table you wish by editing these lines, right at the beginning of the script:&lt;/p&gt;
 
 &lt;div class=&quot;language-R highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;primary_transposed.txt&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# assumes a wide-style matrix with headers, rows=genes/OGs &amp;amp; cols=sps &lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -451,173 +504,4 @@ Rebel·leu-vos, rebel·leu-vos i que no mori la llum.
 
 &lt;p&gt;Our results highlight the similarities between the rich primary metabolism of Paraphelidium and ‘canonical’ fungi. Thus, unlike other early-branching fungal allies such as &lt;em&gt;Rozella&lt;/em&gt;, &lt;em&gt;Paraphelidium&lt;/em&gt; does not have a simplified metabolism. This is consistent with what is actually the most interesting result of the paper (in my opinion): the phylogenomic analysis of &lt;em&gt;Paraphelidium&lt;/em&gt; consolidates its position as sister-group to fungi and breaks up its association with &lt;em&gt;Rozella&lt;/em&gt; and microsporidians. This has important implications regarding the lifestyle of the ancestral fungi, which was likely phagotrophic (instead of osmotrophic).&lt;/p&gt;
 
-&lt;p&gt;But you should definetely read the &lt;a href=&quot;https://www.nature.com/articles/s42003-018-0235-z&quot;&gt;paper&lt;/a&gt; to get the whole picture ;)&lt;/p&gt;</content><author><name>Xavier Grau-Bové</name></author><category term="science" /><summary type="html">This is a quick post to highlight the publication of Global transcriptome analysis of the aphelid Paraphelidium tribonemae supports the phagotrophic origin of fungi by Guifré Torruella, Purificación López-García (Université Paris-Sud) et al., in Communications Biology.</summary></entry><entry><title type="html">Evolution of alternative splicing in eukaryotes</title><link href="http://localhost:4000/science/the-evolution-of-alternative-splicing-in-eukaryotes-and-the-animal-revolution.html" rel="alternate" type="text/html" title="Evolution of alternative splicing in eukaryotes" /><published>2018-09-18T00:00:00+01:00</published><updated>2018-09-18T00:00:00+01:00</updated><id>http://localhost:4000/science/the-evolution-of-alternative-splicing-in-eukaryotes-and-the-animal-revolution</id><content type="html" xml:base="http://localhost:4000/science/the-evolution-of-alternative-splicing-in-eukaryotes-and-the-animal-revolution.html">&lt;p&gt;After a few years of work with &lt;a href=&quot;http://multicellgenome.com/&quot; target=&quot;_blank&quot;&gt;Iñaki Ruiz-Trillo&lt;/a&gt; (IBE and ICREA) and &lt;a href=&quot;https://www.crg.eu/en/group-members/manuel-irimia&quot; target=&quot;_blank&quot;&gt;Manuel Irimia&lt;/a&gt; (CRG), the last paper from my PhD thesis has just been published in Genome Biology — you can read it here (open access, of course).&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1499-9&quot; target=&quot;_blank&quot;&gt;Origin of exon skipping-rich transcriptomes in animals driven by evolution of gene architecture&lt;/a&gt; (Grau-Bové et al., Genome Biology 2018)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In this article, we survey the role of alternative splicing in the transcriptomes of 65 different eukaryotes. &lt;strong&gt;Alternative splicing is a mechanism of transcriptomic regulation by which multiple transcripts (isoforms) can be produced from a single gene&lt;/strong&gt;. Some of these ‘additional’ possible transcripts can end up becoming new evolutionarily significant protein variants, but AS also affects gene expression levels, and has been linked to a fairly substantial amount of biological noise.&lt;/p&gt;
-
-&lt;p&gt;In any case, AS bears the potential to increase the biological complexity of eukaryotes by tuning the usage and function of the genes encoded in their genomes (provided they have introns, as many eukaryotic genes do).&lt;/p&gt;
-
-&lt;p&gt;We took a great effort in covering as much eukaryotic diversity as possible, in order to make evolutionary inferences all the more robust. To the best of our knowledge, this is the first comparative of alternative splicing that includes at least one genome from each of the main eukaryotic groups, and covers all available early-branching animals.&lt;/p&gt;
-
-&lt;figure class=&quot;image&quot;&gt;
-  &lt;div align=&quot;center&quot;&gt; 
-    &lt;img src=&quot;../assets/img/as_fig1_introduction2.png&quot; alt=&quot;Our taxon sampling.&quot; /&gt;
-    &lt;font color=&quot;gray&quot;&gt;
-    &lt;small&gt;
-      &lt;figcaption&gt;Our taxon sampling.&lt;/figcaption&gt;
-    &lt;/small&gt;
-    &lt;/font&gt; 
-  &lt;/div&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;For the most part, we focus on a particular form of AS known as exon skipping (ES): the alternative inclusion of a given exon in the final transcript. Exon skipping has long been considered a fixture of animal transcriptomes (and maybe even one of the reasons behind animal multicellular complexity). Of course, we wanted to dig deeper into this idea.&lt;/p&gt;
-
-&lt;p&gt;First things first: all eukaryotic groups show at least some level of exon skipping, which means that it appeared in the last eukaryotic common ancestor (at the same time introns did).&lt;/p&gt;
-
-&lt;p&gt;Second, we indeed found that animals had generally higher levels of exon skipping than other eukaryotes (in the figure below, we compare frequencies in animal groups, unicellular holozoans, and other opisthokonts like fungi). But this was not the case for all animals: early-branching non-bilaterians, like sponges or the placozoan Trichoplax adhaerens had low, ‘protist-like’ ES levels.&lt;/p&gt;
-
-&lt;figure class=&quot;image&quot;&gt;
-  &lt;div align=&quot;center&quot;&gt; 
-    &lt;img src=&quot;../assets/img/as_fig2.png&quot; alt=&quot;ES frequency in animals and some unicellular eukaryotic groups. Non-bilaterians include sponges, cnidarians, Mnemiopsis (ctenophore) and Trichoplax (placozoan).&quot; /&gt;
-    &lt;font color=&quot;gray&quot;&gt;
-    &lt;small&gt;
-      &lt;figcaption&gt;ES frequency in animals and some unicellular eukaryotic groups. Non-bilaterians include sponges, cnidarians, Mnemiopsis (ctenophore) and Trichoplax (placozoan).&lt;/figcaption&gt;
-    &lt;/small&gt;
-    &lt;/font&gt; 
-  &lt;/div&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Does that mean that the great increase in exon skipping usage seen in animals was actually something specific to bilaterians alone? Quantitatively, it may seem so. Qualitatively, not quite so.&lt;/p&gt;
-
-&lt;p&gt;Indeed, even if they had fairly low exon skipping, early-branching sponges and &lt;em&gt;Trichoplax&lt;/em&gt; shared a unique feature with most other animals: skipped exons tended to have 3-divisible lengths, which means that their occasional exclusion has a lesser effect on the final transcript and protein (it does not break the ORF):&lt;/p&gt;
-
-&lt;figure class=&quot;image&quot;&gt;
-  &lt;div align=&quot;center&quot;&gt; 
-    &lt;img src=&quot;../assets/img/as_fig3_is3ndiv6.png&quot; alt=&quot;In most bilaterians (red), higher ES implies an overabundance of ORF-preserving alternative splicing events.&quot; /&gt;
-    &lt;font color=&quot;gray&quot;&gt;
-    &lt;small&gt;
-      &lt;figcaption&gt;In most bilaterians (red), higher ES implies an overabundance of ORF-preserving alternative splicing events.&lt;/figcaption&gt;
-    &lt;/small&gt;
-    &lt;/font&gt; 
-  &lt;/div&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;This means that exon skipping in early animals became enriched for frame-preserving events (with 3-divisible exon lengths) before the increase in exon skipping in bilaterian animals. We see this as a two-step evolutionary process.&lt;/p&gt;
-
-&lt;p&gt;So far, this is the first part of the paper. But this analysis came with a surprise: when comparing exon skipping in different eukaryotes, we saw that some protists, like Sphaeroforma arctica, had small increases in frequency compared to their sister species. Interestingly, this coincided with &lt;strong&gt;protists that had some ‘animal-like’ features in their genome architectures&lt;/strong&gt;, like enlarged genomes with abundant and long introns.&lt;/p&gt;
-
-&lt;p&gt;The relationship between gene architecture and alternative splicing frequency is well-known and proved in a number of species. But &lt;em&gt;Sphaeroforma&lt;/em&gt;‘s oddity raised a question: are gene architectural effects on AS ‘universal’ to all eukaryotes? And, if so, can we use them to understand the evolution of alternative splicing?&lt;/p&gt;
-
-&lt;p&gt;Well, as it turns out, yes.&lt;/p&gt;
-
-&lt;p&gt;In this figure, we show that whenever a given trait of gene architecture is associated with exon skipping, this correlation tends to be conserved across multiple eukaryotes. For example, having longer introns facilitates skipping of the middle exon, and this can be seen in most species (blue boxes all along the horizontal axis). Same thing for negative relationships (in red): e.g. short exons are more frequently involved in skipping.&lt;/p&gt;
-
-&lt;figure class=&quot;image&quot;&gt;
-  &lt;div align=&quot;center&quot;&gt; 
-    &lt;img src=&quot;../assets/img/as_fig4_escorrarq4-e1537264531598.png&quot; alt=&quot;Positive (blue) and negative (red) associations of various gene architectural features with higher ES levels, for some holozoans. All 65 species are shown in the paper.&quot; /&gt;
-    &lt;font color=&quot;gray&quot;&gt;
-    &lt;small&gt;
-      &lt;figcaption&gt;Positive (blue) and negative (red) associations of various gene architectural features with higher ES levels, for some holozoans. All 65 species are shown in the paper.&lt;/figcaption&gt;
-    &lt;/small&gt;
-    &lt;/font&gt; 
-  &lt;/div&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Thus, &lt;em&gt;Sphaeroforma&lt;/em&gt;‘s increase in exon skipping is mirrored by changes in its genome organization that facilitate this form alternative splicing. These same changes occurred independently (and more deeply) in animals and plants.&lt;/p&gt;
-
-&lt;p&gt;In essence, we find that gene architecture is a pan-eukaryotic ‘soft code’ of alternative splicing determination. Thus, we &lt;strong&gt;can approximate the evolution of this part of the transcriptome by studying the evolutionary history of genomes&lt;/strong&gt;. And genome evolution is way easier to study.&lt;/p&gt;
-
-&lt;p&gt;And this is our final throw of perfume to the violet: we use data from gene architecture and AS in living eukaryotes to approximate the levels of AS in ancestral eukaryotes, for which transcriptomic data is obviously non-existing. We use this model to pinpoint shifts in AS usage in the animal ancestry.&lt;/p&gt;
-
-&lt;figure class=&quot;image&quot;&gt;
-  &lt;div align=&quot;center&quot;&gt; 
-    &lt;img src=&quot;../assets/img/as_fig7_rocpredes4.png&quot; alt=&quot;Climbing mount AS using genome data as a GPS. A terrible metaphor, but I like the plot.&quot; /&gt;
-    &lt;font color=&quot;gray&quot;&gt;
-    &lt;small&gt;
-      &lt;figcaption&gt;Climbing mount AS using genome data as a GPS. A terrible metaphor, but I like the plot.&lt;/figcaption&gt;
-    &lt;/small&gt;
-    &lt;/font&gt; 
-  &lt;/div&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;This ancestral reconstruction signals that &lt;strong&gt;animal evolutionary innovations involving AS mostly appeared at the same time as multicellular animals&lt;/strong&gt; (quite unlike what happens for other genome innovations, like many quintessential ‘animal’ gene families that are actually older than one might expect — see here, and here, and here, and here…).&lt;/p&gt;
-
-&lt;p&gt;And that is it.&lt;/p&gt;
-
-&lt;p&gt;In the paper we cover other topics as well, such as intron retention, the effect of nucleotide composition in AS, a more detailed analysis of intron length evolution in Volvox and Sphaeroforma, and more. To find out about that, I encourage you to read it 😉&lt;/p&gt;
-
-&lt;p&gt;And if you have any input or doubts, let me know!&lt;/p&gt;
-
-&lt;figure class=&quot;image&quot;&gt;
-  &lt;div align=&quot;center&quot;&gt; 
-    &lt;img src=&quot;../assets/img/as_fig8_image20-e1537266369667.png&quot; alt=&quot;Sphaeroforma arctica, by Arnau Sebé-Pedrós.&quot; /&gt;
-    &lt;font color=&quot;gray&quot;&gt;
-    &lt;small&gt;
-      &lt;figcaption&gt;Sphaeroforma arctica, by Arnau Sebé-Pedrós.&lt;/figcaption&gt;
-    &lt;/small&gt;
-    &lt;/font&gt; 
-  &lt;/div&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;PS: It’s also been argued that AS is not a central contributor to ‘regulated proteome diversity’ after all. Instead, it’d be a consequence of a substantial amount of ‘noisy splicing’, and most genes would actually be producing just one main isoform. I personally think this idea has merit at the micro-evolutionary level, although our macro-evolutionary analysis is forcefully recovering more signal from long-standing adaptive effects. This is a very interesting read in that respect:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/27712956/&quot;&gt;Alternative Splicing May Not Be the Key to Proteome Complexity&lt;/a&gt; (Tress et al., Trends in Biochemical Sciences 2016).&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>Xavier Grau-Bové</name></author><category term="science" /><summary type="html">After a few years of work with Iñaki Ruiz-Trillo (IBE and ICREA) and Manuel Irimia (CRG), the last paper from my PhD thesis has just been published in Genome Biology — you can read it here (open access, of course).</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/nature-2.jpg" /></entry><entry><title type="html">«Remember first to possess his books»</title><link href="http://localhost:4000/poema/the-tempest.html" rel="alternate" type="text/html" title="«Remember first to possess his books»" /><published>2018-09-04T00:00:00+01:00</published><updated>2018-09-04T00:00:00+01:00</updated><id>http://localhost:4000/poema/the-tempest</id><content type="html" xml:base="http://localhost:4000/poema/the-tempest.html">&lt;p&gt;&lt;em&gt;Act 3, Scene 2, 71-79&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;CALIBAN — Why, as I told thee, ’tis a custom with him
-I’th’afternoon to sleep; there thou mayst brain him,
-having first seized his books: or with a log,
-batter his skull, or paunch him with a stake,
-or cut his weasand with thy knife. Remember
-first to possess his books; for without them
-he’s but a sot, as I am, nor hath not
-one spirit to command: they all do hate him
-as rootedly as I. Burn but his books.&lt;/p&gt;
-
-&lt;figure class=&quot;image&quot;&gt;
-  &lt;div align=&quot;center&quot;&gt; 
-    &lt;img src=&quot;../assets/img/caliban.jpg&quot; alt=&quot;Resan till Melonia.&quot; /&gt;
-    &lt;font color=&quot;gray&quot;&gt;
-    &lt;small&gt;
-      &lt;figcaption&gt;Resan till Melonia.&lt;/figcaption&gt;
-    &lt;/small&gt;
-    &lt;/font&gt; 
-  &lt;/div&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;em&gt;Act 3, Scene 2, 109-129&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;[Ariel plays the tune on a tabor an pipe]&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;STEPHANO — What is this same?&lt;/p&gt;
-
-&lt;p&gt;TRINCULO — This is the tune of our catch, played by the picture of Nobody.&lt;/p&gt;
-
-&lt;p&gt;STEPHANO — If thou be’st a man, show thyself in thy likeness: if thou be’st a devil, take’t as thou list.&lt;/p&gt;
-
-&lt;p&gt;TRINCULO — O, forgive me my sins!&lt;/p&gt;
-
-&lt;p&gt;STEPHANO — He that dies pays all debts: I defy thee. Mercy upon us!&lt;/p&gt;
-
-&lt;p&gt;CALIBAN — Are thou afeard?&lt;/p&gt;
-
-&lt;p&gt;STEPHANO — No, monster, not I.&lt;/p&gt;
-
-&lt;p&gt;CALIBAN — Be not afeard, the isle is full of noises,
-sounds and sweet airs, that give delight and hurt not:
-sometimes a thousand twangling instruments
-will hum about mine ears; and sometime voices,
-that if I then had waked after long sleep,
-will make me sleep again, and then in dreaming,
-the clouds methought would open and show riches
-ready to drop upon me, that when I waked
-I cried to dream again.&lt;/p&gt;
-
-&lt;p&gt;STEPHANO — This will prove a brave kingdom to me, where I shall have my music for nothing.&lt;/p&gt;
-
-&lt;p&gt;CALIBAN — When Prospero is destroyed.&lt;/p&gt;</content><author><name>Xavier Grau-Bové</name></author><category term="poema" /><summary type="html">Act 3, Scene 2, 71-79</summary></entry></feed>
+&lt;p&gt;But you should definetely read the &lt;a href=&quot;https://www.nature.com/articles/s42003-018-0235-z&quot;&gt;paper&lt;/a&gt; to get the whole picture ;)&lt;/p&gt;</content><author><name>xgrau</name></author><category term="science" /><category term="science" /><summary type="html">This is a quick post to highlight the publication of Global transcriptome analysis of the aphelid Paraphelidium tribonemae supports the phagotrophic origin of fungi by Guifré Torruella, Purificación López-García (Université Paris-Sud) et al., in Communications Biology.</summary></entry></feed>
