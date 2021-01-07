@@ -112,7 +112,7 @@ dd {
 a {
   color: $brand-color;
 //   text-decoration: none;
-  text-decoration: underline;
+  text-decoration: underline dotted;
   &:hover {
     color: lighten($brand-color, 20);
   }
