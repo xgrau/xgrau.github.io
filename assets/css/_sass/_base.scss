@@ -110,13 +110,10 @@ dd {
 */
 
 a {
-	// color: $brand-color;
-	color: black;
-	//   text-decoration: none;
-	text-decoration: underline dotted;
+	color: $brand-color;
+	// text-decoration: none;
 	&:hover {
-		// color: lighten($brand-color, 20);
-		color: #2659a5;
+		color: lighten($brand-color, 20);
 		text-decoration: underline;
   }
 }
