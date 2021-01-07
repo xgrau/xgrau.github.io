@@ -183,7 +183,10 @@ th {
 
 
 /// Styles
-.verticalhorizontal {
-    text-align: center;
+.verticalmiddle {
     vertical-align: middle;
 }
+
+.circular-square {
+	border-radius: 50%;
+  }
