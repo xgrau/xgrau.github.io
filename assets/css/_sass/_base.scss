@@ -110,10 +110,11 @@ dd {
 */
 
 a {
-  color: $brand-color;
-//   text-decoration: none;
-  text-decoration: underline dotted;
-  &:hover {
+	// color: $brand-color;
+	color: "black";
+	//   text-decoration: none;
+	text-decoration: underline dotted;
+	&:hover {
     color: lighten($brand-color, 20);
   }
 }
