@@ -2,7 +2,7 @@
   Site variables
 */
 @import url("https://fonts.googleapis.com/css?family=Be+Vietnam:400,400i,700,700i&display=swap&subset=latin-ext");
-@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap&subset=latin-ext");
 @font-face {
   font-family: 'JetBrains Mono';
   src: url("/assets/fonts/JetBrainsMono/eot/JetBrainsMono-Regular.eot");
@@ -56,33 +56,34 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   margin-top: 2.0em;
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-family: "JetBrains Mono", monospace, monospace;
   font-weight: bold; }
 
 h2 {
   margin-top: 2.0rem;
-  font-size: 1.6rem;
+  font-size: 2.0rem;
   border-bottom: 1px solid #b0bec5;
   padding-bottom: 6px;
   padding-top: 12px; }
 
 h3 {
   margin-top: 2rem;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   border-bottom: 1px solid #b0bec5;
   padding-bottom: 6px;
   padding-top: 12px; }
 
 h4, h5, h6 {
   margin-top: 1.5rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   padding-top: 6px; }
 
 /* Body */
 body {
-  font-family: "Alegreya", serif;
-  font-size: 1.05em; }
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-size: 1.2em; }
 
 body img {
   align: middle;
@@ -98,14 +99,14 @@ p {
   margin-left: 0;
   margin-right: 0;
   line-height: 1.5;
-  font-family: "Alegreya", serif; }
+  font-family: "Aleo", serif; }
 
 /* Lists */
 ul, ol, dl {
   margin-top: 1rem;
   margin-bottom: 1rem;
   margin-left: 1.5rem;
-  font-family: "Alegreya", serif; }
+  font-family: "Aleo", serif; }
 
 ol li {
   margin-top: 1rem;
@@ -126,10 +127,10 @@ dd {
   Links
 */
 a {
-  color: #0052bd;
-  text-decoration: none; }
+  color: #1c53a5; }
   a:hover {
-    color: #2483ff; }
+    color: #4784e0;
+    text-decoration: underline; }
 
 /*
   Blockquote
@@ -165,6 +166,15 @@ th {
   color: #414547;
   font-weight: bold;
   background-color: #f2f5f7; }
+
+.verticalmiddle {
+  vertical-align: middle; }
+
+.verticalbottom {
+  vertical-align: bottom; }
+
+.circular-square {
+  border-radius: 50%; }
 
 /*
   Site container
@@ -275,7 +285,7 @@ th {
   display: block;
   margin-bottom: 1rem;
   color: #90a4ae;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-family: "JetBrains Mono", monospace; }
 
 .featured-image img {
@@ -351,7 +361,7 @@ th {
 .related-title {
   float: right;
   padding-bottom: .5rem;
-  font-family: "Alegreya", serif; }
+  font-family: "Aleo", serif; }
 
 @media (max-width: 800px) {
   .related-thumbnail {
@@ -377,7 +387,7 @@ th {
   text-decoration: none; }
 
 .site-title {
-  font-size: 26px;
+  font-size: 30px;
   font-weight: bold;
   line-height: 56px;
   font-family: "JetBrains Mono", monospace, monospace;
@@ -413,7 +423,7 @@ th {
 
   .dropbtn {
     background-color: white;
-    color: #0052bd;
+    color: #1c53a5;
     padding: 16px;
     margin-top: 4px;
     font-size: 16px;
@@ -448,21 +458,21 @@ th {
     background-color: #f1f1f1; } }
 .footer {
   background: white;
-  color: #0052bd;
+  color: #1c53a5;
   text-align: center;
   min-height: 56px;
   line-height: 45px;
   width: 800px; }
 
 .footer a {
-  color: #0052bd;
+  color: #1c53a5;
   padding: 0px 10px 0px;
   text-decoration: none; }
 
 @media (max-width: 800px) {
   .footer {
     background: white;
-    color: #0052bd;
+    color: #1c53a5;
     text-align: center;
     min-height: 56px;
     line-height: 45px;

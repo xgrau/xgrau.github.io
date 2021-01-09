@@ -1,5 +1,5 @@
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
-# google-ID: ''
+google-ID: ''
 
 menu:
 - {name: 'CV', folder: 'pages', file: 'cv.html'}

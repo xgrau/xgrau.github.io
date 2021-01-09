@@ -1,12 +1,12 @@
 <header class="site-header">
   <h1 class="site-title">
-    <a href="{{ site.github.url }}/"> 
+    <a href="{{ site.baseurl }}/"> 
 		<img src="/assets/img/logo_bo2.png" alt="logo" width="30" height="30" align="left" class="verticalbottom"> {{ site.title }}
 	</a>
   </h1> 
   <nav class="menu-list">
     {% for item in site.data.settings.menu %}
-      <a href="{{ site.github.url }}/{{ item.folder }}/{{ item.file }}" class="menu-link">{{ item.name }}</a>
+      <a href="{{ site.baseurl }}/{{ item.folder }}/{{ item.file }}" class="menu-link">{{ item.name }}</a>
     {% endfor %}
 
     {% for item in site.data.settings.social %}
@@ -17,7 +17,7 @@
     <button class="dropbtn"><i class="fa fa-bars" aria-hidden="true"></i></button>
     <div class="dropdown-content">
       {% for item in site.data.settings.menu %}
-        <a href="{{ site.github.url }}/pages/{{ item.file }}" class="menu-link">{{ item.name }}</a>
+        <a href="{{ site.baseurl }}/pages/{{ item.file }}" class="menu-link">{{ item.name }}</a>
       {% endfor %}
 
       {% for item in site.data.settings.social %}

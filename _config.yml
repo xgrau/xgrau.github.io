@@ -10,9 +10,11 @@ permalink:           none
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 sass:
-  sass_dir: assets/css
+  sass_dir: /assets/css
   style: :nested
 
+baseurl: ""
+  
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "Xavier Grau-Bové"
 description:	       "Bioinformatician & evolutionary genomicist"
