@@ -22,17 +22,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  margin-top: 2.0em;
-  font-size: 2.2rem;
-  font-family: $code-font-family, monospace;
-  // font-weight: 600;
-  font-weight: bold;
+	margin-top: 2.0em;
+	font-size: 1.9rem;
+	font-family: $code-font-family, monospace;
+	// font-weight: 600;
+	font-weight: bold;
 }
-
-
+	  
+	
 h2 {
   margin-top: 2.0rem;
-  font-size: 2.0rem;
+  font-size: 1.7rem;
   border-bottom: 1px solid #b0bec5;
   padding-bottom:6px;  
   padding-top:12px;  
@@ -41,7 +41,7 @@ h2 {
 
 h3 {
   margin-top: 2rem;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   border-bottom: 1px solid #b0bec5;
   padding-bottom:6px;  
   padding-top:12px;  
@@ -49,16 +49,15 @@ h3 {
 
 h4, h5, h6 {
   margin-top: 1.5rem;
-  font-size: 1.4rem;
+  font-size: 1.35rem;
   padding-top:6px;  
 }
 
 /* Body */
 body {
 	font-family: $base-font-family;
-	// font-size: 1.05em;
 	font-weight: 400;
-	font-size: 1.2em;
+	font-size: 1.15em;
 }
 
 body img {
@@ -66,7 +65,7 @@ body img {
     margin: 5px auto auto auto;
     display: block;
     max-width: 600px;
-    padding: 0px 10px 0px 0px;
+	padding: 0px 10px 0px 0px;
 }
 
 p {
@@ -114,7 +113,7 @@ a {
 	color: $brand-color;
 	// text-decoration: none;
 	&:hover {
-		color: lighten($brand-color, 20);
+		color: lighten($brand-color, 25);
 		text-decoration: underline;
   }
 }
@@ -152,8 +151,9 @@ blockquote {
 
 
 table {
-  width:90%;
+  width:95%;
   border-collapse:collapse;
+  font-size: 1.05rem;
   margin-bottom: 30px;
 }
 
@@ -161,7 +161,7 @@ th, td {
   text-align:left;
   padding:5px 10px;
   // border-bottom:1.5px solid #e5e5e5;
-  color: rgb(65, 69, 71);
+  color: rgb(45, 48, 49);
 }
 
 tr:nth-child(even) { 
@@ -189,6 +189,10 @@ th {
 
 .verticalbottom {
     vertical-align: bottom;
+}
+
+.headerlogo {
+	vertical-align: text-top;
 }
 
 .circular-square {
