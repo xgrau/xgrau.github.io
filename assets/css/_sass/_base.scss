@@ -111,12 +111,13 @@ dd {
 
 a {
 	color: $brand-color;
-	// text-decoration: none;
+	text-decoration: none;
 	&:hover {
 		color: lighten($brand-color, 25);
-		text-decoration: underline;
-  }
+		text-decoration: underline dotted;
+	}
 }
+
 
 /*
   Blockquote

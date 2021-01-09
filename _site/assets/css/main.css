@@ -127,10 +127,11 @@ dd {
   Links
 */
 a {
-  color: #1c53a5; }
+  color: #1c53a5;
+  text-decoration: none; }
   a:hover {
     color: #5d93e4;
-    text-decoration: underline; }
+    text-decoration: underline dotted; }
 
 /*
   Blockquote
@@ -188,9 +189,6 @@ th {
   width: 800px;
   margin-left: auto;
   margin-right: auto; }
-
-.container a {
-  text-decoration: none; }
 
 .posts-wrapper {
   padding-top: 66px;
@@ -424,6 +422,7 @@ th {
 
   .site-title {
     padding-right: 1rem;
+    font-size: 1.4rem;
     float: right; }
 
   .dropbtn {
@@ -457,7 +456,8 @@ th {
     display: block; }
 
   .dropdown-content a:hover {
-    background-color: #f2f5f7; }
+    background-color: #f2f5f7;
+    text-decoration: underline dotted; }
 
   .dropdown:hover .dropdown-content {
     display: block; }

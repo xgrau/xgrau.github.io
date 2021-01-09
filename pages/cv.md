@@ -1,6 +1,6 @@
 ---
 layout: misc
-title: Curriculum
+title: Curriculum vitae
 ---
 
 ## Research & education
