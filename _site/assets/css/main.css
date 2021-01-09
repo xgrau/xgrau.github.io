@@ -584,6 +584,16 @@ pre code {
   .fa-linkedin:hover {
     color: #0073a4; }
 
+.fa-orcid {
+  padding: 2px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s; }
+  .fa-orcid:hover {
+    color: #6cc519; }
+
 .fa-info-circle {
   padding: 2px;
   -webkit-transition: 0.2s;

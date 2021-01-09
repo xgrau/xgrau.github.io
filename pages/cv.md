@@ -21,5 +21,5 @@ title: Curriculum
 
 A complete list of publications can be found in the following links:
 
-* <i class="fa fa-info-circle" aria-hidden="true"> [ORCID 0000-0003-1978-5824](https://orcid.org/0000-0003-1978-5824){:target="_blank"}
-* <i class="fa fa-google" aria-hidden="true"> [Google Scholar](https://scholar.google.com/citations?user=wV8yidYAAAAJ&hl=ca){:target="_blank"}
+* <b class="fa fa-info-circle" aria-hidden="true"> [ORCID 0000-0003-1978-5824](https://orcid.org/0000-0003-1978-5824){:target="_blank"}</b>
+* <b class="fa fa-google" aria-hidden="true"> [Google Scholar](https://scholar.google.com/citations?user=wV8yidYAAAAJ&hl=ca){:target="_blank"}</b>
