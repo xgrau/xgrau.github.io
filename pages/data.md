@@ -22,9 +22,7 @@ Code and instructions for the following projects:
 
 ## Data
 
-### Dynamics of genomic innovation in the unicellular ancestry of animals, 2017
-
-Data from [Dynamics of genomic innovation in the unicellular ancestry of animals](https://elifesciences.org/articles/26036){:target="_blank"} (Grau-Bové *et al.*, eLife 2017).
+Data from *Dynamics of genomic innovation in the unicellular ancestry of animals* [(Grau-Bové *et al.*, eLife 2017)](https://elifesciences.org/articles/26036){:target="_blank"}.
 
 | Links | Description |
 | :--: | :---------- |
