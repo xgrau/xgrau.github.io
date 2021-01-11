@@ -22,7 +22,6 @@ que llegiríeu
 ```
 Were this poem you are reading
 to be translated into Italian,
-it'd then be nothing but
-	an Italian poem
-that you'd be reading.
+it'd be nothing but an Italian poem
+you'd be reading.
 ```
