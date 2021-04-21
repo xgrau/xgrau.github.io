@@ -5,8 +5,9 @@
 /*
   Site variables
 */
-@import url('https://fonts.googleapis.com/css?family=Be+Vietnam:400,400i,700,700i&display=swap&subset=latin-ext');
+// @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:400,400i,700,700i&display=swap&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap&subset=latin-ext');
 // @import url('https://fonts.googleapis.com/css?family=Fira+Code:400,400i,700,700i');
 // @import url('https://fonts.googleapis.com/css?family=Overpass+Mono:400,600,700&display=swap&subset=latin-ext');
 // @import url('https://fonts.googleapis.com/css?family=Oxygen+Mono&display=swap&subset=latin-ext');
@@ -52,8 +53,8 @@
 }
 
 
-$base-font-family: 'Aleo', serif;
-$body-font-family: 'Aleo', serif;
+$base-font-family: 'Piazzolla', serif;
+$body-font-family: 'Piazzolla', serif;
 $code-font-family: "JetBrains Mono", monospace;
 
 // $brand-color: rgb(0, 82, 189); // happy blue
