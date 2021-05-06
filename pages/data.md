@@ -7,7 +7,7 @@ title: Data & code
 
 You can cite the relevant papers (linked below, for each piece of data). Please & thank you.
 
-## Possvm
+## Orthology inference with *Possvm*
 
 ***Possvm*** is a python utility that identifies pairs and clusters of orthologous genes from gene phylogenies [(Grau-Bové and Sebé-Pedrós, bioRxiv 2021)](https://www.biorxiv.org/content/10.1101/2021.05.03.442399v1){:target="_blank"}. It takes advantage of the [species overlap algorithm](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2007-8-6-r109) implemented in the [*ETE* toolkit](http://etetoolkit.org/docs/latest/tutorial/tutorial_phylogeny.html#species-overlap-so-algorithm) to parse the phylogeny and identify orthologous gene pairs, and [*MCL* clustering](https://micans.org/mcl/) for orthogroup identification. 
 
@@ -15,7 +15,7 @@ You can cite the relevant papers (linked below, for each piece of data). Please 
 
 You can get the code and test data from these repositories:
 
-| Links | Publication |
+| Link | Description |
 | :--: | :---------- |
 | [<i class="fa fa-external-link"></i> <i class="fa fa-github"></i>](https://github.com/xgrau/possvm-orthology) | Source code |
 | [<i class="fa fa-external-link"></i> <i class="fa fa-github"></i>](https://github.com/xgrau/possvm-orthology-benchmarking) | Test data from [Grau-Bové and Sebé-Pedrós, bioRxiv 2021](https://www.biorxiv.org/content/10.1101/2021.05.03.442399v1){:target="_blank"}. |
@@ -24,8 +24,7 @@ You can get the code and test data from these repositories:
 
 Code and instructions for the following projects:
 
-
-| Links | Publication |
+| Link | Publication |
 | :--: | :---------- |
 | [<i class="fa fa-external-link"></i> <i class="fa fa-github"></i>](https://github.com/xgrau/ace1-anopheles-report) | Resistance to pirimiphos-methyl in West African *Anopheles* is spreading via duplication and introgression of the *Ace1* locus [(Grau-Bové *et al.*, Plos Genetics 2021)](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009253){:target="_blank"}. |
 | [<i class="fa fa-external-link"></i> <i class="fa fa-github"></i>](https://github.com/xgrau/rdl-Agam-evolution){:target="_blank"} | Evolution of the insecticide target *Rdl* in African *Anopheles* is driven by interspecific and interkaryotypic introgression [(Grau-Bové *et al.*, MBE 2020)](https://academic.oup.com/mbe/article/37/10/2900/5843798){:target="_blank"}. |
@@ -37,7 +36,7 @@ Code and instructions for the following projects:
 
 Data from **Dynamics of genomic innovation in the unicellular ancestry of animals** [(Grau-Bové *et al.*, eLife 2017)](https://elifesciences.org/articles/26036){:target="_blank"}.
 
-| Links | Description |
+| Link | Description |
 | :--: | :---------- |
 | [<i class="fa fa-external-link"></i> <i class="fa fa-github"></i>](https://github.com/xgrau/dynamicsinnovation2017){:target="_blank"} | Supplementary data and figures. Includes phylogenomic alignments. |
 | [<i class="fa fa-external-link"></i> Figshare](https://figshare.com/articles/Genome_-_Corallochytrium_limacisporum/5426470){:target="_blank"} | Genome assembly and annotation of *Corallochytrium limacisporum* |
