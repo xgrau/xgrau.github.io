@@ -11,7 +11,7 @@ You can cite the relevant papers (linked below, for each piece of data). Please 
 
 ***Possvm*** is a python utility that identifies pairs and clusters of orthologous genes from gene phylogenies [(Grau-Bové and Sebé-Pedrós, bioRxiv 2021)](https://www.biorxiv.org/content/10.1101/2021.05.03.442399v1){:target="_blank"}. It takes advantage of the [species overlap algorithm](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2007-8-6-r109) implemented in the [*ETE* toolkit](http://etetoolkit.org/docs/latest/tutorial/tutorial_phylogeny.html#species-overlap-so-algorithm) to parse the phylogeny and identify orthologous gene pairs, and [*MCL* clustering](https://micans.org/mcl/) for orthogroup identification. 
 
-<img align="centre" width="300" src="/assets/img/possvm-logo.png">
+<img align="centre" width="240" src="/assets/img/possvm-logo.png">
 
 You can get the code and test data from these repositories:
 
