@@ -18,7 +18,7 @@ You can get the code and test data from these repositories:
 | Link | Description |
 | :--: | :---------- |
 | [<i class="fa fa-external-link"></i> <i class="fa fa-github"></i>](https://github.com/xgrau/possvm-orthology) | Source code and manual |
-| [<i class="fa fa-external-link"></i> <i class="fa fa-github"></i>](https://github.com/xgrau/possvm-orthology-benchmarking) | Test data from [Grau-Bové and Sebé-Pedrós, bioRxiv 2021](https://www.biorxiv.org/content/10.1101/2021.05.03.442399v1){:target="_blank"}. |
+| [<i class="fa fa-external-link"></i> <i class="fa fa-github"></i>](https://github.com/xgrau/possvm-orthology-benchmarking) | Test data from [Grau-Bové and Sebé-Pedrós, MBE 2021](https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msab234/6342420){:target="_blank"}. |
 
 ## Github repositories
 
