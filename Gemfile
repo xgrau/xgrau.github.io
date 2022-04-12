@@ -29,5 +29,5 @@ gem 'jekyll-sitemap'
 gem 'jekyll-seo-tag'
 
 # vulnerability found 
-gem "kramdown", ">= 2.3.0"
-gem "nokogiri", ">= 1.11.0.rc4"
+gem "kramdown", ">= 2.3.1"
+gem "nokogiri", ">= 1.13.4"
