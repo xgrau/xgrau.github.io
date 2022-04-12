@@ -43,7 +43,7 @@
  -->
 
   <!-- Use Jekyll SEO plugin -->
-  <!-- Begin Jekyll SEO tag v2.6.1 -->
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Data &amp; code | Xavier Grau-Bové</title>
 <meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="Data &amp; code" />
@@ -54,8 +54,11 @@
 <link rel="canonical" href="http://localhost:4000/pages/data.html" />
 <meta property="og:url" content="http://localhost:4000/pages/data.html" />
 <meta property="og:site_name" content="Xavier Grau-Bové" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Data &amp; code" />
 <script type="application/ld+json">
-{"@type":"WebPage","url":"http://localhost:4000/pages/data.html","headline":"Data &amp; code","author":{"@type":"Person","name":"xgrau"},"description":"Bioinformatician &amp; evolutionary genomicist","@context":"https://schema.org"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"xgrau"},"description":"Bioinformatician &amp; evolutionary genomicist","headline":"Data &amp; code","url":"http://localhost:4000/pages/data.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -124,6 +127,33 @@
 
 <p>You can cite the relevant papers (linked below, for each piece of data). Please &amp; thank you.</p>
 
+<h2 id="orthology-inference-with-possvm">Orthology inference with <em>Possvm</em></h2>
+
+<p><strong><em>Possvm</em></strong> is a python utility that identifies pairs and clusters of orthologous genes from gene phylogenies <a href="https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msab234/6342420" target="_blank">(Grau-Bové and Sebé-Pedrós, MBE 2021)</a>. It takes advantage of the <a href="https://genomebiology.biomedcentral.com/articles/10.1186/gb-2007-8-6-r109">species overlap algorithm</a> implemented in the <a href="http://etetoolkit.org/docs/latest/tutorial/tutorial_phylogeny.html#species-overlap-so-algorithm"><em>ETE</em> toolkit</a> to parse the phylogeny and identify orthologous gene pairs, and <a href="https://micans.org/mcl/"><em>MCL</em> clustering</a> for orthogroup identification.</p>
+
+<p><img align="centre" width="240" src="/assets/img/possvm-logo.png" /></p>
+
+<p>You can get the code and test data from these repositories:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Link</th>
+      <th style="text-align: left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><a href="https://github.com/xgrau/possvm-orthology"><i class="fa fa-external-link"></i> <i class="fa fa-github"></i></a></td>
+      <td style="text-align: left">Source code and manual</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="https://github.com/xgrau/possvm-orthology-benchmarking"><i class="fa fa-external-link"></i> <i class="fa fa-github"></i></a></td>
+      <td style="text-align: left">Test data from <a href="https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msab234/6342420" target="_blank">Grau-Bové and Sebé-Pedrós, MBE 2021</a>.</td>
+    </tr>
+  </tbody>
+</table>
+
 <h2 id="github-repositories">Github repositories</h2>
 
 <p>Code and instructions for the following projects:</p>
@@ -131,14 +161,18 @@
 <table>
   <thead>
     <tr>
-      <th style="text-align: center">Links</th>
+      <th style="text-align: center">Link</th>
       <th style="text-align: left">Publication</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td style="text-align: center"><a href="https://github.com/xgrau/recoded-mixture-models"><i class="fa fa-external-link"></i> <i class="fa fa-github"></i></a></td>
+      <td style="text-align: left">Protein mixture models for common amino-acid recoding schemes (e.g. Dayhoff), for use in IQ-TREE.</td>
+    </tr>
+    <tr>
       <td style="text-align: center"><a href="https://github.com/xgrau/ace1-anopheles-report"><i class="fa fa-external-link"></i> <i class="fa fa-github"></i></a></td>
-      <td style="text-align: left">Resistance to pirimiphos-methyl in West African <em>Anopheles</em> is spreading via duplication and introgression of the <em>Ace1</em> locus <a href="https://www.biorxiv.org/content/10.1101/2020.05.18.102343v1" target="_blank">(Grau-Bové <em>et al.</em>, bioRxiv 2020)</a>.</td>
+      <td style="text-align: left">Resistance to pirimiphos-methyl in West African <em>Anopheles</em> is spreading via duplication and introgression of the <em>Ace1</em> locus <a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009253" target="_blank">(Grau-Bové <em>et al.</em>, Plos Genetics 2021)</a>.</td>
     </tr>
     <tr>
       <td style="text-align: center"><a href="https://github.com/xgrau/rdl-Agam-evolution" target="_blank"><i class="fa fa-external-link"></i> <i class="fa fa-github"></i></a></td>
@@ -161,14 +195,12 @@
 
 <h2 id="data">Data</h2>
 
-<h3 id="dynamics-of-genomic-innovation-in-the-unicellular-ancestry-of-animals-2017">Dynamics of genomic innovation in the unicellular ancestry of animals, 2017</h3>
-
-<p>Data from <a href="https://elifesciences.org/articles/26036" target="_blank">Dynamics of genomic innovation in the unicellular ancestry of animals</a> (Grau-Bové <em>et al.</em>, eLife 2017).</p>
+<p>Data from <strong>Dynamics of genomic innovation in the unicellular ancestry of animals</strong> <a href="https://elifesciences.org/articles/26036" target="_blank">(Grau-Bové <em>et al.</em>, eLife 2017)</a>.</p>
 
 <table>
   <thead>
     <tr>
-      <th style="text-align: center">Links</th>
+      <th style="text-align: center">Link</th>
       <th style="text-align: left">Description</th>
     </tr>
   </thead>

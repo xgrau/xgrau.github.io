@@ -2,7 +2,7 @@
   min-height: 56px;
   width: $container-width;
   // position: fixed;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   box-shadow: 0 5px 6px -6px #bbb;
   z-index: 100;
 }
@@ -61,7 +61,7 @@
     padding-right: 1rem;
     font-size: 1.4rem;
     // padding-right: 10px;
-    float: right;
+    float: left;
   }
   .dropbtn {
       background-color: white;
@@ -77,7 +77,7 @@
   }
   .dropdown {
       position: relative;
-	  display: inline-block;
+	    display: inline-block;
   }
   .dropdown-content {
       display: none;

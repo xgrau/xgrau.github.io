@@ -31,3 +31,4 @@ gem 'jekyll-seo-tag'
 # vulnerability found 
 gem "kramdown", ">= 2.3.1"
 gem "nokogiri", ">= 1.13.4"
+# gem "minimal-mistakes-jekyll"
