@@ -10,7 +10,7 @@ I have set up a [Github repository](https://github.com/xgrau/recoded-mixture-mod
 
 An R script to convert an input alignment to various recoding schemes is also included.
 
-## How to use
+### How to use
 
 The model files are found in `recoded_models/`. It includes all combinations of the following:
 
@@ -29,9 +29,9 @@ Rscript recoding_alignments.R test_data/test.fasta
 iqtree -s test_data/test.recDayhoff6.fasta -m xmC10Dayhoff6 -mdef recoded_models/xmC10Dayhoff6.nex
 ```
 
-## Included recoding schemes
+### Included recoding schemes
 
-Here:
+These:
 
 ```R
 recoding_dictionary = list(
@@ -79,7 +79,7 @@ recoding_dictionary = list(
 )
 ```
 
-## References
+### References
 
 These models have been prepared following instructions in the IQ-TREE discussion group, [here](https://groups.google.com/g/iqtree/c/j884eSJiugY) and [here](https://groups.google.com/u/1/g/iqtree/c/GXNzbembxlA/m/NGze4jKWAgAJ).
 
