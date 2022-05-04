@@ -6,8 +6,6 @@ categories: science
 tags: science
 ---
 
-# Recoded protein mixture models for IQ-TREE
-
 I have set up a [Github repository](https://github.com/xgrau/recoded-mixture-models) with `NEXUS` files of mixture models for some common amino-acid recoding schemes (Dayhoff6, Dayhoff9, SR4, SR6, KGB6). They can be used in IQ-TREE with the `-mdef` flag, which allows you to use non-default models.
 
 An R script to convert an input alignment to various recoding schemes is also included.
