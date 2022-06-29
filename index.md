@@ -11,11 +11,12 @@ I am a Post Doctoral Research Associate at the [Centre de Regulació Genòmica](
 
 Our latest work includes a phylogenetic investigation of chromatin evolution in eukaryotes, combining comparative genomics and proteomics [Grau-Bové *et al.*, Nature Ecology and Evolution 2022](https://www.nature.com/articles/s41559-022-01771-6){:target="_blank"}, and the release of _Possvm_ [(Grau-Bové and Sebé-Pedrós, MBE 2021)](https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msab234/6342420){:target="_blank"}, a handy piece of software to identify clusters of orthologous sequences from gene trees.
 
-<img align="right" width="240" src="/assets/img/possvm-logo.png">
+<img align="center" width="240" src="/assets/img/possvm-logo.png">
 
-In the past, I worked with [David Weetman](https://www.lstmed.ac.uk/about/people/dr-david-weetman){:target="_blank"} at the [Liverpool School of Tropical Medicine](https://www.lstmed.ac.uk/about/people/dr-xavier-grau-bov%C3%A9){:target="_blank"}, studying the evolution of insecticide resistance adaptations in *Anopheles* mosquitoes responsible for malaria transmission as part of the [*Anopheles gambiae* 1000 Genomes project](https://www.malariagen.net/projects/ag1000g){:target="_blank"} and MalariaGEN.
 
 <img align="right" width="200" src="/assets/img/phylo-agam.png">
+
+In the past, I worked with [David Weetman](https://www.lstmed.ac.uk/about/people/dr-david-weetman){:target="_blank"} at the [Liverpool School of Tropical Medicine](https://www.lstmed.ac.uk/about/people/dr-xavier-grau-bov%C3%A9){:target="_blank"}, studying the evolution of insecticide resistance adaptations in *Anopheles* mosquitoes responsible for malaria transmission as part of the [*Anopheles gambiae* 1000 Genomes project](https://www.malariagen.net/projects/ag1000g){:target="_blank"} and MalariaGEN.
 
 I obtained my PhD from the University of Barcelona in 2017, under the supervision of [Iñaki Ruiz-Trillo](http://multicellgenome.com/){:target="_blank"}, investigating the origin of [multicellularity in animals](https://www.sciencemag.org/news/2018/06/momentous-transition-multicellular-life-may-not-have-been-so-hard-after-all){:target="_blank"} using comparative genomic analyses of animals and their unicellular relatives. You can learn more about this in my favourite publications from my thesis:
 
