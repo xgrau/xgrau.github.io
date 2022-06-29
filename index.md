@@ -9,7 +9,7 @@ title: Intro
 
 I am a Post Doctoral Research Associate at the [Centre de Regulació Genòmica](https://www.crg.cat/){:target="_blank"} in Barcelona, working with [Arnau Sebé-Pedrós](https://www.sebepedroslab.org/){:target="_blank"}. We use comparative genomics and transcriptomics to investigate the evolutionary dynamics of genome regulation and cell type diversity across the eukaryotic tree of life — from animals to protists.
 
-Our latest work includes a phylogenetic investigation of chromatin evolution in eukaryotes, combining comparative genomics and proteomics [Grau-Bové *et al.*, Nature Ecology and Evolution 2022](https://www.nature.com/articles/s41559-022-01771-6){:target="_blank"}, and the release of _Possvm_ [(Grau-Bové and Sebé-Pedrós, MBE 2021)](https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msab234/6342420){:target="_blank"}, a handy piece of software to identify clusters of orthologous sequences from gene trees.
+Our latest work includes a phylogenetic investigation of **chromatin evolution in eukaryotes**, combining comparative genomics and proteomics ([Grau-Bové *et al.*, Nature Ecology and Evolution 2022](https://www.nature.com/articles/s41559-022-01771-6){:target="_blank"}); and the release of **_Possvm_** [(Grau-Bové and Sebé-Pedrós, MBE 2021)](https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msab234/6342420){:target="_blank"}, a handy piece of software to identify clusters of orthologous sequences from gene trees.
 
 <img align="center" width="240" src="/assets/img/possvm-logo.png">
 
