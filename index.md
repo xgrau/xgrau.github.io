@@ -13,10 +13,10 @@ Our latest work includes a phylogenetic investigation of **chromatin evolution i
 
 <img align="center" width="240" src="/assets/img/possvm-logo.png">
 
-
-<img align="right" width="200" src="/assets/img/phylo-agam.png">
-
 In the past, I worked with [David Weetman](https://www.lstmed.ac.uk/about/people/dr-david-weetman){:target="_blank"} at the [Liverpool School of Tropical Medicine](https://www.lstmed.ac.uk/about/people/dr-xavier-grau-bov%C3%A9){:target="_blank"}, studying the evolution of insecticide resistance adaptations in *Anopheles* mosquitoes responsible for malaria transmission as part of the [*Anopheles gambiae* 1000 Genomes project](https://www.malariagen.net/projects/ag1000g){:target="_blank"} and MalariaGEN.
+
+
+<img align="center" width="200" src="/assets/img/phylo-agam.png">
 
 I obtained my PhD from the University of Barcelona in 2017, under the supervision of [Iñaki Ruiz-Trillo](http://multicellgenome.com/){:target="_blank"}, investigating the origin of [multicellularity in animals](https://www.sciencemag.org/news/2018/06/momentous-transition-multicellular-life-may-not-have-been-so-hard-after-all){:target="_blank"} using comparative genomic analyses of animals and their unicellular relatives. You can learn more about this in my favourite publications from my thesis:
 
