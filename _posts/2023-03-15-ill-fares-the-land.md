@@ -40,11 +40,11 @@ And rural mirth and manners are no more.
 
 *****
 
-*La terra no se'n surt, presa de mals sobtats*, Oliver Goldsmith.
+*La terra no se'n surt, presa de mals profunds*, Oliver Goldsmith.
 
 ```
 La terra no se'n surt, presa de mals profunds,
-quan s'acumula la riquesa i es marceixen els homes:
+quan s'hi acumula la riquesa i es marceixen els homes:
 els prínceps i senyors prosperen i decauen,
 els fa un sospir com un sospir sempre els ha fet;
 però la pagesia audaç, cor i sal de la terra,
