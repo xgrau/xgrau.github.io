@@ -76,7 +76,7 @@ $orcid-color: rgb(108, 197, 25);
 
 .fa-medium {
   padding: 2px;
-  @include social-media-icon($medium-color, $icon-transition-time);
+  @include social-media-icon($mastodon-color, $icon-transition-time);
 }
 
 .fa-codepen {
@@ -89,8 +89,8 @@ $orcid-color: rgb(108, 197, 25);
   @include social-media-icon($rss-color, $icon-transition-time);
 }
 
-.fa-mastodon {
-  padding: 2px;
-  @include social-media-icon($mastodon-color, $icon-transition-time);
-}
+// .fa-mastodon {
+//   padding: 2px;
+//   @include social-media-icon($mastodon-color, $icon-transition-time);
+// }
 
