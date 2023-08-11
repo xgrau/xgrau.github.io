@@ -41,3 +41,5 @@ From [my blog](/pages/blog.html):
 {{ post.excerpt }}
 
 {% endfor %}
+
+<a rel="me" href="https://ecoevo.social/@xgrau">Mastodon</a>
