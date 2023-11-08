@@ -14,7 +14,7 @@ One of the most titillating results of our work is the unexpected discovery of r
 
 We were also delighted to learn that we made it to the cover of Cell, too, with this minimalistic cover overlaying a micrography of two *Trichoplax* sp. H2 placozoans and a phylogenetic tree of homeobox transcription factors, which merrily marries the computational and wet lab aspects of this project:
 
-[<img align="center" width="400" src="assets/img/cover.tif.jpg">](https://www.cell.com/cell/fulltext/S0092-8674(23)00917-0){:target="_blank"}
+[<img align="center" width="240" src="/assets/img/cover.tif.jpg">](https://www.cell.com/cell/fulltext/S0092-8674(23)00917-0){:target="_blank"}
 
 In parallel, we also set up a [companion database](https://sebelab.crg.eu/placozoa_cell_atlas/) where you can browse and compare the single-cell transcriptomic atlases for four placozoan species.
 
