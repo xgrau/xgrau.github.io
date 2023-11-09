@@ -12,8 +12,8 @@ I am a Post Doctoral Research Associate at the [Centre de Regulació Genòmica](
 My latest work includes a transcriptomic reconstruction of the [early evolutionary origin of animal neurons](https://www.cell.com/cell/fulltext/S0092-8674(23)00917-0){:target="_blank"} using single-cell atlases of four placozoans; a [phylogenetic investigation of chromatin evolution in eukaryotes](https://www.nature.com/articles/s41559-022-01771-6){:target="_blank"} combining comparative genomics and proteomics; and the release of [*Possvm*](https://github.com/xgrau/possvm-orthology/){:target="_blank"}, a handy piece of software to identify clusters of orthologous sequences from gene trees.
 
 <p float="left" align="center">
-  <img height="220" src="/assets/img/cover.tif.jpg" alt="Cell cover 12oct23"/>
-  <img height="200" src="/assets/img/possvm-logo.png" alt="Possvm logo"/>
+  <img height="20" src="/assets/img/cover.tif.jpg" alt="Cell cover 12oct23"/>
+  <img height="20" src="/assets/img/possvm-logo.png" alt="Possvm logo"/>
 </p>
 
 In the past, I worked with [David Weetman](https://www.lstmed.ac.uk/about/people/dr-david-weetman){:target="_blank"} at the [Liverpool School of Tropical Medicine](https://www.lstmed.ac.uk/about/people/dr-xavier-grau-bov%C3%A9){:target="_blank"}, studying the evolution of insecticide resistance adaptations in *Anopheles* mosquitoes responsible for malaria transmission as part of the [*Anopheles gambiae* 1000 Genomes project](https://www.malariagen.net/projects/ag1000g){:target="_blank"} and MalariaGEN.
