@@ -1,0 +1,38 @@
+{
+  "name": "sample",
+  "priority": 10,
+  "tags": [
+    "smartseq2"
+  ],
+  "body_parts": [
+    "brain"
+  ],
+  "shortLabel": "CellBrowser 100-genes demo",
+  "exprMatrix": "exprMatrix.tsv.gz",
+  "geneIdType": "symbol",
+  "meta": "meta.tsv",
+  "enumFields": [
+    "c1_cell_id"
+  ],
+  "coords": [
+    {
+      "file": "/home/xavi/Programes/mini/tsne.coords.tsv",
+      "shortLabel": "t-SNE on WGCNA"
+    }
+  ],
+  "clusterField": "WGCNAcluster",
+  "labelField": "WGCNAcluster",
+  "markers": [
+    {
+      "file": "/home/xavi/Programes/mini/markers.tsv",
+      "shortLabel": "Cluster-specific markers"
+    }
+  ],
+  "colors": "colors.tsv",
+  "showLabels": true,
+  "radius": 5,
+  "alpha": 0.3,
+  "acroFname": "acronyms.tsv",
+  "quickGenesFile": "quickGenes.csv",
+  "inDir": ""
+}
