@@ -17,7 +17,7 @@ I have also released [*Possvm*](https://github.com/xgrau/possvm-orthology/){:tar
 
 [<img width="200" src="/assets/img/possvm-logo.png" alt="Possvm logo" align="center">](https://github.com/xgrau/possvm-orthology/){:target="_blank"}
 
-In the past, I worked with [David Weetman](https://www.lstmed.ac.uk/about/people/dr-david-weetman){:target="_blank"} at the [Liverpool School of Tropical Medicine](https://www.lstmed.ac.uk/about/people/dr-xavier-grau-bov%C3%A9){:target="_blank"}, studying the evolution of insecticide resistance adaptations in *Anopheles* mosquitoes responsible for malaria transmission as part of the [*Anopheles gambiae* 1000 Genomes project](https://www.malariagen.net/projects/ag1000g){:target="_blank"} and MalariaGEN.
+In the past, I worked with [David Weetman](https://www.lstmed.ac.uk/about/people/dr-david-weetman){:target="_blank"} at the [Liverpool School of Tropical Medicine](https://www.lstmed.ac.uk/about/people/dr-xavier-grau-bov%C3%A9){:target="_blank"}, studying the evolution of insecticide resistance adaptations in *Anopheles* mosquitoes responsible for malaria transmission as part of the [*Anopheles gambiae* 1000 Genomes project](https://www.malariagen.net/project/ag1000g/){:target="_blank"} within [MalariaGEN](https://www.malariagen.net/).
 
 <img align="center" width="200" src="/assets/img/phylo-agam.png">
 
