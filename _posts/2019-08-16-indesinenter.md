@@ -79,43 +79,43 @@ we then saw her
 grow into
 dog.
 
-Wretched by its gut,
-praised for its gut,
-out of fear it
+Wretched by her gut,
+praised for her gut,
+out of fear she
 yields to the leash,
 foolishly oblivious
-that its right
+that her right
 still stands.
 
-Waning,
+Waning and
 downtrodden,
-it won’t stop licking
+she'll keep licking
 the harsh hand
-that for so long
-has kept it
+that has kept her
+for so long
 mud-bound.
 
 It was once possible
-to turn its silence
+to turn this silence
 into a wall,
 impregnable and secure.
-We witness instead
-a muted shame:
-growls alone.
+We witness now
+her muted shame:
+only growls.
 
 It was not possible,
 though, to desist
-after her loss,
-as we cry in the night
+after this loss,
+as we cry into the night
 a raging song
 against the dying
-of the light.
+of our wish.
 
-It’ll all be hers:
-water, land,
-skies, and fire;
-if only she dares
-speak her name.
+All water, land,
+skies, and fire
+we'll be again free
+to roam — if she dares
+to speak her name.
 
 She must say
 «enough!» at once,
@@ -123,12 +123,12 @@ and to rise again
 she must vow.
 
 A restless stand
-that’ll save us,
-and save her
+that’ll save her
+and ourselves
 from the tide.
 
 Saved as a whole,
-freed from all bounds,
+free from all bounds,
 no more a timid dog
 our own master at last.
 ```
