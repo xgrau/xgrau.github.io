@@ -35,23 +35,23 @@ your life was a lie.
 *El Cant de les Bruixes*, de «A Macbeth Song»:
 
 ```
-A la una la mort, a les dos, traïció —
+A la una, mort; a les dos, traïció —
 l'assassí que mai no falla.
-A les tres malícia, a les quatre un foc
-per un desig que mai s'apaga.
+A les tres, malícia; a les quatre, un foc
+per al desig que mai s'apaga.
 
-A Les cinc, un cos podrit i el sot
-on l'esperen els cucs:
-a sis d'hipòcrites i set d'urc,
-un altre tirà ha mort.
+A les cinc, un cos podrit al sot
+on s'esperen sis cucs
+hipòcrites; i a les set l'urc
+d'un altre tirà mort.
 
-A les vuit l'enveja, l'avarícia 
-que et lligarà a la creu.
-A les nou, una fossa pel cos maleït,
-que el tirà jegui al seu feu.
+A les vuit, enveja: l'avarícia 
+et lliga a la creu.
+A les nou, nou cos al clot:
+el tirà sota terra jeu.
 
-I a les deu una vella cançó: 
-fes veure que et queda honor.
+I a les deu, la vella cançó
+de fingir que et queda honor.
 I a les onze, pensar com amagues
-que has viscut debades.
+que sempre has viscut debades.
 ```
