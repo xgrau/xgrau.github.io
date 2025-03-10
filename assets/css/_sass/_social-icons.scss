@@ -100,3 +100,8 @@ $orcid-color: rgb(108, 197, 25);
   @include social-media-icon($bluesky-color, $icon-transition-time);
 }
 
+.fa-share-square {
+  padding: 2px;
+  @include social-media-icon($bluesky-color, $icon-transition-time);
+}
+
