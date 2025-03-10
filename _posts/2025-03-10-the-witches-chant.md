@@ -13,6 +13,7 @@ One is for murder, two is for betrayal
 The killer never fails.
 Three is for evil, four is desire
 burning in the fire.
+
 Five, the cemetery, body cursed,
 maggots wait in the earth.
 Six hypocrites, seven is pride,
@@ -22,6 +23,7 @@ Eight is envy, avarice bares
 the cross he must bear.
 Nine grave and body cursed,
 Tyrant in the bitter earth.
+
 Ten is the same sad song,
 pretend that you're not wrong.
 Eleven is how you must deny
@@ -33,21 +35,23 @@ your life was a lie.
 *El Cant de les Bruixes*, de «A Macbeth Song»:
 
 ```
-L'u és l'assassinat, el dos la traïció,
-l'assassí que mai falla.
-El tres és malícia, el quart és el foc
-on hi crema el desig.
-El cinc, un cementiri i un cos maleït — 
-ja l'esperen els cucs.
-Sis, hipòcrites; set, l'urc,
-Un altre tirà ha mort.
+A la una la mort, a les dos, traïció —
+l'assassí que mai no falla.
+A les tres malícia, a les quatre un foc
+per un desig que mai s'apaga.
 
-El vuit és enveja, avarícia que mostra 
-la creu que cal carregar.
-El nou és la tomba i el cos podrit
-del tirà a la terra morta.
-El deu és la vella cançó,
-fes veure que no ha estat un error.
-L'onze és pensar com amagues
+A Les cinc, un cos podrit i el sot
+on l'esperen els cucs:
+a sis d'hipòcrites i set d'urc,
+un altre tirà ha mort.
+
+A les vuit l'enveja, l'avarícia 
+que et lligarà a la creu.
+A les nou, una fossa pel cos maleït,
+que el tirà jegui al seu feu.
+
+I a les deu una vella cançó: 
+fes veure que et queda honor.
+I a les onze, pensar com amagues
 que has viscut debades.
 ```
