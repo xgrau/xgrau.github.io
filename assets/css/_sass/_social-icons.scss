@@ -60,10 +60,10 @@ $orcid-color: rgb(108, 197, 25);
   @include social-media-icon($orcid-color, $icon-transition-time);
 }
 
-.fa-facebook {
-  padding: 2px;
-  @include social-media-icon($facebook-color, $icon-transition-time);
-}
+// .fa-facebook {
+//   padding: 2px;
+//   @include social-media-icon($facebook-color, $icon-transition-time);
+// }
 
 .fa-google {
   padding: 2px;
