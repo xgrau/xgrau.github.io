@@ -1,6 +1,7 @@
 $icon-transition-time: 0.2s;
 $envelope-color: #f39c12;
 $twitter-color: #00aced;
+$bluesky-color: #009dff;
 $instagram-color: #375989;
 $github-color: #343434;
 $linkedin-color: #0073a4;
@@ -93,4 +94,9 @@ $orcid-color: rgb(108, 197, 25);
 //   padding: 2px;
 //   @include social-media-icon($mastodon-color, $icon-transition-time);
 // }
+
+.fa-bluesky {
+  padding: 2px;
+  @include social-media-icon($bluesky-color, $icon-transition-time);
+}
 
