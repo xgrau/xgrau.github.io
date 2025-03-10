@@ -40,17 +40,17 @@ l'assassí que mai no falla.
 A les tres, malícia; a les quatre, un foc
 per al desig que mai s'apaga.
 
-A les cinc, un cos podrit al sot
-on s'esperen sis cucs
-hipòcrites; i a les set l'urc
-d'un altre tirà mort.
+A les cinc: un cos tirat al sot
+on l'esperen sis cucs
+— hipòcrites! Són les set: l'urc
+d'un tirà ha mort.
 
 A les vuit, enveja: l'avarícia 
-et lliga a la creu.
+que ferma a la creu.
 A les nou, nou cos al clot:
-el tirà sota terra jeu.
+un altre tirà a terra mort.
 
-I a les deu, la vella cançó
+I les deu, la vella cançó
 de fingir que et queda honor.
 I a les onze, pensar com amagues
 que sempre has viscut debades.
