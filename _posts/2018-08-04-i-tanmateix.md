@@ -43,17 +43,17 @@ across streets and houses.
 This quiet murmur comes not from the wind.
 Wind has been forbidden,
 to prevent the storms of dust
-that foul the air — or so they say.
+that foul the air — so we are told.
 
 This quiet murmur comes not from words.
 Words are now forbidden,
-to avoid upsetting this peace,
-this fragile calmness in the air.
+to avoid upsetting the peace,
+the fragile calmness in the air.
 
 This quiet murmur comes not from thoughts.
 They are now forbidden too,
 to evade the want for words
-and the unavoidable catastrophe.
+and the inescable catastrophe.
 
 And yet the murmur remains.
 ```
