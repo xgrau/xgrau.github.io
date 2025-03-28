@@ -55,5 +55,5 @@ They are now forbidden too,
 to evade the want for words
 and the inescable catastrophe.
 
-And yet the murmur remains.
+And yet, the rustle remains.
 ```
