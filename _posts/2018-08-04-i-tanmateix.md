@@ -35,22 +35,22 @@ I, tan mateix, la remor persisteix.
 ****
 
 ```
-This quiet murmur comes not from the rain.
+This soft rustle comes not from the rain.
 It has not rained for so long
 wells dried up, and dust piles up
 across streets and houses.
 
-This quiet murmur comes not from the wind.
+This soft rustle comes not from the wind.
 Wind has been forbidden,
 to prevent the storms of dust
 that foul the air — so we are told.
 
-This quiet murmur comes not from words.
+This soft rustle comes not from words.
 Words are now forbidden,
 to avoid upsetting the peace,
 the fragile calmness in the air.
 
-This quiet murmur comes not from thoughts.
+This soft rustle comes not from thoughts.
 They are now forbidden too,
 to evade the want for words
 and the inescable catastrophe.
