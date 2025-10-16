@@ -8,7 +8,7 @@ tags: science
 
 We have recently published a paper on the Mediterranean coral *Oculina patagonica*, a remarkable and highly resilient species that is able to live and thrive with or without its symbiotic algae — what we usually call "facultative endosymbiosis".
 
-> **The evolution of facultative symbiosis in stony corals**, Levy, Grau-Bové et al., [Nature 2025](https://www.nature.com/articles/s41586-025-09623-6?){:target="_blank"} (link to PDF).
+> **The evolution of facultative symbiosis in stony corals**, Levy, Grau-Bové et al., [Nature 2025](https://www.nature.com/articles/s41586-025-09623-6?){:target="_blank"} (link to [PDF](/assets/img/levygrau25.pdf)).
 
 [<img width="300" src="/assets/img/oculina_small.jpg" alt="Partially bleached Oculina patagonica colony" align="center" class="circular-square">]([https://www.cell.com/cell/fulltext/S0092-8674(23)00917-0](https://www.nature.com/articles/s41586-025-09623-6)){:target="_blank"}
 
