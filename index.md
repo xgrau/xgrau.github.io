@@ -11,7 +11,7 @@ I am a Postdoctoral Fellow at the [Centre de Regulació Genòmica](https://www.c
 
 Our latest work includes a study on the evolution of [**facultative symbiosis in the unique Mediterranean coral *Oculina patagonica***]([url](https://www.nature.com/articles/s41586-025-09623-6)), a transcriptomic reconstruction of the [early evolutionary origin of animal neurons](https://www.cell.com/cell/fulltext/S0092-8674(23)00917-0){:target="_blank"} using single-cell transcriptomic atlases of four placozoans, and a [phylogenetic investigation of chromatin evolution in eukaryotes](https://www.nature.com/articles/s41559-022-01771-6){:target="_blank"} combining comparative genomics and proteomics.
 
-[<img width="200" src="/assets/img/oculina_small.jpg" alt="Partially bleached Oculina patagonica colony" align="center">]([https://www.cell.com/cell/fulltext/S0092-8674(23)00917-0](https://www.nature.com/articles/s41586-025-09623-6)){:target="_blank"}
+[<img width="300" src="/assets/img/oculina_small.jpg" alt="Partially bleached Oculina patagonica colony" align="center" class="circular-square">]([https://www.cell.com/cell/fulltext/S0092-8674(23)00917-0](https://www.nature.com/articles/s41586-025-09623-6)){:target="_blank"}
 
 [<img width="200" src="/assets/img/cover.tif.jpg" alt="Cell cover 12oct23" align="center">](https://www.cell.com/cell/fulltext/S0092-8674(23)00917-0){:target="_blank"}
 
