@@ -1,7 +1,7 @@
 ---
 layout: post
-title: New publication on the evolution of facultative symbiosis in the Mediterranean coral *Oculina patagonica*
-description: New publication on the evolution of facultative symbiosis in the Mediterranean coral *Oculina patagonica*
+title: New publication on the evolution of facultative symbiosis in the Mediterranean coral Oculina patagonica
+description: New publication on the evolution of facultative symbiosis in the Mediterranean coral Oculina patagonica
 categories: science
 tags: science
 ---
