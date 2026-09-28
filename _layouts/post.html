@@ -37,14 +37,15 @@ layout: default
     {{ content }}
   </article>
 
-  <p>
+  <!-- remove sharing options -->
+  <!-- <p>
   <div class="post-share">
     <div class="post-date">{{ site.data.settings.sharing_button_prompt }}</div>
     <div class="sharing-icons">
       <a href="https://twitter.com/intent/tweet?text={{ page.title }}&amp;url={{ site.github.url }}{{ page.url }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
     </div>
   </div>
-  </p>
+  </p> -->
     
   {% if site.data.settings.disqus.comments %}
     {% include disqus.html %}
