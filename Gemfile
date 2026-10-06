@@ -32,3 +32,4 @@ gem 'jekyll-seo-tag'
 gem "kramdown", ">= 2.3.1"
 gem "nokogiri", ">= 1.13.4"
 # gem "minimal-mistakes-jekyll"
+gem "rubyzip", ">= 3.4.0"
